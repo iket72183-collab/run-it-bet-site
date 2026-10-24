@@ -3,4 +3,4 @@ Allow: /
 Allow: /api/agent/
 Disallow: /api/
 
-Sitemap: https://runitbet.onrender.com/sitemap.xml
+Sitemap: https://www.runitbet.com/sitemap.xml

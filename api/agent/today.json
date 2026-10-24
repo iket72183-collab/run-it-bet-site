@@ -9,7 +9,7 @@
   "nextLockAt": "2026-10-25T13:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day. They are usually ready by 8:20 AM; check at 8:30 AM Central. Texas low-temperature picks lock separately at 9:30 AM; check \"lowsCheck\" at 9:45 AM Central.",
   "hasPicks": true,
-  "briefing": "AI sports picks (1):\n1) NBA: Chicago Bulls to win, Washington Wizards @ Chicago Bulls at 7:00 PM Central (Close call, -110; our AI 63% vs market 50%, edge +9.3 after fee)\nEvery pick can lose. Full details: https://runitbet.onrender.com/?tab=sports",
+  "briefing": "AI sports picks (1):\n1) NBA: Chicago Bulls to win, Washington Wizards @ Chicago Bulls at 7:00 PM Central (Close call, -110; our AI 63% vs market 50%, edge +9.3 after fee)\nEvery pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
@@ -56,14 +56,14 @@
       "result": null,
       "settlementNote": null,
       "rulesUrl": null,
-      "detailsUrl": "https://runitbet.onrender.com/pick/sp-2026-10-24-nba-401909857"
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-10-24-nba-401909857"
     }
   ],
   "links": {
-    "board": "https://runitbet.onrender.com/",
-    "sportsPicks": "https://runitbet.onrender.com/?tab=sports",
-    "howItWorks": "https://runitbet.onrender.com/how-we-pick",
-    "forAgents": "https://runitbet.onrender.com/agents",
-    "terms": "https://runitbet.onrender.com/legal#terms"
+    "board": "https://www.runitbet.com/",
+    "sportsPicks": "https://www.runitbet.com/?tab=sports",
+    "howItWorks": "https://www.runitbet.com/how-we-pick",
+    "forAgents": "https://www.runitbet.com/agents",
+    "terms": "https://www.runitbet.com/legal#terms"
   }
 }
