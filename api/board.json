@@ -1,0 +1,101 @@
+{
+  "sports": {
+    "source": "espn",
+    "day": "2026-10-24",
+    "lockedAt": 1792847060706,
+    "publicationState": "published",
+    "aiDesk": true,
+    "reason": null,
+    "picks": [
+      {
+        "id": "sp-2026-10-24-nba-401909857",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NBA",
+        "gameId": "401909857",
+        "event": "Washington Wizards @ Chicago Bulls",
+        "home": "Chicago Bulls",
+        "away": "Washington Wizards",
+        "homeAbbr": "CHI",
+        "awayAbbr": "WSH",
+        "commence": "2026-10-25T00:00Z",
+        "market": "Moneyline",
+        "team": "Chicago Bulls",
+        "pick": "Chicago Bulls ML",
+        "odds": "-110",
+        "lockedOdds": -110,
+        "confidence": 50,
+        "aiChance": 63,
+        "edge": 9.3,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
+        "research": "ESPN injury report, team records and schedule",
+        "kalshiTicker": "KXNBAGAME-26OCT24WASCHI-CHI",
+        "kalshiEventTicker": "KXNBAGAME-26OCT24WASCHI",
+        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct24waschi",
+        "kalshiAsk": 52,
+        "reasoning": [
+          "Our AI models' reason: The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+          "Chicago Bulls: 1-1; Washington Wizards: 1-1.",
+          "Removing the bookmaker's cut, the consensus puts Chicago Bulls's chance near 50%. That is the market's price.",
+          "On Kalshi, Chicago Bulls's contract cost 52¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 63%. Price: 52¢ plus about 1.8¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 53.8¢ and pays 46.3¢ profit if right. The estimate is our AI's, not a proven chance."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "-110 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "50%"
+          ],
+          [
+            "Kalshi price at lock",
+            "52¢"
+          ],
+          [
+            "Our AI's estimate",
+            "63%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+9.3 pts"
+          ],
+          [
+            "Books compared",
+            "1"
+          ]
+        ],
+        "publishedAt": 1792847060706,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false
+      }
+    ]
+  },
+  "kalshi": {
+    "source": "kalshi",
+    "day": "2026-10-24",
+    "lockedAt": 1792846847528,
+    "publicationState": "published",
+    "reason": "Our screen found no researched question with a clear call today.",
+    "picks": [],
+    "lowsCheck": {
+      "time": "9:30 AM",
+      "state": "published",
+      "lockedAt": 1792852248174,
+      "picks": 0,
+      "reason": "Our screen found no researched question with a clear call today."
+    }
+  }
+}

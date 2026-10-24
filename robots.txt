@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /api/agent/
+Disallow: /api/
+
+Sitemap: https://www.runitbet.com/sitemap.xml

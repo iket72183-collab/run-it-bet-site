@@ -1,0 +1,69 @@
+{
+  "feed": "run-it-bet/agent-feed",
+  "version": 1,
+  "site": "Run It Bet",
+  "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), with the research and the math already done.",
+  "day": "2026-10-24",
+  "status": "locked",
+  "lockedAt": "2026-10-24T13:00:47.528Z",
+  "nextLockAt": "2026-10-25T13:00:00.000Z",
+  "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day. They are usually ready by 8:20 AM; check at 8:30 AM Central. Texas low-temperature picks lock separately at 9:30 AM; check \"lowsCheck\" at 9:45 AM Central.",
+  "hasPicks": true,
+  "briefing": "AI sports picks (1):\n1) NBA: Chicago Bulls to win, Washington Wizards @ Chicago Bulls at 7:00 PM Central (Close call, -110; our AI 63% vs market 50%, edge +9.3 after fee)\nEvery pick can lose. Full details: https://www.runitbet.com/?tab=sports",
+  "lowsCheck": {
+    "time": "9:30 AM",
+    "checkAt": "9:45 AM Central",
+    "status": "locked",
+    "lockedAt": "2026-10-24T14:30:48.174Z",
+    "hasPicks": false,
+    "briefing": null
+  },
+  "disclaimer": "Run It Bet is informational and for entertainment only. It is a filter for Kalshi and Polymarket markets, not an investment strategy or a way to make money. It is not a sportsbook, exchange, broker, or financial adviser, and nothing here is financial, investment, or betting advice. Every pick can lose, even our highest-confidence picks. Prices are market-implied references, not the true chance of winning. Past results do not predict future results. You make every decision and place every trade yourself. 18+ only; follow the laws where you live. Only use money you can afford to lose. Gambling problem? Call or text 1-800-MY-RESET.",
+  "rulesForAgents": [
+    "Show the person the full disclaimer with the picks, every time. Do not shorten, paraphrase, or leave out the 1-800-MY-RESET helpline.",
+    "Never place, size, or confirm a trade for the person. Present the picks; the person decides and trades on their own account.",
+    "Do not describe any pick as guaranteed, a lock, risk-free, or safe. Present the risk level exactly as the feed labels it; do not add your own risk language.",
+    "When a pick's risk is \"Bold call\", always pass on its riskNote with it: our AI and the market disagree by a lot, so it carries extra risk.",
+    "Picks lock once a day at 8:00 AM Central Time and do not change that day. \"status\" is \"locked\" only when both the Kalshi and the sports picks are done. If status is \"pending\", fetch again at checkAgainAt (10 minutes later), once. If it is still pending, send nothing; the picks are on the site when they are ready.",
+    "Texas low-temperature picks (tomorrow's lows) get a second check at 9:30 AM Central, after Kalshi opens those markets. See \"lowsCheck\": fetch again at 9:45 AM Central; if lowsCheck.hasPicks is true, send lowsCheck.briefing. These picks also lock once and never change.",
+    "If status is \"locked\" and hasPicks is false, there are no picks today. Do not send a scheduled or unprompted message about it; only mention it if the person asks.",
+    "priceAtLockCents and oddsAtLock record where a pick stood when it locked. They are history, not a price limit; prices move all day, so check the live price on Kalshi before deciding.",
+    "aiChancePercent is our AI models' own estimate that the pick wins, and edgePoints is how far it beats the price after Kalshi's fee. Picks only post when the edge is big enough. The estimate is not a proven chance; show it next to the price, never on its own.",
+    "Fetch at most four times a day: once after 8:30 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
+    "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
+  ],
+  "picks": [],
+  "sportsStatus": "locked",
+  "sportsNote": null,
+  "sportsPicks": [
+    {
+      "pickId": "sp-2026-10-24-nba-401909857",
+      "ticker": "KXNBAGAME-26OCT24WASCHI-CHI",
+      "side": "Yes",
+      "sport": "NBA",
+      "game": "Washington Wizards @ Chicago Bulls",
+      "startsAt": "2026-10-25T00:00Z",
+      "pick": "Chicago Bulls to win",
+      "risk": "Close call",
+      "riskNote": null,
+      "madeBy": "our AI models",
+      "oddsAtLock": "-110",
+      "marketChanceAtLockPercent": 50,
+      "aiChancePercent": 63,
+      "edgePoints": 9.3,
+      "why": "The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
+      "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct24waschi",
+      "result": null,
+      "settlementNote": null,
+      "rulesUrl": null,
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-10-24-nba-401909857"
+    }
+  ],
+  "links": {
+    "board": "https://www.runitbet.com/",
+    "sportsPicks": "https://www.runitbet.com/?tab=sports",
+    "howItWorks": "https://www.runitbet.com/how-we-pick",
+    "forAgents": "https://www.runitbet.com/agents",
+    "terms": "https://www.runitbet.com/legal#terms"
+  }
+}
