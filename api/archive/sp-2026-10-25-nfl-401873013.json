@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-10-25-nfl-401873013",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NFL",
+  "gameId": "401873013",
+  "event": "Cleveland Browns @ Tennessee Titans",
+  "home": "Tennessee Titans",
+  "away": "Cleveland Browns",
+  "homeAbbr": "TEN",
+  "awayAbbr": "CLE",
+  "commence": "2026-10-25T17:00Z",
+  "market": "Moneyline",
+  "team": "Cleveland Browns",
+  "pick": "Cleveland Browns ML",
+  "odds": "-130",
+  "lockedOdds": -130,
+  "confidence": 54,
+  "aiChance": 63,
+  "edge": 5.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
+  "research": "ESPN injury report, team records and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNFLGAME-26OCT25CLETEN-CLE",
+  "kalshiEventTicker": "KXNFLGAME-26OCT25CLETEN",
+  "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26oct25cleten",
+  "kalshiAsk": 56,
+  "reasoning": [
+    "Our AI models' reason: The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records, and the National Weather Service forecast for the stadium.",
+    "Cleveland Browns: 4-2; Tennessee Titans: 1-5.",
+    "Removing the bookmaker's cut, the consensus puts Cleveland Browns's chance near 54%. That is the market's price.",
+    "On Kalshi, Cleveland Browns's contract cost 56¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 63%. Price: 56¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 57.7¢ and pays 42.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-130 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "54%"
+    ],
+    [
+      "Kalshi price at lock",
+      "56¢"
+    ],
+    [
+      "Our AI's estimate",
+      "63%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+5.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1792933478515,
+  "quoteAsOf": 1792933479728,
+  "publishedAt": 1792933479732,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-10-25T13:04:38.515Z",
+    "lockedAt": "2026-10-25T13:04:39.732Z",
+    "quoteAsOf": "2026-10-25T13:04:39.728Z",
+    "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+  }
+}

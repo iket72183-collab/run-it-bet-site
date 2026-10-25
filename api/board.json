@@ -1,62 +1,62 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-10-24",
-    "lockedAt": 1792847060706,
+    "day": "2026-10-25",
+    "lockedAt": 1792933479732,
     "publicationState": "published",
     "aiDesk": true,
     "reason": null,
     "picks": [
       {
-        "id": "sp-2026-10-24-nba-401909857",
+        "id": "sp-2026-10-25-nfl-401873013",
         "kind": "sports",
         "source": "sportsbook",
         "live": true,
         "method": "ai",
-        "sport": "NBA",
-        "gameId": "401909857",
-        "event": "Washington Wizards @ Chicago Bulls",
-        "home": "Chicago Bulls",
-        "away": "Washington Wizards",
-        "homeAbbr": "CHI",
-        "awayAbbr": "WSH",
-        "commence": "2026-10-25T00:00Z",
+        "sport": "NFL",
+        "gameId": "401873013",
+        "event": "Cleveland Browns @ Tennessee Titans",
+        "home": "Tennessee Titans",
+        "away": "Cleveland Browns",
+        "homeAbbr": "TEN",
+        "awayAbbr": "CLE",
+        "commence": "2026-10-25T17:00Z",
         "market": "Moneyline",
-        "team": "Chicago Bulls",
-        "pick": "Chicago Bulls ML",
-        "odds": "-110",
-        "lockedOdds": -110,
-        "confidence": 50,
+        "team": "Cleveland Browns",
+        "pick": "Cleveland Browns ML",
+        "odds": "-130",
+        "lockedOdds": -130,
+        "confidence": 54,
         "aiChance": 63,
-        "edge": 9.3,
+        "edge": 5.3,
         "risk": "Value",
         "expertId": "ai-desk",
-        "why": "The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
-        "research": "ESPN injury report, team records and schedule",
-        "kalshiTicker": "KXNBAGAME-26OCT24WASCHI-CHI",
-        "kalshiEventTicker": "KXNBAGAME-26OCT24WASCHI",
-        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct24waschi",
-        "kalshiAsk": 52,
+        "why": "The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
+        "research": "ESPN injury report, team records and schedule; National Weather Service game-time forecast",
+        "kalshiTicker": "KXNFLGAME-26OCT25CLETEN-CLE",
+        "kalshiEventTicker": "KXNFLGAME-26OCT25CLETEN",
+        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26oct25cleten",
+        "kalshiAsk": 56,
         "reasoning": [
-          "Our AI models' reason: The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
-          "Chicago Bulls: 1-1; Washington Wizards: 1-1.",
-          "Removing the bookmaker's cut, the consensus puts Chicago Bulls's chance near 50%. That is the market's price.",
-          "On Kalshi, Chicago Bulls's contract cost 52¢ at the lock; the edge below uses that price.",
-          "Our AI's estimate: 63%. Price: 52¢ plus about 1.8¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 53.8¢ and pays 46.3¢ profit if right. The estimate is our AI's, not a proven chance."
+          "Our AI models' reason: The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records, and the National Weather Service forecast for the stadium.",
+          "Cleveland Browns: 4-2; Tennessee Titans: 1-5.",
+          "Removing the bookmaker's cut, the consensus puts Cleveland Browns's chance near 54%. That is the market's price.",
+          "On Kalshi, Cleveland Browns's contract cost 56¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 63%. Price: 56¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 57.7¢ and pays 42.3¢ profit if right. The estimate is our AI's, not a proven chance."
         ],
         "stats": [
           [
             "Odds at lock",
-            "-110 · DraftKings"
+            "-130 · DraftKings"
           ],
           [
             "Market-implied at lock",
-            "50%"
+            "54%"
           ],
           [
             "Kalshi price at lock",
-            "52¢"
+            "56¢"
           ],
           [
             "Our AI's estimate",
@@ -64,14 +64,16 @@
           ],
           [
             "Edge after Kalshi fee",
-            "+9.3 pts"
+            "+5.3 pts"
           ],
           [
             "Books compared",
             "1"
           ]
         ],
-        "publishedAt": 1792847060706,
+        "generatedAt": 1792933478515,
+        "quoteAsOf": 1792933479728,
+        "publishedAt": 1792933479732,
         "started": false,
         "outcome": null,
         "marketStatus": "pending",
@@ -79,23 +81,113 @@
         "rulesUrl": null,
         "settlementNote": null,
         "units": 0,
-        "pending": false
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-10-25T13:04:38.515Z",
+          "lockedAt": "2026-10-25T13:04:39.732Z",
+          "quoteAsOf": "2026-10-25T13:04:39.728Z",
+          "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+        }
       }
     ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-10-24",
-    "lockedAt": 1792846847528,
+    "day": "2026-10-25",
+    "lockedAt": 1792933497103,
     "publicationState": "published",
-    "reason": "Our screen found no researched question with a clear call today.",
-    "picks": [],
+    "reason": null,
+    "picks": [
+      {
+        "id": "pub-2026-10-25-KXHIGHMIA-26OCT25-T81-No",
+        "ticker": "KXHIGHMIA-26OCT25-T81",
+        "side": "No",
+        "region": null,
+        "kind": "kalshi",
+        "source": "kalshi",
+        "live": true,
+        "method": "ai",
+        "research": "National Weather Service forecast",
+        "dataSource": "kalshi",
+        "category": "WEATHER",
+        "title": "Highest temperature in Miami on Oct 25, 2026?",
+        "closesAt": "2026-10-26T05:00:00Z",
+        "closes": "2026-10-26T05:00:00.000Z",
+        "pick": "No: 80° or below",
+        "confidence": 75,
+        "risk": "Safe",
+        "expertId": "ai-desk",
+        "url": "https://kalshi.com/markets/kxhighmia/market/kxhighmia-26oct25",
+        "why": "The National Weather Service forecasts a high near 83°F in Miami today, well above the 80° threshold, so the high is very likely to come in above 80°.",
+        "researchSources": [
+          "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast."
+        ],
+        "reasoning": [
+          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 75¢ entry quote at publication, a market-implied reference of about 75%. That is the market's price.",
+          "Our AI's estimate: 88%. Price: 75¢ plus about 1.3¢ Kalshi fee. Edge: +11.7 points. Each $1 contract costs about 76.3¢ and pays 23.7¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+        ],
+        "stats": [
+          [
+            "Entry quote at lock",
+            "No 75¢"
+          ],
+          [
+            "Market-implied at lock",
+            "75%"
+          ],
+          [
+            "Our AI's estimate",
+            "88%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+11.7 pts"
+          ],
+          [
+            "24h volume",
+            "9,235"
+          ],
+          [
+            "Outcomes",
+            "2"
+          ]
+        ],
+        "aiChance": 88,
+        "judge": {
+          "grounded": 0.83
+        },
+        "entryQuoteFetchedAt": 1792933497102,
+        "generatedAt": 1792933496937,
+        "publishedAt": 1792933497103,
+        "lockedPrice": 75,
+        "priceBasis": "ask",
+        "edge": 11.7,
+        "referenceProbability": 75,
+        "marketOnly": false,
+        "marketStatus": "active",
+        "outcome": null,
+        "times": {
+          "generatedAt": "2026-10-25T13:04:56.937Z",
+          "lockedAt": "2026-10-25T13:04:57.103Z",
+          "quoteAsOf": "2026-10-25T13:04:57.102Z",
+          "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+        }
+      }
+    ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1792852248174,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
+  },
+  "snapshot": {
+    "id": "snapshot-2026-10-25-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-10-25T13:30:05.884Z"
   }
 }

@@ -1,0 +1,78 @@
+{
+  "id": "pub-2026-10-25-KXHIGHMIA-26OCT25-T81-No",
+  "ticker": "KXHIGHMIA-26OCT25-T81",
+  "side": "No",
+  "region": null,
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Highest temperature in Miami on Oct 25, 2026?",
+  "closesAt": "2026-10-26T05:00:00Z",
+  "closes": "2026-10-26T05:00:00.000Z",
+  "pick": "No: 80° or below",
+  "confidence": 75,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxhighmia/market/kxhighmia-26oct25",
+  "why": "The National Weather Service forecasts a high near 83°F in Miami today, well above the 80° threshold, so the high is very likely to come in above 80°.",
+  "researchSources": [
+    "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 75¢ entry quote at publication, a market-implied reference of about 75%. That is the market's price.",
+    "Our AI's estimate: 88%. Price: 75¢ plus about 1.3¢ Kalshi fee. Edge: +11.7 points. Each $1 contract costs about 76.3¢ and pays 23.7¢ profit if right. The estimate is our AI's, not a proven chance.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 75¢"
+    ],
+    [
+      "Market-implied at lock",
+      "75%"
+    ],
+    [
+      "Our AI's estimate",
+      "88%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+11.7 pts"
+    ],
+    [
+      "24h volume",
+      "9,235"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "aiChance": 88,
+  "judge": {
+    "grounded": 0.83
+  },
+  "entryQuoteFetchedAt": 1792933497102,
+  "generatedAt": 1792933496937,
+  "publishedAt": 1792933497103,
+  "lockedPrice": 75,
+  "priceBasis": "ask",
+  "edge": 11.7,
+  "referenceProbability": 75,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-10-25T13:04:56.937Z",
+    "lockedAt": "2026-10-25T13:04:57.103Z",
+    "quoteAsOf": "2026-10-25T13:04:57.102Z",
+    "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+  }
+}
