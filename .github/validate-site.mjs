@@ -89,6 +89,10 @@ export function safeLink(value, hosts) {
   return url.protocol === 'https:' && !url.username && !url.password && !url.port && hosts.has(url.hostname);
 }
 
+// A string is treated as a link if it has "scheme://" or starts with a scheme that runs or embeds
+// content. Plain text with a colon ("No: 80° or below", "Forecast-aligned: …") is not a link.
+const LINK_LIKE = /^(?:[a-z][a-z0-9+.-]*:\/\/|(?:javascript|vbscript|data|file|blob|about|filesystem):)/i;
+
 const isObject = (v) => v && typeof v === 'object' && !Array.isArray(v);
 const DAY = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -104,8 +108,9 @@ function checkJsonValue(value, where, ctx, errors, key = null) {
   if (typeof value !== 'string') return;
   if (/minimax/i.test(value)) errors.push(`${where}: names the internal model`);
   if (key === 'method' && value !== 'ai' && /m\d|gpt|claude|llama|qwen/i.test(value)) errors.push(`${where}: internal method name "${value}"`);
-  // Any value that looks like a URL (has a scheme) is a link and must be safe.
-  if (!/^[a-z][a-z0-9+.-]*:/i.test(value.trim())) return;
+  // Any value that looks like a link is checked; link fields are checked whatever they hold.
+  const linkField = key === 'rulesUrl' || key === 'kalshiUrl' || key === 'url';
+  if (!linkField && !LINK_LIKE.test(value.trim())) return;
   if (key === 'rulesUrl') { if (!safeLink(value, RULES_HOSTS)) errors.push(`${where}: unsafe rules link ${JSON.stringify(value.slice(0, 120))}`); return; }
   if (key === 'kalshiUrl' || key === 'url') { if (!safeLink(value, MARKET_HOSTS) && !safeLink(value, ctx.selfHosts)) errors.push(`${where}: unsafe market link ${JSON.stringify(value.slice(0, 120))}`); return; }
   if (!safeLink(value, new Set([...DATA_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${where}: unsafe link ${JSON.stringify(value.slice(0, 120))}`);
@@ -171,8 +176,10 @@ function checkHtml(rel, html, ctx, errors) {
     if (href.startsWith('/assets/') && !ctx.files.has(href.slice(1).split(/[?#]/)[0])) errors.push(`${rel}: stylesheet ${href} is missing`);
   }
   if (/\son[a-z]+\s*=/i.test(html.replace(/<script\b[\s\S]*?<\/script>/gi, ''))) errors.push(`${rel}: inline event handler attribute`);
-  for (const m of html.matchAll(/\b(?:href|src|content)="([a-z][a-z0-9+.-]*:[^"]*)"/gi)) {
-    const link = m[1].replace(/&amp;/g, '&');
+  for (const m of html.matchAll(/\b(href|src|content)="([^"]*)"/gi)) {
+    const link = m[2].replace(/&amp;/g, '&').trim();
+    // href/src with any scheme is a link; content= (meta text) only when it looks like one.
+    if (m[1].toLowerCase() === 'content' ? !LINK_LIKE.test(link) : !/^[a-z][a-z0-9+.-]*:/i.test(link)) continue;
     if (/^(mailto|tel):/i.test(link)) continue;
     if (!safeLink(link, new Set([...HTML_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
   }
