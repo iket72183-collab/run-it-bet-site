@@ -1,0 +1,40 @@
+# Checks every published snapshot before it can go live. Render deploys a commit only after this
+# passes ("Auto-Deploy: After CI Checks Pass"); a failing commit stays on GitHub but never serves.
+#
+# validate-site.mjs is a byte-identical copy of scripts/validate-site.mjs in the private source
+# repo; the publisher runs that copy before every push, and this runs it again here. Update both
+# together. The publisher keeps .github/ across rebuilds and never writes to it.
+name: Validate published site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate site artifact
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - name: Validate files, public data, links and secrets
+        run: node .github/validate-site.mjs . --origin https://www.runitbet.com
