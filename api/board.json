@@ -1,66 +1,66 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-10-25",
-    "lockedAt": 1792933479732,
+    "day": "2026-10-26",
+    "lockedAt": 1793019740826,
     "publicationState": "published",
     "aiDesk": true,
     "reason": null,
     "picks": [
       {
-        "id": "sp-2026-10-25-nfl-401873013",
+        "id": "sp-2026-10-26-nba-401909872",
         "kind": "sports",
         "source": "sportsbook",
         "live": true,
         "method": "ai",
-        "sport": "NFL",
-        "gameId": "401873013",
-        "event": "Cleveland Browns @ Tennessee Titans",
-        "home": "Tennessee Titans",
-        "away": "Cleveland Browns",
-        "homeAbbr": "TEN",
-        "awayAbbr": "CLE",
-        "commence": "2026-10-25T17:00Z",
+        "sport": "NBA",
+        "gameId": "401909872",
+        "event": "Indiana Pacers @ Milwaukee Bucks",
+        "home": "Milwaukee Bucks",
+        "away": "Indiana Pacers",
+        "homeAbbr": "MIL",
+        "awayAbbr": "IND",
+        "commence": "2026-10-27T00:00Z",
         "market": "Moneyline",
-        "team": "Cleveland Browns",
-        "pick": "Cleveland Browns ML",
-        "odds": "-130",
-        "lockedOdds": -130,
-        "confidence": 54,
-        "aiChance": 63,
+        "team": "Milwaukee Bucks",
+        "pick": "Milwaukee Bucks ML",
+        "odds": "+140",
+        "lockedOdds": 140,
+        "confidence": 40,
+        "aiChance": 46,
         "edge": 5.3,
         "risk": "Value",
         "expertId": "ai-desk",
-        "why": "The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
-        "research": "ESPN injury report, team records and schedule; National Weather Service game-time forecast",
-        "kalshiTicker": "KXNFLGAME-26OCT25CLETEN-CLE",
-        "kalshiEventTicker": "KXNFLGAME-26OCT25CLETEN",
-        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26oct25cleten",
-        "kalshiAsk": 56,
+        "why": "The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
+        "research": "ESPN injury report, team records and schedule",
+        "kalshiTicker": "KXNBAGAME-26OCT26INDMIL-MIL",
+        "kalshiEventTicker": "KXNBAGAME-26OCT26INDMIL",
+        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct26indmil",
+        "kalshiAsk": 39,
         "reasoning": [
-          "Our AI models' reason: The Browns are 4-2 while the Titans are 1-5 and still winless at home (0-3), giving Cleveland a clear edge despite playing on the road.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records, and the National Weather Service forecast for the stadium.",
-          "Cleveland Browns: 4-2; Tennessee Titans: 1-5.",
-          "Removing the bookmaker's cut, the consensus puts Cleveland Browns's chance near 54%. That is the market's price.",
-          "On Kalshi, Cleveland Browns's contract cost 56¢ at the lock; the edge below uses that price.",
-          "Our AI's estimate: 63%. Price: 56¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 57.7¢ and pays 42.3¢ profit if right. The estimate is our AI's, not a proven chance."
+          "Our AI models' reason: The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+          "Milwaukee Bucks: 0-3; Indiana Pacers: 2-1.",
+          "Removing the bookmaker's cut, the consensus puts Milwaukee Bucks's chance near 40%. That is the market's price.",
+          "On Kalshi, Milwaukee Bucks's contract cost 39¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 46%. Price: 39¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 40.7¢ and pays 59.3¢ profit if right. The estimate is our AI's, not a proven chance."
         ],
         "stats": [
           [
             "Odds at lock",
-            "-130 · DraftKings"
+            "+140 · DraftKings"
           ],
           [
             "Market-implied at lock",
-            "54%"
+            "40%"
           ],
           [
             "Kalshi price at lock",
-            "56¢"
+            "39¢"
           ],
           [
             "Our AI's estimate",
-            "63%"
+            "46%"
           ],
           [
             "Edge after Kalshi fee",
@@ -71,9 +71,9 @@
             "1"
           ]
         ],
-        "generatedAt": 1792933478515,
-        "quoteAsOf": 1792933479728,
-        "publishedAt": 1792933479732,
+        "generatedAt": 1793019739732,
+        "quoteAsOf": 1793019740825,
+        "publishedAt": 1793019740826,
         "started": false,
         "outcome": null,
         "marketStatus": "pending",
@@ -83,24 +83,24 @@
         "units": 0,
         "pending": false,
         "times": {
-          "generatedAt": "2026-10-25T13:04:38.515Z",
-          "lockedAt": "2026-10-25T13:04:39.732Z",
-          "quoteAsOf": "2026-10-25T13:04:39.728Z",
-          "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+          "generatedAt": "2026-10-26T13:02:19.732Z",
+          "lockedAt": "2026-10-26T13:02:20.826Z",
+          "quoteAsOf": "2026-10-26T13:02:20.825Z",
+          "sitePublishedAt": "2026-10-26T13:30:01.437Z"
         }
       }
     ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-10-25",
-    "lockedAt": 1792933497103,
+    "day": "2026-10-26",
+    "lockedAt": 1793019732086,
     "publicationState": "published",
     "reason": null,
     "picks": [
       {
-        "id": "pub-2026-10-25-KXHIGHMIA-26OCT25-T81-No",
-        "ticker": "KXHIGHMIA-26OCT25-T81",
+        "id": "pub-2026-10-26-KXHIGHLAX-26OCT26-T78-No",
+        "ticker": "KXHIGHLAX-26OCT26-T78",
         "side": "No",
         "region": null,
         "kind": "kalshi",
@@ -110,70 +110,70 @@
         "research": "National Weather Service forecast",
         "dataSource": "kalshi",
         "category": "WEATHER",
-        "title": "Highest temperature in Miami on Oct 25, 2026?",
-        "closesAt": "2026-10-26T05:00:00Z",
-        "closes": "2026-10-26T05:00:00.000Z",
-        "pick": "No: 80° or below",
-        "confidence": 75,
+        "title": "Highest temperature in Los Angeles on Oct 26, 2026?",
+        "closesAt": "2026-10-27T08:00:00Z",
+        "closes": "2026-10-27T08:00:00.000Z",
+        "pick": "No: 79° or above",
+        "confidence": 78,
         "risk": "Safe",
         "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxhighmia/market/kxhighmia-26oct25",
-        "why": "The National Weather Service forecasts a high near 83°F in Miami today, well above the 80° threshold, so the high is very likely to come in above 80°.",
+        "url": "https://kalshi.com/markets/kxhighlax/market/kxhighlax-26oct26",
+        "why": "The National Weather Service forecast for Los Angeles International is a high near 74°F, well below 79°, so the day is very unlikely to reach 79° or above.",
         "researchSources": [
-          "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast."
+          "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast."
         ],
         "reasoning": [
           "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near Miami International: high 83°F. Source: https://api.weather.gov/gridpoints/MFL/105,51/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 75¢ entry quote at publication, a market-implied reference of about 75%. That is the market's price.",
-          "Our AI's estimate: 88%. Price: 75¢ plus about 1.3¢ Kalshi fee. Edge: +11.7 points. Each $1 contract costs about 76.3¢ and pays 23.7¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 78¢ entry quote at publication, a market-implied reference of about 78%. That is the market's price.",
+          "Our AI's estimate: 92%. Price: 78¢ plus about 1.2¢ Kalshi fee. Edge: +12.8 points. Each $1 contract costs about 79.2¢ and pays 20.8¢ profit if right. The estimate is our AI's, not a proven chance.",
           "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
         ],
         "stats": [
           [
             "Entry quote at lock",
-            "No 75¢"
+            "No 78¢"
           ],
           [
             "Market-implied at lock",
-            "75%"
+            "78%"
           ],
           [
             "Our AI's estimate",
-            "88%"
+            "92%"
           ],
           [
             "Edge after Kalshi fee",
-            "+11.7 pts"
+            "+12.8 pts"
           ],
           [
             "24h volume",
-            "9,235"
+            "9,832"
           ],
           [
             "Outcomes",
             "2"
           ]
         ],
-        "aiChance": 88,
+        "aiChance": 92,
         "judge": {
-          "grounded": 0.83
+          "grounded": 0.86
         },
-        "entryQuoteFetchedAt": 1792933497102,
-        "generatedAt": 1792933496937,
-        "publishedAt": 1792933497103,
-        "lockedPrice": 75,
+        "entryQuoteFetchedAt": 1793019732084,
+        "generatedAt": 1793019731911,
+        "publishedAt": 1793019732086,
+        "lockedPrice": 78,
         "priceBasis": "ask",
-        "edge": 11.7,
-        "referenceProbability": 75,
+        "edge": 12.8,
+        "referenceProbability": 78,
         "marketOnly": false,
         "marketStatus": "active",
         "outcome": null,
         "times": {
-          "generatedAt": "2026-10-25T13:04:56.937Z",
-          "lockedAt": "2026-10-25T13:04:57.103Z",
-          "quoteAsOf": "2026-10-25T13:04:57.102Z",
-          "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+          "generatedAt": "2026-10-26T13:02:11.911Z",
+          "lockedAt": "2026-10-26T13:02:12.086Z",
+          "quoteAsOf": "2026-10-26T13:02:12.084Z",
+          "sitePublishedAt": "2026-10-26T13:30:01.437Z"
         }
       }
     ],
@@ -186,8 +186,8 @@
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-10-25-0830",
+    "id": "snapshot-2026-10-26-0830",
     "slot": "08:30",
-    "sitePublishedAt": "2026-10-25T13:30:05.884Z"
+    "sitePublishedAt": "2026-10-26T13:30:01.437Z"
   }
 }

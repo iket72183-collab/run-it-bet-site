@@ -1,0 +1,78 @@
+{
+  "id": "pub-2026-10-26-KXHIGHLAX-26OCT26-T78-No",
+  "ticker": "KXHIGHLAX-26OCT26-T78",
+  "side": "No",
+  "region": null,
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Highest temperature in Los Angeles on Oct 26, 2026?",
+  "closesAt": "2026-10-27T08:00:00Z",
+  "closes": "2026-10-27T08:00:00.000Z",
+  "pick": "No: 79° or above",
+  "confidence": 78,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxhighlax/market/kxhighlax-26oct26",
+  "why": "The National Weather Service forecast for Los Angeles International is a high near 74°F, well below 79°, so the day is very unlikely to reach 79° or above.",
+  "researchSources": [
+    "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 78¢ entry quote at publication, a market-implied reference of about 78%. That is the market's price.",
+    "Our AI's estimate: 92%. Price: 78¢ plus about 1.2¢ Kalshi fee. Edge: +12.8 points. Each $1 contract costs about 79.2¢ and pays 20.8¢ profit if right. The estimate is our AI's, not a proven chance.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 78¢"
+    ],
+    [
+      "Market-implied at lock",
+      "78%"
+    ],
+    [
+      "Our AI's estimate",
+      "92%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+12.8 pts"
+    ],
+    [
+      "24h volume",
+      "9,832"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "aiChance": 92,
+  "judge": {
+    "grounded": 0.86
+  },
+  "entryQuoteFetchedAt": 1793019732084,
+  "generatedAt": 1793019731911,
+  "publishedAt": 1793019732086,
+  "lockedPrice": 78,
+  "priceBasis": "ask",
+  "edge": 12.8,
+  "referenceProbability": 78,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-10-26T13:02:11.911Z",
+    "lockedAt": "2026-10-26T13:02:12.086Z",
+    "quoteAsOf": "2026-10-26T13:02:12.084Z",
+    "sitePublishedAt": "2026-10-26T13:30:01.437Z"
+  }
+}
