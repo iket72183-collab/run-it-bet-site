@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-10-26-nba-401909872",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401909872",
+  "event": "Indiana Pacers @ Milwaukee Bucks",
+  "home": "Milwaukee Bucks",
+  "away": "Indiana Pacers",
+  "homeAbbr": "MIL",
+  "awayAbbr": "IND",
+  "commence": "2026-10-27T00:00Z",
+  "market": "Moneyline",
+  "team": "Milwaukee Bucks",
+  "pick": "Milwaukee Bucks ML",
+  "odds": "+140",
+  "lockedOdds": 140,
+  "confidence": 40,
+  "aiChance": 46,
+  "edge": 5.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
+  "research": "ESPN injury report, team records and schedule",
+  "kalshiTicker": "KXNBAGAME-26OCT26INDMIL-MIL",
+  "kalshiEventTicker": "KXNBAGAME-26OCT26INDMIL",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct26indmil",
+  "kalshiAsk": 39,
+  "reasoning": [
+    "Our AI models' reason: The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+    "Milwaukee Bucks: 0-3; Indiana Pacers: 2-1.",
+    "Removing the bookmaker's cut, the consensus puts Milwaukee Bucks's chance near 40%. That is the market's price.",
+    "On Kalshi, Milwaukee Bucks's contract cost 39¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 46%. Price: 39¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 40.7¢ and pays 59.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+140 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "40%"
+    ],
+    [
+      "Kalshi price at lock",
+      "39¢"
+    ],
+    [
+      "Our AI's estimate",
+      "46%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+5.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1793019739732,
+  "quoteAsOf": 1793019740825,
+  "publishedAt": 1793019740826,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-10-26T13:02:19.732Z",
+    "lockedAt": "2026-10-26T13:02:20.826Z",
+    "quoteAsOf": "2026-10-26T13:02:20.825Z",
+    "sitePublishedAt": "2026-10-26T13:30:01.437Z"
+  }
+}
