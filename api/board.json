@@ -1,193 +1,109 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-10-26",
-    "lockedAt": 1793019740826,
+    "day": "2026-10-27",
+    "lockedAt": 1793106020502,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": null,
-    "picks": [
-      {
-        "id": "sp-2026-10-26-nba-401909872",
-        "kind": "sports",
-        "source": "sportsbook",
-        "live": true,
-        "method": "ai",
-        "sport": "NBA",
-        "gameId": "401909872",
-        "event": "Indiana Pacers @ Milwaukee Bucks",
-        "home": "Milwaukee Bucks",
-        "away": "Indiana Pacers",
-        "homeAbbr": "MIL",
-        "awayAbbr": "IND",
-        "commence": "2026-10-27T00:00Z",
-        "market": "Moneyline",
-        "team": "Milwaukee Bucks",
-        "pick": "Milwaukee Bucks ML",
-        "odds": "+140",
-        "lockedOdds": 140,
-        "confidence": 40,
-        "aiChance": 46,
-        "edge": 5.3,
-        "risk": "Value",
-        "expertId": "ai-desk",
-        "why": "The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
-        "research": "ESPN injury report, team records and schedule",
-        "kalshiTicker": "KXNBAGAME-26OCT26INDMIL-MIL",
-        "kalshiEventTicker": "KXNBAGAME-26OCT26INDMIL",
-        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct26indmil",
-        "kalshiAsk": 39,
-        "reasoning": [
-          "Our AI models' reason: The Pacers are playing the second game in two nights and are likely without starting center Ivica Zubac (sprained ankle, day-to-day), plus guards McConnell, Sheppard and Furphy are out. The Bucks are rested at home and healthy, and the price underrates them despite their 0-3 start.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
-          "Milwaukee Bucks: 0-3; Indiana Pacers: 2-1.",
-          "Removing the bookmaker's cut, the consensus puts Milwaukee Bucks's chance near 40%. That is the market's price.",
-          "On Kalshi, Milwaukee Bucks's contract cost 39¢ at the lock; the edge below uses that price.",
-          "Our AI's estimate: 46%. Price: 39¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 40.7¢ and pays 59.3¢ profit if right. The estimate is our AI's, not a proven chance."
-        ],
-        "stats": [
-          [
-            "Odds at lock",
-            "+140 · DraftKings"
-          ],
-          [
-            "Market-implied at lock",
-            "40%"
-          ],
-          [
-            "Kalshi price at lock",
-            "39¢"
-          ],
-          [
-            "Our AI's estimate",
-            "46%"
-          ],
-          [
-            "Edge after Kalshi fee",
-            "+5.3 pts"
-          ],
-          [
-            "Books compared",
-            "1"
-          ]
-        ],
-        "generatedAt": 1793019739732,
-        "quoteAsOf": 1793019740825,
-        "publishedAt": 1793019740826,
-        "started": false,
-        "outcome": null,
-        "marketStatus": "pending",
-        "settlementCents": null,
-        "rulesUrl": null,
-        "settlementNote": null,
-        "units": 0,
-        "pending": false,
-        "times": {
-          "generatedAt": "2026-10-26T13:02:19.732Z",
-          "lockedAt": "2026-10-26T13:02:20.826Z",
-          "quoteAsOf": "2026-10-26T13:02:20.825Z",
-          "sitePublishedAt": "2026-10-26T13:30:01.437Z"
-        }
-      }
-    ]
+    "reason": "Our screen found no game where the facts disagree with the price today.",
+    "picks": []
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-10-26",
-    "lockedAt": 1793019732086,
+    "day": "2026-10-27",
+    "lockedAt": 1793106161969,
     "publicationState": "published",
     "reason": null,
     "picks": [
       {
-        "id": "pub-2026-10-26-KXHIGHLAX-26OCT26-T78-No",
-        "ticker": "KXHIGHLAX-26OCT26-T78",
+        "id": "pub-2026-10-27-KXAAAGASMAXTX-26DEC31-4.20-No",
+        "ticker": "KXAAAGASMAXTX-26DEC31-4.20",
         "side": "No",
-        "region": null,
+        "region": "TX",
         "kind": "kalshi",
         "source": "kalshi",
         "live": true,
         "method": "ai",
-        "research": "National Weather Service forecast",
+        "research": "AAA Texas gas prices",
         "dataSource": "kalshi",
-        "category": "WEATHER",
-        "title": "Highest temperature in Los Angeles on Oct 26, 2026?",
-        "closesAt": "2026-10-27T08:00:00Z",
-        "closes": "2026-10-27T08:00:00.000Z",
-        "pick": "No: 79° or above",
-        "confidence": 78,
+        "category": "ECON",
+        "title": "How high will gas prices in Texas get this year?",
+        "closesAt": "2026-12-31T14:55:00Z",
+        "closes": "2026-12-31T14:55:00.000Z",
+        "pick": "No: Above $4.20",
+        "confidence": 74,
         "risk": "Safe",
         "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxhighlax/market/kxhighlax-26oct26",
-        "why": "The National Weather Service forecast for Los Angeles International is a high near 74°F, well below 79°, so the day is very unlikely to reach 79° or above.",
+        "url": "https://kalshi.com/markets/kxaaagasmaxtx/market/kxaaagasmaxtx-26dec31",
+        "why": "Texas gas is averaging $3.71 today and has been trending down over the past month. Hitting $4.20 would require a 49-cent spike in the 65 days left without any major disruption in sight, so the 'No' side looks strong.",
         "researchSources": [
-          "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast."
+          "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX."
         ],
         "reasoning": [
-          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near Los Angeles International: high 74°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 78¢ entry quote at publication, a market-implied reference of about 78%. That is the market's price.",
-          "Our AI's estimate: 92%. Price: 78¢ plus about 1.2¢ Kalshi fee. Edge: +12.8 points. Each $1 contract costs about 79.2¢ and pays 20.8¢ profit if right. The estimate is our AI's, not a proven chance.",
-          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the AAA Texas gas prices.",
+          "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX.",
+          "A Kalshi contract pays $1 if right. We recorded a 74¢ entry quote at publication, a market-implied reference of about 74%. That is the market's price.",
+          "Our AI's estimate: 85%. Price: 74¢ plus about 1.4¢ Kalshi fee. Edge: +9.7 points. Each $1 contract costs about 75.4¢ and pays 24.7¢ profit if right. The estimate is our AI's, not a proven chance."
         ],
         "stats": [
           [
             "Entry quote at lock",
-            "No 78¢"
+            "No 74¢"
           ],
           [
             "Market-implied at lock",
-            "78%"
+            "74%"
           ],
           [
             "Our AI's estimate",
-            "92%"
+            "85%"
           ],
           [
             "Edge after Kalshi fee",
-            "+12.8 pts"
+            "+9.7 pts"
           ],
           [
             "24h volume",
-            "9,832"
+            "49"
           ],
           [
             "Outcomes",
-            "2"
+            "10"
           ]
         ],
-        "aiChance": 92,
+        "aiChance": 85,
         "judge": {
-          "grounded": 0.86
+          "grounded": 0.33
         },
-        "entryQuoteFetchedAt": 1793019732084,
-        "generatedAt": 1793019731911,
-        "publishedAt": 1793019732086,
-        "lockedPrice": 78,
+        "entryQuoteFetchedAt": 1793106161968,
+        "generatedAt": 1793106161782,
+        "publishedAt": 1793106161969,
+        "lockedPrice": 74,
         "priceBasis": "ask",
-        "edge": 12.8,
-        "referenceProbability": 78,
+        "edge": 9.7,
+        "referenceProbability": 74,
         "marketOnly": false,
         "marketStatus": "active",
         "outcome": null,
         "times": {
-          "generatedAt": "2026-10-26T13:02:11.911Z",
-          "lockedAt": "2026-10-26T13:02:12.086Z",
-          "quoteAsOf": "2026-10-26T13:02:12.084Z",
-          "sitePublishedAt": "2026-10-26T13:30:01.437Z"
+          "generatedAt": "2026-10-27T13:02:41.782Z",
+          "lockedAt": "2026-10-27T13:02:41.969Z",
+          "quoteAsOf": "2026-10-27T13:02:41.968Z",
+          "sitePublishedAt": "2026-10-27T13:30:06.324Z"
         }
       }
     ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793025060479,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-10-26-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-10-26T14:31:07.479Z"
+    "id": "snapshot-2026-10-27-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-10-27T13:30:06.324Z"
   }
 }

@@ -1,0 +1,77 @@
+{
+  "id": "pub-2026-10-27-KXAAAGASMAXTX-26DEC31-4.20-No",
+  "ticker": "KXAAAGASMAXTX-26DEC31-4.20",
+  "side": "No",
+  "region": "TX",
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "AAA Texas gas prices",
+  "dataSource": "kalshi",
+  "category": "ECON",
+  "title": "How high will gas prices in Texas get this year?",
+  "closesAt": "2026-12-31T14:55:00Z",
+  "closes": "2026-12-31T14:55:00.000Z",
+  "pick": "No: Above $4.20",
+  "confidence": 74,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxaaagasmaxtx/market/kxaaagasmaxtx-26dec31",
+  "why": "Texas gas is averaging $3.71 today and has been trending down over the past month. Hitting $4.20 would require a 49-cent spike in the 65 days left without any major disruption in sight, so the 'No' side looks strong.",
+  "researchSources": [
+    "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the AAA Texas gas prices.",
+    "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX.",
+    "A Kalshi contract pays $1 if right. We recorded a 74¢ entry quote at publication, a market-implied reference of about 74%. That is the market's price.",
+    "Our AI's estimate: 85%. Price: 74¢ plus about 1.4¢ Kalshi fee. Edge: +9.7 points. Each $1 contract costs about 75.4¢ and pays 24.7¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 74¢"
+    ],
+    [
+      "Market-implied at lock",
+      "74%"
+    ],
+    [
+      "Our AI's estimate",
+      "85%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+9.7 pts"
+    ],
+    [
+      "24h volume",
+      "49"
+    ],
+    [
+      "Outcomes",
+      "10"
+    ]
+  ],
+  "aiChance": 85,
+  "judge": {
+    "grounded": 0.33
+  },
+  "entryQuoteFetchedAt": 1793106161968,
+  "generatedAt": 1793106161782,
+  "publishedAt": 1793106161969,
+  "lockedPrice": 74,
+  "priceBasis": "ask",
+  "edge": 9.7,
+  "referenceProbability": 74,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-10-27T13:02:41.782Z",
+    "lockedAt": "2026-10-27T13:02:41.969Z",
+    "quoteAsOf": "2026-10-27T13:02:41.968Z",
+    "sitePublishedAt": "2026-10-27T13:30:06.324Z"
+  }
+}
