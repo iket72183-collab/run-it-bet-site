@@ -1,8 +1,8 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-10-27",
-    "lockedAt": 1793106020502,
+    "day": "2026-10-28",
+    "lockedAt": 1793192458643,
     "publicationState": "published",
     "aiDesk": true,
     "reason": "Our screen found no game where the facts disagree with the price today.",
@@ -10,100 +10,101 @@
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-10-27",
-    "lockedAt": 1793106161969,
+    "day": "2026-10-28",
+    "lockedAt": 1793192510260,
     "publicationState": "published",
     "reason": null,
     "picks": [
       {
-        "id": "pub-2026-10-27-KXAAAGASMAXTX-26DEC31-4.20-No",
-        "ticker": "KXAAAGASMAXTX-26DEC31-4.20",
+        "id": "pub-2026-10-28-KXHIGHNY-26OCT28-T60-No",
+        "ticker": "KXHIGHNY-26OCT28-T60",
         "side": "No",
-        "region": "TX",
+        "region": null,
         "kind": "kalshi",
         "source": "kalshi",
         "live": true,
         "method": "ai",
-        "research": "AAA Texas gas prices",
+        "research": "National Weather Service forecast",
         "dataSource": "kalshi",
-        "category": "ECON",
-        "title": "How high will gas prices in Texas get this year?",
-        "closesAt": "2026-12-31T14:55:00Z",
-        "closes": "2026-12-31T14:55:00.000Z",
-        "pick": "No: Above $4.20",
-        "confidence": 74,
+        "category": "WEATHER",
+        "title": "Highest temperature in New York City on Oct 28, 2026?",
+        "closesAt": "2026-10-29T05:00:00Z",
+        "closes": "2026-10-29T05:00:00.000Z",
+        "pick": "No: 59° or below",
+        "confidence": 71,
         "risk": "Safe",
         "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxaaagasmaxtx/market/kxaaagasmaxtx-26dec31",
-        "why": "Texas gas is averaging $3.71 today and has been trending down over the past month. Hitting $4.20 would require a 49-cent spike in the 65 days left without any major disruption in sight, so the 'No' side looks strong.",
+        "url": "https://kalshi.com/markets/kxhighny/market/kxhighny-26oct28",
+        "why": "The National Weather Service forecasts a high near 62°F in Central Park, comfortably above the 59° threshold, so the high is very unlikely to land at 59° or below.",
         "researchSources": [
-          "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX."
+          "NWS point forecast near Central Park: high 62°F. Source: https://api.weather.gov/gridpoints/OKX/34,45/forecast."
         ],
         "reasoning": [
-          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the AAA Texas gas prices.",
-          "AAA Texas regular gas average: $3.7105 (record $4.6949). Source: https://gasprices.aaa.com/?state=TX.",
-          "A Kalshi contract pays $1 if right. We recorded a 74¢ entry quote at publication, a market-implied reference of about 74%. That is the market's price.",
-          "Our AI's estimate: 85%. Price: 74¢ plus about 1.4¢ Kalshi fee. Edge: +9.7 points. Each $1 contract costs about 75.4¢ and pays 24.7¢ profit if right. The estimate is our AI's, not a proven chance."
+          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near Central Park: high 62°F. Source: https://api.weather.gov/gridpoints/OKX/34,45/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 71¢ entry quote at publication, a market-implied reference of about 71%. That is the market's price.",
+          "Our AI's estimate: 88%. Price: 71¢ plus about 1.4¢ Kalshi fee. Edge: +15.6 points. Each $1 contract costs about 72.4¢ and pays 27.6¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
         ],
         "stats": [
           [
             "Entry quote at lock",
-            "No 74¢"
+            "No 71¢"
           ],
           [
             "Market-implied at lock",
-            "74%"
+            "71%"
           ],
           [
             "Our AI's estimate",
-            "85%"
+            "88%"
           ],
           [
             "Edge after Kalshi fee",
-            "+9.7 pts"
+            "+15.6 pts"
           ],
           [
             "24h volume",
-            "49"
+            "5,668"
           ],
           [
             "Outcomes",
-            "10"
+            "2"
           ]
         ],
-        "aiChance": 85,
+        "aiChance": 88,
         "judge": {
-          "grounded": 0.33
+          "grounded": 0.87
         },
-        "entryQuoteFetchedAt": 1793106161968,
-        "generatedAt": 1793106161782,
-        "publishedAt": 1793106161969,
-        "lockedPrice": 74,
+        "entryQuoteFetchedAt": 1793192510259,
+        "generatedAt": 1793192510078,
+        "publishedAt": 1793192510260,
+        "lockedPrice": 71,
         "priceBasis": "ask",
-        "edge": 9.7,
-        "referenceProbability": 74,
+        "edge": 15.6,
+        "referenceProbability": 71,
         "marketOnly": false,
         "marketStatus": "active",
         "outcome": null,
         "times": {
-          "generatedAt": "2026-10-27T13:02:41.782Z",
-          "lockedAt": "2026-10-27T13:02:41.969Z",
-          "quoteAsOf": "2026-10-27T13:02:41.968Z",
-          "sitePublishedAt": "2026-10-27T13:30:06.324Z"
+          "generatedAt": "2026-10-28T13:01:50.078Z",
+          "lockedAt": "2026-10-28T13:01:50.260Z",
+          "quoteAsOf": "2026-10-28T13:01:50.259Z",
+          "sitePublishedAt": "2026-10-28T13:30:06.020Z"
         }
       }
     ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793111406145,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-10-27-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-10-27T14:30:06.526Z"
+    "id": "snapshot-2026-10-28-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-10-28T13:30:06.020Z"
   }
 }
