@@ -1,25 +1,108 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-10-29",
-    "lockedAt": 1793278881852,
+    "day": "2026-10-30",
+    "lockedAt": 1793365283392,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
-    "picks": []
+    "reason": null,
+    "picks": [
+      {
+        "id": "sp-2026-10-30-nba-401909277",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NBA",
+        "gameId": "401909277",
+        "event": "Charlotte Hornets @ Washington Wizards",
+        "home": "Washington Wizards",
+        "away": "Charlotte Hornets",
+        "homeAbbr": "WSH",
+        "awayAbbr": "CHA",
+        "commence": "2026-10-30T23:00Z",
+        "market": "Moneyline",
+        "team": "Charlotte Hornets",
+        "pick": "Charlotte Hornets ML",
+        "odds": "+100",
+        "lockedOdds": 100,
+        "confidence": 48,
+        "aiChance": 58,
+        "edge": 7.3,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
+        "research": "ESPN injury report, team records and schedule",
+        "kalshiTicker": "KXNBAGAME-26OCT30CHAWAS-CHA",
+        "kalshiEventTicker": "KXNBAGAME-26OCT30CHAWAS",
+        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct30chawas",
+        "kalshiAsk": 49,
+        "reasoning": [
+          "Our AI models' reason: Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+          "Charlotte Hornets: 3-2; Washington Wizards: 2-3.",
+          "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 48%. That is the market's price.",
+          "On Kalshi, Charlotte Hornets's contract cost 49¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 58%. Price: 49¢ plus about 1.8¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 50.8¢ and pays 49.3¢ profit if right. The estimate is our AI's, not a proven chance."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "+100 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "48%"
+          ],
+          [
+            "Kalshi price at lock",
+            "49¢"
+          ],
+          [
+            "Our AI's estimate",
+            "58%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+7.3 pts"
+          ],
+          [
+            "Books compared",
+            "1"
+          ]
+        ],
+        "generatedAt": 1793365281918,
+        "quoteAsOf": 1793365283390,
+        "publishedAt": 1793365283392,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-10-30T13:01:21.918Z",
+          "lockedAt": "2026-10-30T13:01:23.392Z",
+          "quoteAsOf": "2026-10-30T13:01:23.390Z",
+          "sitePublishedAt": "2026-10-30T13:30:06.603Z"
+        }
+      }
+    ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-10-29",
-    "lockedAt": 1793279234428,
+    "day": "2026-10-30",
+    "lockedAt": 1793365496758,
     "publicationState": "published",
     "reason": null,
     "picks": [
       {
-        "id": "pub-2026-10-29-KXHIGHNY-26OCT29-T67-No",
-        "ticker": "KXHIGHNY-26OCT29-T67",
+        "id": "pub-2026-10-30-KXHIGHTHOU-26OCT30-T78-No",
+        "ticker": "KXHIGHTHOU-26OCT30-T78",
         "side": "No",
-        "region": null,
+        "region": "TX",
         "kind": "kalshi",
         "source": "kalshi",
         "live": true,
@@ -27,84 +110,84 @@
         "research": "National Weather Service forecast",
         "dataSource": "kalshi",
         "category": "WEATHER",
-        "title": "Highest temperature in New York City on Oct 29, 2026?",
-        "closesAt": "2026-10-30T05:00:00Z",
-        "closes": "2026-10-30T05:00:00.000Z",
-        "pick": "No: 66° or below",
-        "confidence": 77,
+        "title": "Highest temperature in Houston on Oct 30, 2026?",
+        "closesAt": "2026-10-31T06:00:00Z",
+        "closes": "2026-10-31T06:00:00.000Z",
+        "pick": "No: 77° or below",
+        "confidence": 74,
         "risk": "Safe",
         "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxhighny/market/kxhighny-26oct29",
-        "why": "The National Weather Service forecasts a high near 69°F in New York City, well above the 66° threshold.",
+        "url": "https://kalshi.com/markets/kxhighthou/market/kxhighthou-26oct30",
+        "why": "The National Weather Service forecasts an 80°F high before temperatures fall toward 77°F, making a high above 77°F the better call.",
         "researchSources": [
-          "NWS point forecast near Central Park: high 69°F. Source: https://api.weather.gov/gridpoints/OKX/34,45/forecast."
+          "NWS point forecast near Houston Hobby: high 80°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast."
         ],
         "reasoning": [
           "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near Central Park: high 69°F. Source: https://api.weather.gov/gridpoints/OKX/34,45/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 77¢ entry quote at publication, a market-implied reference of about 77%. That is the market's price.",
-          "Our AI's estimate: 85%. Price: 77¢ plus about 1.2¢ Kalshi fee. Edge: +6.8 points. Each $1 contract costs about 78.2¢ and pays 21.8¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "NWS point forecast near Houston Hobby: high 80°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 74¢ entry quote at publication, a market-implied reference of about 74%. That is the market's price.",
+          "Our AI's estimate: 84%. Price: 74¢ plus about 1.4¢ Kalshi fee. Edge: +8.7 points. Each $1 contract costs about 75.4¢ and pays 24.7¢ profit if right. The estimate is our AI's, not a proven chance.",
           "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
         ],
         "stats": [
           [
             "Entry quote at lock",
-            "No 77¢"
+            "No 74¢"
           ],
           [
             "Market-implied at lock",
-            "77%"
+            "74%"
           ],
           [
             "Our AI's estimate",
-            "85%"
+            "84%"
           ],
           [
             "Edge after Kalshi fee",
-            "+6.8 pts"
+            "+8.7 pts"
           ],
           [
             "24h volume",
-            "10,548"
+            "2,624"
           ],
           [
             "Outcomes",
             "2"
           ]
         ],
-        "aiChance": 85,
+        "aiChance": 84,
         "judge": {
-          "grounded": 0.87
+          "grounded": 0.79
         },
-        "entryQuoteFetchedAt": 1793279234427,
-        "generatedAt": 1793279234180,
-        "publishedAt": 1793279234428,
-        "lockedPrice": 77,
+        "entryQuoteFetchedAt": 1793365496755,
+        "generatedAt": 1793365496566,
+        "publishedAt": 1793365496758,
+        "lockedPrice": 74,
         "priceBasis": "ask",
-        "edge": 6.8,
-        "referenceProbability": 77,
+        "edge": 8.7,
+        "referenceProbability": 74,
         "marketOnly": false,
         "marketStatus": "active",
         "outcome": null,
         "times": {
-          "generatedAt": "2026-10-29T13:07:14.180Z",
-          "lockedAt": "2026-10-29T13:07:14.428Z",
-          "quoteAsOf": "2026-10-29T13:07:14.427Z",
-          "sitePublishedAt": "2026-10-29T13:30:06.840Z"
+          "generatedAt": "2026-10-30T13:04:56.566Z",
+          "lockedAt": "2026-10-30T13:04:56.758Z",
+          "quoteAsOf": "2026-10-30T13:04:56.755Z",
+          "sitePublishedAt": "2026-10-30T13:30:06.603Z"
         }
       }
     ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793284213308,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-10-29-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-10-29T14:30:16.307Z"
+    "id": "snapshot-2026-10-30-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-10-30T13:30:06.603Z"
   }
 }

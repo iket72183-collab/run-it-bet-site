@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-10-30-nba-401909277",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401909277",
+  "event": "Charlotte Hornets @ Washington Wizards",
+  "home": "Washington Wizards",
+  "away": "Charlotte Hornets",
+  "homeAbbr": "WSH",
+  "awayAbbr": "CHA",
+  "commence": "2026-10-30T23:00Z",
+  "market": "Moneyline",
+  "team": "Charlotte Hornets",
+  "pick": "Charlotte Hornets ML",
+  "odds": "+100",
+  "lockedOdds": 100,
+  "confidence": 48,
+  "aiChance": 58,
+  "edge": 7.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
+  "research": "ESPN injury report, team records and schedule",
+  "kalshiTicker": "KXNBAGAME-26OCT30CHAWAS-CHA",
+  "kalshiEventTicker": "KXNBAGAME-26OCT30CHAWAS",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct30chawas",
+  "kalshiAsk": 49,
+  "reasoning": [
+    "Our AI models' reason: Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+    "Charlotte Hornets: 3-2; Washington Wizards: 2-3.",
+    "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 48%. That is the market's price.",
+    "On Kalshi, Charlotte Hornets's contract cost 49¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 58%. Price: 49¢ plus about 1.8¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 50.8¢ and pays 49.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+100 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "48%"
+    ],
+    [
+      "Kalshi price at lock",
+      "49¢"
+    ],
+    [
+      "Our AI's estimate",
+      "58%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+7.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1793365281918,
+  "quoteAsOf": 1793365283390,
+  "publishedAt": 1793365283392,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-10-30T13:01:21.918Z",
+    "lockedAt": "2026-10-30T13:01:23.392Z",
+    "quoteAsOf": "2026-10-30T13:01:23.390Z",
+    "sitePublishedAt": "2026-10-30T13:30:06.603Z"
+  }
+}
