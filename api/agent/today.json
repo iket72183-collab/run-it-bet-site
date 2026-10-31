@@ -9,15 +9,15 @@
   "nextLockAt": "2026-11-01T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
-  "hasPicks": false,
-  "briefing": "Run It Bet found no pick worth making today (Saturday, Oct 31). Passing is part of the plan.",
+  "hasPicks": true,
+  "briefing": "Run It Bet picks for Saturday, Oct 31, locked 8:01 AM Central. Kalshi picks (1):\n1) Lowest temperature in Austin on Nov 1, 2026: No: 65° or above (Bold call, 76¢; our AI 92% vs market 76%, edge +14.7 after fee)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nEvery pick can lose. Full details: https://www.runitbet.com/",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "pending",
-    "lockedAt": null,
-    "hasPicks": false,
-    "briefing": null
+    "status": "locked",
+    "lockedAt": "2026-10-31T14:30:38.469Z",
+    "hasPicks": true,
+    "briefing": "Run It Bet Texas lows picks (tomorrow's low temperature) for Saturday, Oct 31, locked 9:30 AM Central. Kalshi picks (1):\n1) Lowest temperature in Austin on Nov 1, 2026: No: 65° or above (Bold call, 76¢; our AI 92% vs market 76%, edge +14.7 after fee)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nEvery pick can lose. Full details: https://www.runitbet.com/"
   },
   "disclaimer": "Run It Bet is informational and for entertainment only. It is a filter for Kalshi and Polymarket markets, not an investment strategy or a way to make money. It is not a sportsbook, exchange, broker, or financial adviser, and nothing here is financial, investment, or betting advice. Every pick can lose, even our highest-confidence picks. Prices are market-implied references, not the true chance of winning. Past results do not predict future results. You make every decision and place every trade yourself. 18+ only; follow the laws where you live. Only use money you can afford to lose. Gambling problem? Call or text 1-800-MY-RESET.",
   "rulesForAgents": [
@@ -36,7 +36,34 @@
     "Fetch at most four times a day: once after 8:40 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
     "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
   ],
-  "picks": [],
+  "picks": [
+    {
+      "pickId": "pub-2026-10-31-KXLOWTAUS-26NOV01-T64-No",
+      "ticker": "KXLOWTAUS-26NOV01-T64",
+      "question": "Lowest temperature in Austin on Nov 1, 2026?",
+      "pick": "No: 65° or above",
+      "side": "No",
+      "category": "WEATHER",
+      "region": "TX",
+      "check": "lows",
+      "risk": "Bold call",
+      "riskNote": "Bold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.",
+      "madeBy": "our AI models",
+      "generatedAt": "2026-10-31T14:30:38.307Z",
+      "lockedAt": "2026-10-31T14:30:38.469Z",
+      "quoteAsOf": "2026-10-31T14:30:38.468Z",
+      "priceAtLockCents": 76,
+      "aiChancePercent": 92,
+      "edgePoints": 14.7,
+      "marketStatus": "active",
+      "result": null,
+      "closesAt": "2026-11-02T07:00:00Z",
+      "why": "Our AI models' read of the National Weather Service forecast near Austin-Bergstrom.",
+      "kalshiUrl": "https://kalshi.com/markets/kxlowtaus/market/kxlowtaus-26nov01",
+      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-10-31-KXLOWTAUS-26NOV01-T64-No/",
+      "sitePublishedAt": "2026-10-31T14:30:46.229Z"
+    }
+  ],
   "sportsStatus": "locked",
   "sportsNote": "Our AI models looked at today’s games and found none worth picking.",
   "sportsPicks": [],
@@ -48,8 +75,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-10-31-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-10-31T13:30:08.731Z"
+    "id": "snapshot-2026-10-31-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-10-31T14:30:46.229Z"
   }
 }

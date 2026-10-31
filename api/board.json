@@ -13,19 +13,98 @@
     "day": "2026-10-31",
     "lockedAt": 1793451687323,
     "publicationState": "published",
-    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t. Texas low temperatures get their own check at 9:30 AM.",
-    "picks": [],
+    "reason": null,
+    "picks": [
+      {
+        "id": "pub-2026-10-31-KXLOWTAUS-26NOV01-T64-No",
+        "ticker": "KXLOWTAUS-26NOV01-T64",
+        "side": "No",
+        "region": "TX",
+        "kind": "kalshi",
+        "source": "kalshi",
+        "live": true,
+        "method": "ai",
+        "research": "National Weather Service forecast",
+        "dataSource": "kalshi",
+        "category": "WEATHER",
+        "title": "Lowest temperature in Austin on Nov 1, 2026?",
+        "closesAt": "2026-11-02T07:00:00Z",
+        "closes": "2026-11-02T07:00:00.000Z",
+        "pick": "No: 65° or above",
+        "confidence": 76,
+        "risk": "Safe",
+        "expertId": "ai-desk",
+        "url": "https://kalshi.com/markets/kxlowtaus/market/kxlowtaus-26nov01",
+        "why": "Our AI models' read of the National Weather Service forecast near Austin-Bergstrom.",
+        "researchSources": [
+          "NWS point forecast near Austin-Bergstrom: overnight low 63°F. Source: https://api.weather.gov/gridpoints/EWX/159,88/forecast."
+        ],
+        "reasoning": [
+          "Chosen by our AI models at the 9:30 AM Texas lows check, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near Austin-Bergstrom: overnight low 63°F. Source: https://api.weather.gov/gridpoints/EWX/159,88/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 76¢ entry quote at publication, a market-implied reference of about 76%. That is the market's price.",
+          "Our AI's estimate: 92%. Price: 76¢ plus about 1.3¢ Kalshi fee. Edge: +14.7 points. Each $1 contract costs about 77.3¢ and pays 22.7¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily low can miss a two-degree bucket by a single degree."
+        ],
+        "stats": [
+          [
+            "Entry quote at lock",
+            "No 76¢"
+          ],
+          [
+            "Market-implied at lock",
+            "76%"
+          ],
+          [
+            "Our AI's estimate",
+            "92%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+14.7 pts"
+          ],
+          [
+            "24h volume",
+            "0"
+          ],
+          [
+            "Outcomes",
+            "2"
+          ]
+        ],
+        "aiChance": 92,
+        "judge": {
+          "grounded": 0.63
+        },
+        "entryQuoteFetchedAt": 1793457038468,
+        "generatedAt": 1793457038307,
+        "publishedAt": 1793457038469,
+        "lockedPrice": 76,
+        "priceBasis": "ask",
+        "edge": 14.7,
+        "referenceProbability": 76,
+        "marketOnly": false,
+        "marketStatus": "active",
+        "outcome": null,
+        "times": {
+          "generatedAt": "2026-10-31T14:30:38.307Z",
+          "lockedAt": "2026-10-31T14:30:38.469Z",
+          "quoteAsOf": "2026-10-31T14:30:38.468Z",
+          "sitePublishedAt": "2026-10-31T14:30:46.229Z"
+        }
+      }
+    ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
-      "picks": 0,
+      "state": "published",
+      "lockedAt": 1793457038469,
+      "picks": 1,
       "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-10-31-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-10-31T13:30:08.731Z"
+    "id": "snapshot-2026-10-31-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-10-31T14:30:46.229Z"
   }
 }
