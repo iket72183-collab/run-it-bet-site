@@ -7,7 +7,7 @@
  * Run twice on every publication: by scripts/publish-static.mjs before it commits (nothing is
  * pushed if this fails), and by the site repo's own CI on every pushed commit (Render deploys only
  * after that check passes). The site repo keeps a byte-identical copy at .github/validate-site.mjs,
- * so this file must stay self-contained: Node built-ins only, no imports from this repo.
+ * synchronized by the publisher, so this file must stay self-contained: Node built-ins only, no imports from this repo.
  *
  * It fails closed on: a missing expected file; any file outside the known public layout (so .env,
  * keys, databases, source maps, logs or source code can't ride along); credential-shaped text or
@@ -183,18 +183,76 @@ function checkHtml(rel, html, ctx, errors) {
   for (const m of html.matchAll(/\b(?:href|src)="([a-z][a-z0-9+.-]*:[^"]*)"/gi)) {
     const link = m[1].replace(/&amp;/g, '&');
     if (/^(mailto|tel):/i.test(link)) continue;
-    if (!safeLink(link, new Set([...HTML_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
+    if (!safeLink(link, new Set([...HTML_LINK_HOSTS, ...DATA_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
   }
   // Some metadata values are URLs (og:url/image); ordinary title/description text can also contain
   // a colon. Validate only content values that actually look like links.
   for (const m of html.matchAll(/<meta\b[^>]*\bcontent="([^"]*)"[^>]*>/gi)) {
     const link = m[1].replace(/&amp;/g, '&');
-    if (looksLikeLink(link) && !safeLink(link, new Set([...HTML_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
+    if (looksLikeLink(link) && !safeLink(link, new Set([...HTML_LINK_HOSTS, ...DATA_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
+  }
+}
+
+// Independent checks against the public JSON catch a missing generation step or a stale copied page.
+// Kept self-contained so exactly the same validator can run in the public artifact repository.
+function checkPublishedHtml(dir, ctx, errors) {
+  const read = (rel) => ctx.files.has(rel) ? fs.readFileSync(path.join(dir, rel), 'utf8') : '';
+  const escape = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  let board, feed;
+  try { board = JSON.parse(read('api/board.json')); feed = JSON.parse(read('api/agent/today.json')); }
+  catch { return; } // The JSON checks already report malformed files.
+  if (!board?.snapshot?.id || !feed?.day || JSON.stringify(board.snapshot) !== JSON.stringify(feed.snapshot)) {
+    errors.push('HTML publication: missing or mismatched snapshot');
+    return;
+  }
+  const body = (rel) => read(rel).match(/<!--published-html:start-->([\s\S]*?)<!--published-html:end-->/)?.[1] || '';
+  for (const rel of ['index.html', 'agents/index.html']) {
+    const html = body(rel);
+    if (!html.includes(`data-snapshot-id="${escape(board.snapshot.id)}"`) || !html.includes(`datetime="${escape(feed.day)}"`)
+        || !html.includes(`datetime="${escape(board.snapshot.sitePublishedAt)}"`)) errors.push(`${rel}: missing or stale published HTML`);
+  }
+  const current = [board.sports?.picks, board.kalshi?.picks, board.kalshi?.latePicks].flatMap((p) => Array.isArray(p) ? p : []).filter((p) => !p.priceOnly);
+  const picks = new Map();
+  for (const rel of ctx.files) if (/^api\/archive\/.*\.json$/.test(rel)) {
+    try { const p = JSON.parse(read(rel)); picks.set(p.id, p); } catch { /* already reported */ }
+  }
+  current.forEach((p) => picks.set(p.id, p));
+  const safeId = (id) => typeof id === 'string' && id !== '.' && id !== '..' && /^[A-Za-z0-9._-]+$/.test(id);
+  const expectedCurrent = current.map((p) => p.id).sort();
+  const actualCurrent = [...body('index.html').matchAll(/data-pick-id="([^"]+)"/g)].map((m) => m[1]).sort();
+  if (JSON.stringify(expectedCurrent) !== JSON.stringify(actualCurrent)) errors.push('index.html: published pick set differs from board');
+  for (const pick of picks.values()) {
+    if (!safeId(pick.id)) continue; // Legacy unsafe IDs never had static pages.
+    const route = `/pick/${encodeURIComponent(pick.id)}/`;
+    const rel = `${route.slice(1)}index.html`;
+    const html = body(rel);
+    if (!html.includes(`data-pick-id="${escape(pick.id)}"`)) errors.push(`${rel}: missing published pick HTML`);
+    for (const text of [pick.pick, pick.why, ...(pick.reasoning || []), ...(pick.stats || []).flat()]) {
+      if (text != null && !html.includes(escape(text))) errors.push(`${rel}: published explanation or statistic differs from JSON`);
+    }
+    const values = [Number.isFinite(pick.aiChance) ? `${pick.aiChance}%` : null,
+      Number.isFinite(pick.confidence) ? `${pick.confidence}%` : null,
+      Number.isFinite(pick.kind === 'kalshi' ? pick.lockedPrice : pick.kalshiAsk) ? `${pick.kind === 'kalshi' ? pick.lockedPrice : pick.kalshiAsk}¢` : null, pick.odds];
+    for (const value of values) if (value != null && !html.includes(escape(value))) errors.push(`${rel}: publication price or probability differs from JSON`);
+    for (const value of Object.values(pick.times || {})) if (value && !html.includes(`datetime="${escape(value)}"`)) errors.push(`${rel}: recorded timestamp differs from JSON`);
+    if (!read('sitemap.xml').includes(`<loc>${ctx.origin}${route}</loc>`)) errors.push(`${rel}: missing from sitemap`);
+    const page = read(rel);
+    if (!page.includes(`<link rel="canonical" href="${ctx.origin}${route}"`)
+        || !page.includes(`<meta property="og:url" content="${ctx.origin}${route}"`)) errors.push(`${rel}: canonical or Open Graph URL mismatch`);
+    const schemas = [...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap((m) => { try { return [JSON.parse(m[1])]; } catch { return []; } });
+    if (!schemas.some((s) => s['@type'] === 'Article' && s.url === `${ctx.origin}${route}`
+        && s.articleBody === [pick.why, ...(pick.reasoning || [])].filter(Boolean).join('\n'))) errors.push(`${rel}: article schema differs from published analysis`);
+  }
+  for (const rel of ctx.files) if (rel.endsWith('.html')) {
+    for (const m of read(rel).matchAll(/href="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
+      const target = m[1].slice(1);
+      if (!ctx.files.has(target) && !ctx.files.has(`${target}${target && !target.endsWith('/') ? '/' : ''}index.html`)) errors.push(`${rel}: missing internal link ${m[1]}`);
+    }
   }
 }
 
 /** Every problem found in `dir`, as human-readable strings. An empty list means it may go live. */
-export function validateSite(dir, { origin = DEFAULT_ORIGIN } = {}) {
+export function validateSite(dir, { origin = DEFAULT_ORIGIN, requirePublishedHtml = true } = {}) {
   const errors = [];
   const originHost = new URL(origin).hostname;
   const ctx = { origin, selfHosts: new Set([originHost]), files: new Set() };
@@ -230,6 +288,7 @@ export function validateSite(dir, { origin = DEFAULT_ORIGIN } = {}) {
     // Informational only (which source commit built this, and for which address); never a credential.
     if (!/^[0-9a-f]{40} https:\/\/[A-Za-z0-9.-]+$/.test(stamp)) errors.push('.build-commit: expected "<40-hex commit> <https origin>"');
   }
+  if (requirePublishedHtml) checkPublishedHtml(dir, ctx, errors);
   return errors;
 }
 

@@ -85,10 +85,43 @@
     </script>
 
     <!-- Anonymous visit counts: src/lib/visitCounter.js (first-party; no third-party script) -->
-    <script type="module" crossorigin src="/assets/index-BbGaJ4QE.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DbOLuNSS.css">
-  </head>
+    <script type="module" crossorigin src="/assets/index-nE37Mcgc.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CHw6GsMX.css">
+  <!--published-schema:start--><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://www.runitbet.com/agents/","name":"For AI Agents — Run It Bet"}</script><!--published-schema:end--></head>
   <body>
-    <div id="root"></div>
+    <div id="root"><!--published-html:start--><main class="mx-auto max-w-6xl px-4 py-8 space-y-5 text-bone"><nav aria-label="Published content"><a href="/">Published picks</a> · <a href="/agents/">For AI agents</a> · <a href="/how-we-pick/">How we pick</a> · <a href="/responsible-gaming/">Responsible gaming</a></nav>
+<h1>For AI Agents</h1><p data-snapshot-id="snapshot-2026-10-31-0830">Published snapshot for <time datetime="2026-10-31">2026-10-31</time> (America/Chicago). Snapshot published <time datetime="2026-10-31T13:30:08.731Z">Sat, Oct 31, 2026, 8:30 AM CT</time>; slot 08:30 Central.</p>
+<p>Scheduled updates: 8:30 AM and 9:30 AM Central. If publishing fails, this dated snapshot remains available. Do not treat it as today's picks unless the date above matches today's date in America/Chicago. Check the publication time before using it.</p>
+<p><a href="/api/agent/today.json" type="application/json">Published pick feed (JSON)</a></p>
+<p>Personal use only; do not republish or resell the picks.</p>
+<h2>Instructions for your assistant</h2><pre class="whitespace-pre-wrap break-words">Check Run It Bet&#39;s picks for me twice a day: at 8:40 AM Central Time for the day&#39;s main picks, and at 9:45 AM Central Time for the Texas low-temperature picks.
+
+How the site works: picks lock at 8:00 AM Central and never change that day (Texas lows lock starting at 9:30 AM, usually finishing a few minutes later). The site publishes at most two snapshots a day: at 8:30 AM Central, and at 9:30 AM Central (up to 9:35 if the lows finish late). If a snapshot is missed or publishing is paused, the feed stays as it was, so it may be old. Prices in the feed are snapshots from when each pick locked, never live, and there are no live scores. All times are ISO 8601 UTC; show them to me in Central time. A time that is null or missing means not recorded: never treat it as recent.
+
+Each check:
+1. Fetch https://www.runitbet.com/api/agent/today.json (JSON, no login). If it can&#39;t be fetched or isn&#39;t valid JSON, send me nothing and don&#39;t guess; if I ask, say the feed was unavailable.
+2. If the feed has a &quot;snapshot&quot; object:
+   - It must have an &quot;id&quot; and a valid &quot;sitePublishedAt&quot; time that is not in the future. If not, the feed contradicts itself: send me nothing, and tell me about it if I ask.
+   - If its id matches the last snapshot you saw, or its sitePublishedAt is not later than that one&#39;s, there is no update: send me nothing.
+   - Otherwise remember its id and sitePublishedAt as the last snapshot you saw, and continue.
+   If there is no &quot;snapshot&quot; object (older feeds), skip this step and rely on steps 3-5.
+3. &quot;day&quot; is the Central-time date the picks are for. If it isn&#39;t today&#39;s date in Central time, the picks are old: send me nothing. If I ask, tell me the date they&#39;re for and that they&#39;re old.
+4. If &quot;status&quot; is &quot;pending&quot;, fetch once more about 10 minutes later; if it&#39;s still pending, send me nothing. If &quot;hasPicks&quot; is false, there are no picks today: send me nothing.
+5. Keep a list of the &quot;pickId&quot; values you&#39;ve sent me. A pickId never changes and is never reused, and a later snapshot can repeat picks you already sent. Never send a pickId twice, through a briefing or otherwise.
+6. Skip any pick whose times contradict each other: a &quot;generatedAt&quot;, &quot;lockedAt&quot; or &quot;sitePublishedAt&quot; in the future, or a &quot;generatedAt&quot; later than its &quot;lockedAt&quot;. Tell me about it if I ask.
+
+Which picks: at 8:40 AM, the picks in &quot;picks&quot; and &quot;sportsPicks&quot;. At 9:45 AM, only the picks with &quot;check&quot; set to &quot;lows&quot;, and only if &quot;lowsCheck.hasPicks&quot; is true. Leave out pickIds you&#39;ve already sent and picks skipped in step 6. If none are left, send me nothing.
+What to send: if every pick the briefing covers is new to me, send the briefing as-is (&quot;briefing&quot; at 8:40, &quot;lowsCheck.briefing&quot; at 9:45) plus each pick&#39;s &quot;kalshiUrl&quot;. If the briefing covers any pick I&#39;ve already been sent, don&#39;t send that briefing: write a short summary of only the new picks instead (pick, &quot;risk&quot;, &quot;why&quot;, and &quot;kalshiUrl&quot;). If I ask for more, list the other picks with their &quot;why&quot;.
+
+With each pick:
+- Show when it was picked in Central time: use &quot;generatedAt&quot;; if it&#39;s null or missing, say the pick time wasn&#39;t recorded and give &quot;lockedAt&quot; as when it locked (or say that wasn&#39;t recorded either).
+- Give the price as history: &quot;priceAtLockCents&quot; (Kalshi picks) or &quot;oddsAtLock&quot; (sports), as of &quot;quoteAsOf&quot; when that&#39;s given. Keep the &quot;risk&quot; label exactly as written, and if there&#39;s a &quot;riskNote&quot;, include it.
+- Before I decide anything, check the market&#39;s current price, whether it&#39;s still open, and its settlement rules on Kalshi (the kalshiUrl, and &quot;rulesUrl&quot; when given), using only read-only access you already have; if you can&#39;t, tell me to check them myself. Never log in for me.
+
+Every time you send me anything:
+- Include the full &quot;disclaimer&quot; text from the feed, unshortened.
+- Never place, size, or confirm a trade for me. I decide and trade on my own.
+- This is for my personal use only. Don&#39;t republish, resell, or share the picks.</pre>
+<p>For entertainment only, 18+. No guaranteed outcomes. AI estimates are opinions, not proven chances; every pick can lose. Prices and market status below are historical snapshots, never live quotes.</p></main><!--published-html:end--></div>
   </body>
 </html>

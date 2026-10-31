@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Allow: /api/agent/
+# Published pick HTML and the agent feed are crawlable; other API data stays excluded.
 Disallow: /api/
 
 Sitemap: https://www.runitbet.com/sitemap.xml

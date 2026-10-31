@@ -3,19 +3,19 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), with the research and the math already done.",
-  "day": "2026-10-30",
+  "day": "2026-10-31",
   "status": "locked",
-  "lockedAt": "2026-10-30T13:04:56.758Z",
-  "nextLockAt": "2026-10-31T13:00:00.000Z",
+  "lockedAt": "2026-10-31T13:01:27.323Z",
+  "nextLockAt": "2026-11-01T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
-  "hasPicks": true,
-  "briefing": "Run It Bet picks for Friday, Oct 30, locked 8:04 AM Central. Kalshi picks (1):\n1) Highest temperature in Houston on Oct 30, 2026: No: 77° or below (Higher Confidence, 74¢; our AI 84% vs market 74%, edge +8.7 after fee)\nEvery pick can lose. Full details: https://www.runitbet.com/\n\nAI sports picks (1):\n1) NBA: Charlotte Hornets to win, Charlotte Hornets @ Washington Wizards at 6:00 PM Central (Close call, +100; our AI 58% vs market 48%, edge +7.3 after fee)\nEvery pick can lose. Full details: https://www.runitbet.com/?tab=sports",
+  "hasPicks": false,
+  "briefing": "Run It Bet found no pick worth making today (Saturday, Oct 31). Passing is part of the plan.",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-10-30T14:30:16.258Z",
+    "status": "pending",
+    "lockedAt": null,
     "hasPicks": false,
     "briefing": null
   },
@@ -36,64 +36,10 @@
     "Fetch at most four times a day: once after 8:40 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
     "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
   ],
-  "picks": [
-    {
-      "pickId": "pub-2026-10-30-KXHIGHTHOU-26OCT30-T78-No",
-      "ticker": "KXHIGHTHOU-26OCT30-T78",
-      "question": "Highest temperature in Houston on Oct 30, 2026?",
-      "pick": "No: 77° or below",
-      "side": "No",
-      "category": "WEATHER",
-      "region": "TX",
-      "check": "morning",
-      "risk": "Higher Confidence",
-      "riskNote": null,
-      "madeBy": "our AI models",
-      "generatedAt": "2026-10-30T13:04:56.566Z",
-      "lockedAt": "2026-10-30T13:04:56.758Z",
-      "quoteAsOf": "2026-10-30T13:04:56.755Z",
-      "priceAtLockCents": 74,
-      "aiChancePercent": 84,
-      "edgePoints": 8.7,
-      "marketStatus": "active",
-      "result": null,
-      "closesAt": "2026-10-31T06:00:00Z",
-      "why": "The National Weather Service forecasts an 80°F high before temperatures fall toward 77°F, making a high above 77°F the better call.",
-      "kalshiUrl": "https://kalshi.com/markets/kxhighthou/market/kxhighthou-26oct30",
-      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-10-30-KXHIGHTHOU-26OCT30-T78-No/",
-      "sitePublishedAt": "2026-10-30T13:30:06.603Z"
-    }
-  ],
+  "picks": [],
   "sportsStatus": "locked",
-  "sportsNote": null,
-  "sportsPicks": [
-    {
-      "pickId": "sp-2026-10-30-nba-401909277",
-      "ticker": "KXNBAGAME-26OCT30CHAWAS-CHA",
-      "side": "Yes",
-      "sport": "NBA",
-      "game": "Charlotte Hornets @ Washington Wizards",
-      "startsAt": "2026-10-30T23:00Z",
-      "pick": "Charlotte Hornets to win",
-      "risk": "Close call",
-      "riskNote": null,
-      "madeBy": "our AI models",
-      "generatedAt": "2026-10-30T13:01:21.918Z",
-      "lockedAt": "2026-10-30T13:01:23.392Z",
-      "quoteAsOf": "2026-10-30T13:01:23.390Z",
-      "oddsAtLock": "+100",
-      "marketChanceAtLockPercent": 48,
-      "aiChancePercent": 58,
-      "edgePoints": 7.3,
-      "why": "Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
-      "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26oct30chawas",
-      "result": null,
-      "settlementNote": null,
-      "rulesUrl": null,
-      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-10-30-nba-401909277/",
-      "sitePublishedAt": "2026-10-30T13:30:06.603Z"
-    }
-  ],
+  "sportsNote": "Our AI models looked at today’s games and found none worth picking.",
+  "sportsPicks": [],
   "links": {
     "board": "https://www.runitbet.com/",
     "sportsPicks": "https://www.runitbet.com/?tab=sports",
@@ -102,8 +48,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-10-30-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-10-30T14:30:25.993Z"
+    "id": "snapshot-2026-10-31-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-10-31T13:30:08.731Z"
   }
 }
