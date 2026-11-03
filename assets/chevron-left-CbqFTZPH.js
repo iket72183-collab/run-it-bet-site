@@ -1,0 +1,1 @@
+import{E as e}from"./index-DSCi-44Z.js";var t={name:`chevron-left`,size:24,node:[[`path`,{d:`m15 18-6-6 6-6`,key:`1wnfg3`}]]};t.node;var n=e(t);export{n as t};
