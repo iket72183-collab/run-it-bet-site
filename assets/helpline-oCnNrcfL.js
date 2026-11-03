@@ -1,0 +1,1 @@
+var e=`1-800-MY-RESET`,t=`1-800-697-3738`,n=`tel:18006973738`,r=`https://www.ncpgambling.org/help-treatment/chat/`,i=`We don’t take bets, hold money, or get paid for picks. We never see your sportsbook or Kalshi account.`;export{i as a,n as i,r as n,t as r,e as t};

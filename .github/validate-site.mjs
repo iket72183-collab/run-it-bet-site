@@ -244,6 +244,26 @@ function checkPublishedHtml(dir, ctx, errors) {
         && s.articleBody === [pick.why, ...(pick.reasoning || [])].filter(Boolean).join('\n'))) errors.push(`${rel}: article schema differs from published analysis`);
   }
   for (const rel of ctx.files) if (rel.endsWith('.html')) {
+    const decode = value => value?.replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+    // Presentation data may omit unused fields, but cannot invent or alter a public value.
+    const subset = (small, large) => {
+      if (Array.isArray(small)) return Array.isArray(large) && small.length === large.length && small.every((value, i) => subset(value, large[i]));
+      if (small && typeof small === 'object') return large && typeof large === 'object' && Object.entries(small).every(([key, value]) => subset(value, large[key]));
+      return small === large;
+    };
+    const embedded = read(rel).match(/<template id="published-board">([\s\S]*?)<\/template>/)?.[1];
+    try {
+      const data = JSON.parse(decode(embedded));
+      if (!subset(data, board) || JSON.stringify(data.snapshot) !== JSON.stringify(board.snapshot)
+          || !['sports', 'kalshi'].every(key => Array.isArray(data[key]?.picks) && data[key].picks.length === (board[key]?.picks || []).length)) errors.push(`${rel}: embedded publication differs from board JSON`);
+      checkJsonValue(data, `${rel} embedded board`, ctx, errors);
+      const id = rel.match(/^pick\/([^/]+)\/index\.html$/)?.[1];
+      if (id && picks.has(id)) {
+        const pick = JSON.parse(decode(read(rel).match(/<template id="published-pick">([\s\S]*?)<\/template>/)?.[1]));
+        if (pick.id !== id || !subset(pick, picks.get(id))) errors.push(`${rel}: embedded pick differs from public receipt`);
+        checkJsonValue(pick, `${rel} embedded pick`, ctx, errors);
+      }
+    } catch { errors.push(`${rel}: missing or invalid embedded publication`); }
     for (const m of read(rel).matchAll(/href="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
       const target = m[1].slice(1);
       if (!ctx.files.has(target) && !ctx.files.has(`${target}${target && !target.endsWith('/') ? '/' : ''}index.html`)) errors.push(`${rel}: missing internal link ${m[1]}`);
