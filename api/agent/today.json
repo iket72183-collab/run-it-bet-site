@@ -3,19 +3,19 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), with the research and the math already done.",
-  "day": "2026-11-02",
+  "day": "2026-11-03",
   "status": "locked",
-  "lockedAt": "2026-11-02T14:08:08.217Z",
-  "nextLockAt": "2026-11-03T14:00:00.000Z",
+  "lockedAt": "2026-11-03T14:03:04.888Z",
+  "nextLockAt": "2026-11-04T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
-  "hasPicks": false,
-  "briefing": "Run It Bet found no pick worth making today (Monday, Nov 2). Passing is part of the plan.",
+  "hasPicks": true,
+  "briefing": "Run It Bet picks for Tuesday, Nov 3, locked 8:03 AM Central. Kalshi picks (1):\n1) Highest temperature in San Antonio on Nov 3, 2026: No: 82° or above (Bold call, 80¢; our AI 95% vs market 80%, edge +13.9 after fee)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nEvery pick can lose. Full details: https://www.runitbet.com/\n\nAI sports picks (1):\n1) NHL: Edmonton Oilers to win, Edmonton Oilers @ New Jersey Devils at 6:30 PM Central (Close call, +130; our AI 53% vs market 42%, edge +9.3 after fee)\nEvery pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-11-02T15:30:04.449Z",
+    "status": "pending",
+    "lockedAt": null,
     "hasPicks": false,
     "briefing": null
   },
@@ -36,10 +36,64 @@
     "Fetch at most four times a day: once after 8:40 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
     "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
   ],
-  "picks": [],
+  "picks": [
+    {
+      "pickId": "pub-2026-11-03-KXHIGHTSATX-26NOV03-T81-No",
+      "ticker": "KXHIGHTSATX-26NOV03-T81",
+      "question": "Highest temperature in San Antonio on Nov 3, 2026?",
+      "pick": "No: 82° or above",
+      "side": "No",
+      "category": "WEATHER",
+      "region": "TX",
+      "check": "morning",
+      "risk": "Bold call",
+      "riskNote": "Bold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.",
+      "madeBy": "our AI models",
+      "generatedAt": "2026-11-03T14:03:04.708Z",
+      "lockedAt": "2026-11-03T14:03:04.888Z",
+      "quoteAsOf": "2026-11-03T14:03:04.885Z",
+      "priceAtLockCents": 80,
+      "aiChancePercent": 95,
+      "edgePoints": 13.9,
+      "marketStatus": "active",
+      "result": null,
+      "closesAt": "2026-11-04T07:00:00Z",
+      "why": "Our AI models' read of the National Weather Service forecast near San Antonio International.",
+      "kalshiUrl": "https://kalshi.com/markets/kxhightsatx/market/kxhightsatx-26nov03",
+      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-11-03-KXHIGHTSATX-26NOV03-T81-No/",
+      "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+    }
+  ],
   "sportsStatus": "locked",
-  "sportsNote": "Our screen found no game where the facts disagree with the price today.",
-  "sportsPicks": [],
+  "sportsNote": null,
+  "sportsPicks": [
+    {
+      "pickId": "sp-2026-11-03-nhl-401892636",
+      "ticker": "KXNHLGAME-26NOV03EDMNJ-EDM",
+      "side": "Yes",
+      "sport": "NHL",
+      "game": "Edmonton Oilers @ New Jersey Devils",
+      "startsAt": "2026-11-04T00:30Z",
+      "pick": "Edmonton Oilers to win",
+      "risk": "Close call",
+      "riskNote": null,
+      "madeBy": "our AI models",
+      "generatedAt": "2026-11-03T14:01:14.677Z",
+      "lockedAt": "2026-11-03T14:01:16.327Z",
+      "quoteAsOf": "2026-11-03T14:01:16.326Z",
+      "oddsAtLock": "+130",
+      "marketChanceAtLockPercent": 42,
+      "aiChancePercent": 53,
+      "edgePoints": 9.3,
+      "why": "Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+      "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov03edmnj",
+      "result": null,
+      "settlementNote": null,
+      "rulesUrl": null,
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-11-03-nhl-401892636/",
+      "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+    }
+  ],
   "links": {
     "board": "https://www.runitbet.com/",
     "sportsPicks": "https://www.runitbet.com/?tab=sports",
@@ -48,8 +102,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-02-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-02T15:30:05.908Z"
+    "id": "snapshot-2026-11-03-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-03T14:30:07.036Z"
   }
 }

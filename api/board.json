@@ -1,31 +1,193 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-02",
-    "lockedAt": 1793628003987,
+    "day": "2026-11-03",
+    "lockedAt": 1793714476327,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": "Our screen found no game where the facts disagree with the price today.",
-    "picks": []
+    "reason": null,
+    "picks": [
+      {
+        "id": "sp-2026-11-03-nhl-401892636",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NHL",
+        "gameId": "401892636",
+        "event": "Edmonton Oilers @ New Jersey Devils",
+        "home": "New Jersey Devils",
+        "away": "Edmonton Oilers",
+        "homeAbbr": "NJ",
+        "awayAbbr": "EDM",
+        "commence": "2026-11-04T00:30Z",
+        "market": "Moneyline",
+        "team": "Edmonton Oilers",
+        "pick": "Edmonton Oilers ML",
+        "odds": "+130",
+        "lockedOdds": 130,
+        "confidence": 42,
+        "aiChance": 53,
+        "edge": 9.3,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+        "research": "ESPN injury report, team records and schedule",
+        "kalshiTicker": "KXNHLGAME-26NOV03EDMNJ-EDM",
+        "kalshiEventTicker": "KXNHLGAME-26NOV03EDMNJ",
+        "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov03edmnj",
+        "kalshiAsk": 42,
+        "reasoning": [
+          "Our AI models' reason: Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+          "Edmonton Oilers: 11-2-2; New Jersey Devils: 9-5-0.",
+          "Removing the bookmaker's cut, the consensus puts Edmonton Oilers's chance near 42%. That is the market's price.",
+          "On Kalshi, Edmonton Oilers's contract cost 42¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 53%. Price: 42¢ plus about 1.7¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 43.7¢ and pays 56.3¢ profit if right. The estimate is our AI's, not a proven chance."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "+130 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "42%"
+          ],
+          [
+            "Kalshi price at lock",
+            "42¢"
+          ],
+          [
+            "Our AI's estimate",
+            "53%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+9.3 pts"
+          ],
+          [
+            "Books compared",
+            "1"
+          ]
+        ],
+        "generatedAt": 1793714474677,
+        "quoteAsOf": 1793714476326,
+        "publishedAt": 1793714476327,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-11-03T14:01:14.677Z",
+          "lockedAt": "2026-11-03T14:01:16.327Z",
+          "quoteAsOf": "2026-11-03T14:01:16.326Z",
+          "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+        }
+      }
+    ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-02",
-    "lockedAt": 1793628488217,
+    "day": "2026-11-03",
+    "lockedAt": 1793714584888,
     "publicationState": "published",
-    "reason": "Our AI models found no researched pick worth making today.",
-    "picks": [],
+    "reason": null,
+    "picks": [
+      {
+        "id": "pub-2026-11-03-KXHIGHTSATX-26NOV03-T81-No",
+        "ticker": "KXHIGHTSATX-26NOV03-T81",
+        "side": "No",
+        "region": "TX",
+        "kind": "kalshi",
+        "source": "kalshi",
+        "live": true,
+        "method": "ai",
+        "research": "National Weather Service forecast",
+        "dataSource": "kalshi",
+        "category": "WEATHER",
+        "title": "Highest temperature in San Antonio on Nov 3, 2026?",
+        "closesAt": "2026-11-04T07:00:00Z",
+        "closes": "2026-11-04T07:00:00.000Z",
+        "pick": "No: 82° or above",
+        "confidence": 80,
+        "risk": "Safe",
+        "expertId": "ai-desk",
+        "url": "https://kalshi.com/markets/kxhightsatx/market/kxhightsatx-26nov03",
+        "why": "Our AI models' read of the National Weather Service forecast near San Antonio International.",
+        "researchSources": [
+          "NWS point forecast near San Antonio International: high 78°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast."
+        ],
+        "reasoning": [
+          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near San Antonio International: high 78°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
+          "Our AI's estimate: 95%. Price: 80¢ plus about 1.1¢ Kalshi fee. Edge: +13.9 points. Each $1 contract costs about 81.1¢ and pays 18.9¢ profit if right. The estimate is our AI's, not a proven chance.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+        ],
+        "stats": [
+          [
+            "Entry quote at lock",
+            "No 80¢"
+          ],
+          [
+            "Market-implied at lock",
+            "80%"
+          ],
+          [
+            "Our AI's estimate",
+            "95%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+13.9 pts"
+          ],
+          [
+            "24h volume",
+            "2,775"
+          ],
+          [
+            "Outcomes",
+            "2"
+          ]
+        ],
+        "aiChance": 95,
+        "judge": {
+          "grounded": 0.54
+        },
+        "entryQuoteFetchedAt": 1793714584885,
+        "generatedAt": 1793714584708,
+        "publishedAt": 1793714584888,
+        "lockedPrice": 80,
+        "priceBasis": "ask",
+        "edge": 13.9,
+        "referenceProbability": 80,
+        "marketOnly": false,
+        "marketStatus": "active",
+        "outcome": null,
+        "times": {
+          "generatedAt": "2026-11-03T14:03:04.708Z",
+          "lockedAt": "2026-11-03T14:03:04.888Z",
+          "quoteAsOf": "2026-11-03T14:03:04.885Z",
+          "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+        }
+      }
+    ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793633404449,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-02-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-02T15:30:05.908Z"
+    "id": "snapshot-2026-11-03-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-03T14:30:07.036Z"
   }
 }

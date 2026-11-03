@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-11-03-nhl-401892636",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NHL",
+  "gameId": "401892636",
+  "event": "Edmonton Oilers @ New Jersey Devils",
+  "home": "New Jersey Devils",
+  "away": "Edmonton Oilers",
+  "homeAbbr": "NJ",
+  "awayAbbr": "EDM",
+  "commence": "2026-11-04T00:30Z",
+  "market": "Moneyline",
+  "team": "Edmonton Oilers",
+  "pick": "Edmonton Oilers ML",
+  "odds": "+130",
+  "lockedOdds": 130,
+  "confidence": 42,
+  "aiChance": 53,
+  "edge": 9.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+  "research": "ESPN injury report, team records and schedule",
+  "kalshiTicker": "KXNHLGAME-26NOV03EDMNJ-EDM",
+  "kalshiEventTicker": "KXNHLGAME-26NOV03EDMNJ",
+  "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov03edmnj",
+  "kalshiAsk": 42,
+  "reasoning": [
+    "Our AI models' reason: Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+    "Edmonton Oilers: 11-2-2; New Jersey Devils: 9-5-0.",
+    "Removing the bookmaker's cut, the consensus puts Edmonton Oilers's chance near 42%. That is the market's price.",
+    "On Kalshi, Edmonton Oilers's contract cost 42¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 53%. Price: 42¢ plus about 1.7¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 43.7¢ and pays 56.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+130 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "42%"
+    ],
+    [
+      "Kalshi price at lock",
+      "42¢"
+    ],
+    [
+      "Our AI's estimate",
+      "53%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+9.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1793714474677,
+  "quoteAsOf": 1793714476326,
+  "publishedAt": 1793714476327,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-03T14:01:14.677Z",
+    "lockedAt": "2026-11-03T14:01:16.327Z",
+    "quoteAsOf": "2026-11-03T14:01:16.326Z",
+    "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+  }
+}
