@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-11-04-nhl-401892646",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NHL",
+  "gameId": "401892646",
+  "event": "San Jose Sharks @ Los Angeles Kings",
+  "home": "Los Angeles Kings",
+  "away": "San Jose Sharks",
+  "homeAbbr": "LA",
+  "awayAbbr": "SJ",
+  "commence": "2026-11-05T03:00Z",
+  "market": "Moneyline",
+  "team": "San Jose Sharks",
+  "pick": "San Jose Sharks ML",
+  "odds": "+130",
+  "lockedOdds": 130,
+  "confidence": 42,
+  "aiChance": 48,
+  "edge": 5.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Sharks hold a much better overall record and are 4-3-1 on the road, while the Kings are just 1-4 at home this season. San Jose's road form and Los Angeles's home struggles make the underdog look undervalued.",
+  "research": "ESPN injury report, team records and schedule",
+  "kalshiTicker": "KXNHLGAME-26NOV04SJLA-SJ",
+  "kalshiEventTicker": "KXNHLGAME-26NOV04SJLA",
+  "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov04sjla",
+  "kalshiAsk": 41,
+  "reasoning": [
+    "Our AI models' reason: The Sharks hold a much better overall record and are 4-3-1 on the road, while the Kings are just 1-4 at home this season. San Jose's road form and Los Angeles's home struggles make the underdog look undervalued.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+    "San Jose Sharks: 7-8-1; Los Angeles Kings: 4-7-2.",
+    "Removing the bookmaker's cut, the consensus puts San Jose Sharks's chance near 42%. That is the market's price.",
+    "On Kalshi, San Jose Sharks's contract cost 41¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 48%. Price: 41¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 42.7¢ and pays 57.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+130 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "42%"
+    ],
+    [
+      "Kalshi price at lock",
+      "41¢"
+    ],
+    [
+      "Our AI's estimate",
+      "48%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+5.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1793801087943,
+  "quoteAsOf": 1793801089217,
+  "publishedAt": 1793801089217,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-04T14:04:47.943Z",
+    "lockedAt": "2026-11-04T14:04:49.217Z",
+    "quoteAsOf": "2026-11-04T14:04:49.217Z",
+    "sitePublishedAt": "2026-11-04T14:30:07.148Z"
+  }
+}

@@ -1,49 +1,131 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-03",
-    "lockedAt": 1793714476327,
+    "day": "2026-11-04",
+    "lockedAt": 1793801089217,
     "publicationState": "published",
     "aiDesk": true,
     "reason": null,
     "picks": [
       {
-        "id": "sp-2026-11-03-nhl-401892636",
+        "id": "sp-2026-11-04-nba-401909925",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NBA",
+        "gameId": "401909925",
+        "event": "Charlotte Hornets @ Brooklyn Nets",
+        "home": "Brooklyn Nets",
+        "away": "Charlotte Hornets",
+        "homeAbbr": "BKN",
+        "awayAbbr": "CHA",
+        "commence": "2026-11-05T00:30Z",
+        "market": "Moneyline",
+        "team": "Charlotte Hornets",
+        "pick": "Charlotte Hornets ML",
+        "odds": "-162",
+        "lockedOdds": -162,
+        "confidence": 59,
+        "aiChance": 70,
+        "edge": 7.3,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "The Nets are 1-6 overall and 0-3 at home, making them one of the league's weakest teams, while the Hornets are clearly the better side despite playing on the road. Brooklyn's home struggles are a real factor the price underweights.",
+        "research": "ESPN injury report, team records and schedule",
+        "kalshiTicker": "KXNBAGAME-26NOV04CHABKN-CHA",
+        "kalshiEventTicker": "KXNBAGAME-26NOV04CHABKN",
+        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov04chabkn",
+        "kalshiAsk": 61,
+        "reasoning": [
+          "Our AI models' reason: The Nets are 1-6 overall and 0-3 at home, making them one of the league's weakest teams, while the Hornets are clearly the better side despite playing on the road. Brooklyn's home struggles are a real factor the price underweights.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+          "Charlotte Hornets: 3-5; Brooklyn Nets: 1-6.",
+          "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 59%. That is the market's price.",
+          "On Kalshi, Charlotte Hornets's contract cost 61¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 70%. Price: 61¢ plus about 1.7¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 62.7¢ and pays 37.3¢ profit if right. The estimate is our AI's, not a proven chance."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "-162 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "59%"
+          ],
+          [
+            "Kalshi price at lock",
+            "61¢"
+          ],
+          [
+            "Our AI's estimate",
+            "70%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+7.3 pts"
+          ],
+          [
+            "Books compared",
+            "1"
+          ]
+        ],
+        "generatedAt": 1793801087943,
+        "quoteAsOf": 1793801089217,
+        "publishedAt": 1793801089217,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-11-04T14:04:47.943Z",
+          "lockedAt": "2026-11-04T14:04:49.217Z",
+          "quoteAsOf": "2026-11-04T14:04:49.217Z",
+          "sitePublishedAt": "2026-11-04T14:30:07.148Z"
+        }
+      },
+      {
+        "id": "sp-2026-11-04-nhl-401892646",
         "kind": "sports",
         "source": "sportsbook",
         "live": true,
         "method": "ai",
         "sport": "NHL",
-        "gameId": "401892636",
-        "event": "Edmonton Oilers @ New Jersey Devils",
-        "home": "New Jersey Devils",
-        "away": "Edmonton Oilers",
-        "homeAbbr": "NJ",
-        "awayAbbr": "EDM",
-        "commence": "2026-11-04T00:30Z",
+        "gameId": "401892646",
+        "event": "San Jose Sharks @ Los Angeles Kings",
+        "home": "Los Angeles Kings",
+        "away": "San Jose Sharks",
+        "homeAbbr": "LA",
+        "awayAbbr": "SJ",
+        "commence": "2026-11-05T03:00Z",
         "market": "Moneyline",
-        "team": "Edmonton Oilers",
-        "pick": "Edmonton Oilers ML",
+        "team": "San Jose Sharks",
+        "pick": "San Jose Sharks ML",
         "odds": "+130",
         "lockedOdds": 130,
         "confidence": 42,
-        "aiChance": 53,
-        "edge": 9.3,
+        "aiChance": 48,
+        "edge": 5.3,
         "risk": "Value",
         "expertId": "ai-desk",
-        "why": "Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+        "why": "The Sharks hold a much better overall record and are 4-3-1 on the road, while the Kings are just 1-4 at home this season. San Jose's road form and Los Angeles's home struggles make the underdog look undervalued.",
         "research": "ESPN injury report, team records and schedule",
-        "kalshiTicker": "KXNHLGAME-26NOV03EDMNJ-EDM",
-        "kalshiEventTicker": "KXNHLGAME-26NOV03EDMNJ",
-        "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov03edmnj",
-        "kalshiAsk": 42,
+        "kalshiTicker": "KXNHLGAME-26NOV04SJLA-SJ",
+        "kalshiEventTicker": "KXNHLGAME-26NOV04SJLA",
+        "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov04sjla",
+        "kalshiAsk": 41,
         "reasoning": [
-          "Our AI models' reason: Edmonton is a perfect 7-0-0 on the road this season, and both teams come in rested. The Devils have a couple of day-to-day injury concerns (Mantha didn't finish Friday's game, Rodrigues is questionable with illness) that could thin their forward group.",
+          "Our AI models' reason: The Sharks hold a much better overall record and are 4-3-1 on the road, while the Kings are just 1-4 at home this season. San Jose's road form and Los Angeles's home struggles make the underdog look undervalued.",
           "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
-          "Edmonton Oilers: 11-2-2; New Jersey Devils: 9-5-0.",
-          "Removing the bookmaker's cut, the consensus puts Edmonton Oilers's chance near 42%. That is the market's price.",
-          "On Kalshi, Edmonton Oilers's contract cost 42¢ at the lock; the edge below uses that price.",
-          "Our AI's estimate: 53%. Price: 42¢ plus about 1.7¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 43.7¢ and pays 56.3¢ profit if right. The estimate is our AI's, not a proven chance."
+          "San Jose Sharks: 7-8-1; Los Angeles Kings: 4-7-2.",
+          "Removing the bookmaker's cut, the consensus puts San Jose Sharks's chance near 42%. That is the market's price.",
+          "On Kalshi, San Jose Sharks's contract cost 41¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 48%. Price: 41¢ plus about 1.7¢ Kalshi fee. Edge: +5.3 points. Each $1 contract costs about 42.7¢ and pays 57.3¢ profit if right. The estimate is our AI's, not a proven chance."
         ],
         "stats": [
           [
@@ -56,24 +138,24 @@
           ],
           [
             "Kalshi price at lock",
-            "42¢"
+            "41¢"
           ],
           [
             "Our AI's estimate",
-            "53%"
+            "48%"
           ],
           [
             "Edge after Kalshi fee",
-            "+9.3 pts"
+            "+5.3 pts"
           ],
           [
             "Books compared",
             "1"
           ]
         ],
-        "generatedAt": 1793714474677,
-        "quoteAsOf": 1793714476326,
-        "publishedAt": 1793714476327,
+        "generatedAt": 1793801087943,
+        "quoteAsOf": 1793801089217,
+        "publishedAt": 1793801089217,
         "started": false,
         "outcome": null,
         "marketStatus": "pending",
@@ -83,111 +165,32 @@
         "units": 0,
         "pending": false,
         "times": {
-          "generatedAt": "2026-11-03T14:01:14.677Z",
-          "lockedAt": "2026-11-03T14:01:16.327Z",
-          "quoteAsOf": "2026-11-03T14:01:16.326Z",
-          "sitePublishedAt": "2026-11-03T14:30:07.036Z"
+          "generatedAt": "2026-11-04T14:04:47.943Z",
+          "lockedAt": "2026-11-04T14:04:49.217Z",
+          "quoteAsOf": "2026-11-04T14:04:49.217Z",
+          "sitePublishedAt": "2026-11-04T14:30:07.148Z"
         }
       }
     ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-03",
-    "lockedAt": 1793714584888,
+    "day": "2026-11-04",
+    "lockedAt": 1793801059701,
     "publicationState": "published",
-    "reason": null,
-    "picks": [
-      {
-        "id": "pub-2026-11-03-KXHIGHTSATX-26NOV03-T81-No",
-        "ticker": "KXHIGHTSATX-26NOV03-T81",
-        "side": "No",
-        "region": "TX",
-        "kind": "kalshi",
-        "source": "kalshi",
-        "live": true,
-        "method": "ai",
-        "research": "National Weather Service forecast",
-        "dataSource": "kalshi",
-        "category": "WEATHER",
-        "title": "Highest temperature in San Antonio on Nov 3, 2026?",
-        "closesAt": "2026-11-04T07:00:00Z",
-        "closes": "2026-11-04T07:00:00.000Z",
-        "pick": "No: 82° or above",
-        "confidence": 80,
-        "risk": "Safe",
-        "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxhightsatx/market/kxhightsatx-26nov03",
-        "why": "Our AI models' read of the National Weather Service forecast near San Antonio International.",
-        "researchSources": [
-          "NWS point forecast near San Antonio International: high 78°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast."
-        ],
-        "reasoning": [
-          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near San Antonio International: high 78°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
-          "Our AI's estimate: 95%. Price: 80¢ plus about 1.1¢ Kalshi fee. Edge: +13.9 points. Each $1 contract costs about 81.1¢ and pays 18.9¢ profit if right. The estimate is our AI's, not a proven chance.",
-          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
-        ],
-        "stats": [
-          [
-            "Entry quote at lock",
-            "No 80¢"
-          ],
-          [
-            "Market-implied at lock",
-            "80%"
-          ],
-          [
-            "Our AI's estimate",
-            "95%"
-          ],
-          [
-            "Edge after Kalshi fee",
-            "+13.9 pts"
-          ],
-          [
-            "24h volume",
-            "2,775"
-          ],
-          [
-            "Outcomes",
-            "2"
-          ]
-        ],
-        "aiChance": 95,
-        "judge": {
-          "grounded": 0.54
-        },
-        "entryQuoteFetchedAt": 1793714584885,
-        "generatedAt": 1793714584708,
-        "publishedAt": 1793714584888,
-        "lockedPrice": 80,
-        "priceBasis": "ask",
-        "edge": 13.9,
-        "referenceProbability": 80,
-        "marketOnly": false,
-        "marketStatus": "active",
-        "outcome": null,
-        "times": {
-          "generatedAt": "2026-11-03T14:03:04.708Z",
-          "lockedAt": "2026-11-03T14:03:04.888Z",
-          "quoteAsOf": "2026-11-03T14:03:04.885Z",
-          "sitePublishedAt": "2026-11-03T14:30:07.036Z"
-        }
-      }
-    ],
+    "reason": "Our AI models found no researched pick worth making today. Texas low temperatures get their own check at 9:30 AM.",
+    "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793719809162,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-03-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-03T15:30:17.739Z"
+    "id": "snapshot-2026-11-04-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-04T14:30:07.148Z"
   }
 }

@@ -1,0 +1,82 @@
+{
+  "id": "sp-2026-11-04-nba-401909925",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401909925",
+  "event": "Charlotte Hornets @ Brooklyn Nets",
+  "home": "Brooklyn Nets",
+  "away": "Charlotte Hornets",
+  "homeAbbr": "BKN",
+  "awayAbbr": "CHA",
+  "commence": "2026-11-05T00:30Z",
+  "market": "Moneyline",
+  "team": "Charlotte Hornets",
+  "pick": "Charlotte Hornets ML",
+  "odds": "-162",
+  "lockedOdds": -162,
+  "confidence": 59,
+  "aiChance": 70,
+  "edge": 7.3,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Nets are 1-6 overall and 0-3 at home, making them one of the league's weakest teams, while the Hornets are clearly the better side despite playing on the road. Brooklyn's home struggles are a real factor the price underweights.",
+  "research": "ESPN injury report, team records and schedule",
+  "kalshiTicker": "KXNBAGAME-26NOV04CHABKN-CHA",
+  "kalshiEventTicker": "KXNBAGAME-26NOV04CHABKN",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov04chabkn",
+  "kalshiAsk": 61,
+  "reasoning": [
+    "Our AI models' reason: The Nets are 1-6 overall and 0-3 at home, making them one of the league's weakest teams, while the Hornets are clearly the better side despite playing on the road. Brooklyn's home struggles are a real factor the price underweights.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
+    "Charlotte Hornets: 3-5; Brooklyn Nets: 1-6.",
+    "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 59%. That is the market's price.",
+    "On Kalshi, Charlotte Hornets's contract cost 61¢ at the lock; the edge below uses that price.",
+    "Our AI's estimate: 70%. Price: 61¢ plus about 1.7¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 62.7¢ and pays 37.3¢ profit if right. The estimate is our AI's, not a proven chance."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-162 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "59%"
+    ],
+    [
+      "Kalshi price at lock",
+      "61¢"
+    ],
+    [
+      "Our AI's estimate",
+      "70%"
+    ],
+    [
+      "Edge after Kalshi fee",
+      "+7.3 pts"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1793801087943,
+  "quoteAsOf": 1793801089217,
+  "publishedAt": 1793801089217,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-04T14:04:47.943Z",
+    "lockedAt": "2026-11-04T14:04:49.217Z",
+    "quoteAsOf": "2026-11-04T14:04:49.217Z",
+    "sitePublishedAt": "2026-11-04T14:30:07.148Z"
+  }
+}
