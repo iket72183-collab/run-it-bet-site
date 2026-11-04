@@ -178,19 +178,19 @@
     "day": "2026-11-04",
     "lockedAt": 1793801059701,
     "publicationState": "published",
-    "reason": "Our AI models found no researched pick worth making today. Texas low temperatures get their own check at 9:30 AM.",
+    "reason": "Our AI models found no researched pick worth making today.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
+      "state": "published",
+      "lockedAt": 1793806293140,
       "picks": 0,
-      "reason": null
+      "reason": "Our AI models found no researched pick worth making today."
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-04-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-04T14:30:07.148Z"
+    "id": "snapshot-2026-11-04-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-04T15:31:37.774Z"
   }
 }
