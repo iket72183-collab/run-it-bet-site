@@ -3,19 +3,19 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), with the research and the math already done.",
-  "day": "2026-11-05",
+  "day": "2026-11-06",
   "status": "locked",
-  "lockedAt": "2026-11-05T14:04:16.721Z",
-  "nextLockAt": "2026-11-06T14:00:00.000Z",
+  "lockedAt": "2026-11-06T14:02:35.333Z",
+  "nextLockAt": "2026-11-07T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
   "hasPicks": false,
-  "briefing": "Run It Bet found no pick worth making today (Thursday, Nov 5). Passing is part of the plan.",
+  "briefing": "Run It Bet found no pick worth making today (Friday, Nov 6). Passing is part of the plan.",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-11-05T15:31:31.157Z",
+    "status": "pending",
+    "lockedAt": null,
     "hasPicks": false,
     "briefing": null
   },
@@ -38,7 +38,7 @@
   ],
   "picks": [],
   "sportsStatus": "locked",
-  "sportsNote": "Our screen found no game where the facts disagree with the price today.",
+  "sportsNote": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
   "sportsPicks": [],
   "links": {
     "board": "https://www.runitbet.com/",
@@ -48,8 +48,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-05-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-05T15:31:36.500Z"
+    "id": "snapshot-2026-11-06-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-06T14:30:04.582Z"
   }
 }
