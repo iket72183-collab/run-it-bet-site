@@ -1,31 +1,114 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-06",
-    "lockedAt": 1793973693410,
+    "day": "2026-11-07",
+    "lockedAt": 1794060231209,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
-    "picks": []
+    "reason": null,
+    "picks": [
+      {
+        "id": "sp-2026-11-07-ncaaf-401858291",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NCAAF",
+        "gameId": "401858291",
+        "event": "Miami Hurricanes @ Notre Dame Fighting Irish",
+        "home": "Notre Dame Fighting Irish",
+        "away": "Miami Hurricanes",
+        "homeAbbr": "ND",
+        "awayAbbr": "MIA",
+        "commence": "2026-11-08T00:30Z",
+        "market": "Moneyline",
+        "team": "Miami Hurricanes",
+        "pick": "Miami Hurricanes ML",
+        "odds": "+225",
+        "lockedOdds": 225,
+        "confidence": 30,
+        "aiChance": 38,
+        "edge": 6.5,
+        "risk": "Risky",
+        "expertId": "ai-desk",
+        "why": "Miami is 8-0 and undefeated, yet the market has them as a heavy underdog at Notre Dame. The Hurricanes' perfect record looks underrated against a 7-1 home team.",
+        "research": "ESPN injury report, team records and schedule; National Weather Service game-time forecast",
+        "kalshiTicker": "KXNCAAFGAME-26NOV07MIAND-MIA",
+        "kalshiEventTicker": "KXNCAAFGAME-26NOV07MIAND",
+        "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov07miand",
+        "kalshiAsk": 30,
+        "reasoning": [
+          "Our AI models' reason: Miami is 8-0 and undefeated, yet the market has them as a heavy underdog at Notre Dame. The Hurricanes' perfect record looks underrated against a 7-1 home team.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records, and the National Weather Service forecast for the stadium.",
+          "Miami Hurricanes: 8-0; Notre Dame Fighting Irish: 7-1.",
+          "Removing the bookmaker's cut, the 4-book consensus puts Miami Hurricanes's chance near 30%. That is the market's price.",
+          "On Kalshi, Miami Hurricanes's contract cost 30¢ at the lock; the edge below uses that price.",
+          "Our AI's estimate: 38%. Price: 30¢ plus about 1.5¢ Kalshi fee. Edge: +6.5 points. Each $1 contract costs about 31.5¢ and pays 68.5¢ profit if right. The estimate is our AI's, not a proven chance."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "+225 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "30%"
+          ],
+          [
+            "Kalshi price at lock",
+            "30¢"
+          ],
+          [
+            "Our AI's estimate",
+            "38%"
+          ],
+          [
+            "Edge after Kalshi fee",
+            "+6.5 pts"
+          ],
+          [
+            "Books compared",
+            "4"
+          ]
+        ],
+        "generatedAt": 1794060229205,
+        "quoteAsOf": 1794060231209,
+        "publishedAt": 1794060231209,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-11-07T14:03:49.205Z",
+          "lockedAt": "2026-11-07T14:03:51.209Z",
+          "quoteAsOf": "2026-11-07T14:03:51.209Z",
+          "sitePublishedAt": "2026-11-07T14:30:07.114Z"
+        }
+      }
+    ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-06",
-    "lockedAt": 1793973755333,
+    "day": "2026-11-07",
+    "lockedAt": 1794060165185,
     "publicationState": "published",
-    "reason": "Our AI models found no researched pick worth making today.",
+    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t. Texas low temperatures get their own check at 9:30 AM.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1793979033097,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-06-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-06T15:30:36.916Z"
+    "id": "snapshot-2026-11-07-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-07T14:30:07.114Z"
   }
 }

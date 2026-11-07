@@ -61,7 +61,7 @@ const RULES_HOSTS = new Set(['assets.kalshi.com', 'kalshi.com']);
 const MARKET_HOSTS = new Set(['kalshi.com']);
 const DATA_LINK_HOSTS = new Set(['kalshi.com', 'assets.kalshi.com']);
 // Hosts the HTML shell may reference (fonts, structured data, footer links).
-const HTML_LINK_HOSTS = new Set(['fonts.googleapis.com', 'fonts.gstatic.com', 'bdttalentgroup.com', 'x.com', 'schema.org']);
+const HTML_LINK_HOSTS = new Set(['fonts.googleapis.com', 'fonts.gstatic.com', 'bdttalentgroup.com', 'x.com', 'schema.org', 'help.kalshi.com', 'robinhood.com', 'www.ncpgambling.org', 'www.gamblersanonymous.org', 'gam-anon.org']);
 // Public JSON must never carry these (server/publicJson.js strips them).
 const PRIVATE_KEYS = new Set(['lateRun', 'model', 'host', 'usage', 'trackRecord', 'trackRecords', 'worstMiss', 'worstMissPct', 'rating']);
 
@@ -211,6 +211,9 @@ function checkPublishedHtml(dir, ctx, errors) {
     if (!html.includes(`data-snapshot-id="${escape(board.snapshot.id)}"`) || !html.includes(`datetime="${escape(feed.day)}"`)
         || !html.includes(`datetime="${escape(board.snapshot.sitePublishedAt)}"`)) errors.push(`${rel}: missing or stale published HTML`);
   }
+  for (const [page, heading] of [['how-we-pick', 'How It Works'], ['legal', 'Legal Terms &amp; Privacy'], ['responsible-gaming', 'Responsible Gaming']]) {
+    if (!body(`${page}/index.html`).includes(heading)) errors.push(`${page}/index.html: missing readable page content`);
+  }
   const current = [board.sports?.picks, board.kalshi?.picks, board.kalshi?.latePicks].flatMap((p) => Array.isArray(p) ? p : []).filter((p) => !p.priceOnly);
   const picks = new Map();
   for (const rel of ctx.files) if (/^api\/archive\/.*\.json$/.test(rel)) {
@@ -227,11 +230,14 @@ function checkPublishedHtml(dir, ctx, errors) {
     const rel = `${route.slice(1)}index.html`;
     const html = body(rel);
     if (!html.includes(`data-pick-id="${escape(pick.id)}"`)) errors.push(`${rel}: missing published pick HTML`);
-    for (const text of [pick.pick, pick.why, ...(pick.reasoning || []), ...(pick.stats || []).flat()]) {
+    if (/Our AI&#39;s estimate|Edge after/.test(html)) errors.push(`${rel}: shows the hidden AI estimate or edge`);
+    // Same rule as src/lib/pickDisplay.js; this file runs alone in the site repo, so it can't import it.
+    const reasoning = (pick.reasoning || []).filter((line) => !/^Our AI's estimate:/.test(line)).map((line) => line.replace(/; the edge below uses that price\.$/, '.'));
+    const stats = (pick.stats || []).filter(([label]) => !['Our AI\'s estimate', 'Edge after Kalshi fee'].includes(label));
+    for (const text of [pick.pick, pick.why, ...reasoning, ...stats.flat()]) {
       if (text != null && !html.includes(escape(text))) errors.push(`${rel}: published explanation or statistic differs from JSON`);
     }
-    const values = [Number.isFinite(pick.aiChance) ? `${pick.aiChance}%` : null,
-      Number.isFinite(pick.confidence) ? `${pick.confidence}%` : null,
+    const values = [Number.isFinite(pick.confidence) ? `${pick.confidence}%` : null,
       Number.isFinite(pick.kind === 'kalshi' ? pick.lockedPrice : pick.kalshiAsk) ? `${pick.kind === 'kalshi' ? pick.lockedPrice : pick.kalshiAsk}¢` : null, pick.odds];
     for (const value of values) if (value != null && !html.includes(escape(value))) errors.push(`${rel}: publication price or probability differs from JSON`);
     for (const value of Object.values(pick.times || {})) if (value && !html.includes(`datetime="${escape(value)}"`)) errors.push(`${rel}: recorded timestamp differs from JSON`);
