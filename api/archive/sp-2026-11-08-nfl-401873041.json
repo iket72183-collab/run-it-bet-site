@@ -71,5 +71,11 @@
     "lockedAt": "2026-11-08T14:02:19.265Z",
     "quoteAsOf": "2026-11-08T14:02:19.259Z",
     "sitePublishedAt": "2026-11-08T14:30:06.149Z"
-  }
+  },
+  "corrections": [
+    {
+      "at": "2026-11-08T15:28:00.000Z",
+      "text": "The \"record against winning teams\" numbers counted each opponent by its record after that game was played. By opponents' current records, Carolina is 1-3 against winning teams (not 0-3) and Denver is 2-2 (not 1-2). The pick and price are unchanged."
+    }
+  ]
 }

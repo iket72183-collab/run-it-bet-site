@@ -10,14 +10,14 @@
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
   "hasPicks": true,
-  "briefing": "AI sports picks (2):\n1) NFL: New York Giants to win, New York Giants @ Philadelphia Eagles at 12:00 PM Central (Close call, -160)\n2) NFL: Denver Broncos to win, Denver Broncos @ Carolina Panthers at 12:00 PM Central (Close call, -142)\nOur AI’s research, shared for fun. Use caution: do your own research or just enjoy the games. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/?tab=sports",
+  "briefing": "Run It Bet picks for Sunday, Nov 8, locked 8:01 AM Central. Kalshi picks (1):\n1) Lowest temperature in Dallas on Nov 9, 2026: No: 55° or above (Bold call, 71¢)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/\n\nAI sports picks (2):\n1) NFL: New York Giants to win, New York Giants @ Philadelphia Eagles at 12:00 PM Central (Close call, -160)\n2) NFL: Denver Broncos to win, Denver Broncos @ Carolina Panthers at 12:00 PM Central (Close call, -142)\nOur AI’s research, shared for fun. Use caution: do your own research or just enjoy the games. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "pending",
-    "lockedAt": null,
-    "hasPicks": false,
-    "briefing": null
+    "status": "locked",
+    "lockedAt": "2026-11-08T15:31:18.345Z",
+    "hasPicks": true,
+    "briefing": "Run It Bet Texas lows picks (tomorrow's low temperature) for Sunday, Nov 8, locked 9:31 AM Central. Kalshi picks (1):\n1) Lowest temperature in Dallas on Nov 9, 2026: No: 55° or above (Bold call, 71¢)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/"
   },
   "disclaimer": "Run It Bet is informational and for entertainment only. It is our AI's research, shared for fun: a filter for Kalshi and Polymarket markets, not an investment strategy or a way to make money. Use caution and do your own research. It is still gambling. It is not a sportsbook, exchange, broker, or financial adviser, and nothing here is financial, investment, or betting advice. Every pick can lose, even market favorites. Prices are market-implied references, not the true chance of winning. Past results do not predict future results. You make every decision and place every trade yourself. 18+ only; follow the laws where you live. Only use money you can afford to lose. Gambling problem? Call or text 1-800-MY-RESET.",
   "rulesForAgents": [
@@ -36,7 +36,32 @@
     "Fetch at most four times a day: once after 8:40 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
     "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
   ],
-  "picks": [],
+  "picks": [
+    {
+      "pickId": "pub-2026-11-08-KXLOWTDAL-26NOV09-T54-No",
+      "ticker": "KXLOWTDAL-26NOV09-T54",
+      "question": "Lowest temperature in Dallas on Nov 9, 2026?",
+      "pick": "No: 55° or above",
+      "side": "No",
+      "category": "WEATHER",
+      "region": "TX",
+      "check": "lows",
+      "risk": "Bold call",
+      "riskNote": "Bold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.",
+      "madeBy": "our AI models",
+      "generatedAt": "2026-11-08T15:31:18.159Z",
+      "lockedAt": "2026-11-08T15:31:18.345Z",
+      "quoteAsOf": "2026-11-08T15:31:18.344Z",
+      "priceAtLockCents": 71,
+      "marketStatus": "active",
+      "result": null,
+      "closesAt": "2026-11-10T07:00:00Z",
+      "why": "The National Weather Service forecasts a low around 54°F in Dallas for tonight, which is below the 55° threshold.",
+      "kalshiUrl": "https://kalshi.com/markets/kxlowtdal/market/kxlowtdal-26nov09",
+      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-11-08-KXLOWTDAL-26NOV09-T54-No/",
+      "sitePublishedAt": "2026-11-08T15:31:27.585Z"
+    }
+  ],
   "sportsStatus": "locked",
   "sportsNote": null,
   "sportsPicks": [
@@ -99,8 +124,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-08-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-08T14:30:06.149Z"
+    "id": "snapshot-2026-11-08-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-08T15:31:27.585Z"
   }
 }

@@ -1,0 +1,68 @@
+{
+  "id": "pub-2026-11-08-KXLOWTDAL-26NOV09-T54-No",
+  "ticker": "KXLOWTDAL-26NOV09-T54",
+  "side": "No",
+  "region": "TX",
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Lowest temperature in Dallas on Nov 9, 2026?",
+  "closesAt": "2026-11-10T07:00:00Z",
+  "closes": "2026-11-10T07:00:00.000Z",
+  "pick": "No: 55° or above",
+  "confidence": 71,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxlowtdal/market/kxlowtdal-26nov09",
+  "why": "The National Weather Service forecasts a low around 54°F in Dallas for tonight, which is below the 55° threshold.",
+  "researchSources": [
+    "NWS point forecast near Dallas/Fort Worth: overnight low 54°F. Source: https://api.weather.gov/gridpoints/FWD/80,109/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 9:30 AM Texas lows check, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Dallas/Fort Worth: overnight low 54°F. Source: https://api.weather.gov/gridpoints/FWD/80,109/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 71¢ entry quote at publication, a market-implied reference of about 71%. That is the market's price.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily low can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 71¢"
+    ],
+    [
+      "Market-implied at lock",
+      "71%"
+    ],
+    [
+      "24h volume",
+      "0"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "judge": {
+    "grounded": 0.72
+  },
+  "entryQuoteFetchedAt": 1794151878344,
+  "generatedAt": 1794151878159,
+  "publishedAt": 1794151878345,
+  "lockedPrice": 71,
+  "priceBasis": "ask",
+  "referenceProbability": 71,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-11-08T15:31:18.159Z",
+    "lockedAt": "2026-11-08T15:31:18.345Z",
+    "quoteAsOf": "2026-11-08T15:31:18.344Z",
+    "sitePublishedAt": "2026-11-08T15:31:27.585Z"
+  },
+  "bold": true
+}
