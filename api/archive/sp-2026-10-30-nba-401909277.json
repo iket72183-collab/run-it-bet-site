@@ -18,8 +18,6 @@
   "odds": "+100",
   "lockedOdds": 100,
   "confidence": 48,
-  "aiChance": 58,
-  "edge": 7.3,
   "risk": "Value",
   "expertId": "ai-desk",
   "why": "Charlotte is 3-2 and has been winning even with several guards sidelined, while Washington is just 2-3 and also missing key rotation players like Champagnie and Watkins. The market is treating Charlotte as a slight underdog despite their better record and the Wizards' own injury issues.",
@@ -33,8 +31,7 @@
     "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
     "Charlotte Hornets: 3-2; Washington Wizards: 2-3.",
     "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 48%. That is the market's price.",
-    "On Kalshi, Charlotte Hornets's contract cost 49¢ at the lock; the edge below uses that price.",
-    "Our AI's estimate: 58%. Price: 49¢ plus about 1.8¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 50.8¢ and pays 49.3¢ profit if right. The estimate is our AI's, not a proven chance."
+    "On Kalshi, Charlotte Hornets's contract cost 49¢ at the lock."
   ],
   "stats": [
     [
@@ -48,14 +45,6 @@
     [
       "Kalshi price at lock",
       "49¢"
-    ],
-    [
-      "Our AI's estimate",
-      "58%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+7.3 pts"
     ],
     [
       "Books compared",

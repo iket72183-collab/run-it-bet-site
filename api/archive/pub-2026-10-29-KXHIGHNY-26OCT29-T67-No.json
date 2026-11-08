@@ -26,7 +26,6 @@
     "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
     "NWS point forecast near Central Park: high 69°F. Source: https://api.weather.gov/gridpoints/OKX/34,45/forecast.",
     "A Kalshi contract pays $1 if right. We recorded a 77¢ entry quote at publication, a market-implied reference of about 77%. That is the market's price.",
-    "Our AI's estimate: 85%. Price: 77¢ plus about 1.2¢ Kalshi fee. Edge: +6.8 points. Each $1 contract costs about 78.2¢ and pays 21.8¢ profit if right. The estimate is our AI's, not a proven chance.",
     "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
   ],
   "stats": [
@@ -39,14 +38,6 @@
       "77%"
     ],
     [
-      "Our AI's estimate",
-      "85%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+6.8 pts"
-    ],
-    [
       "24h volume",
       "10,548"
     ],
@@ -55,7 +46,6 @@
       "2"
     ]
   ],
-  "aiChance": 85,
   "judge": {
     "grounded": 0.87
   },
@@ -64,7 +54,6 @@
   "publishedAt": 1793279234428,
   "lockedPrice": 77,
   "priceBasis": "ask",
-  "edge": 6.8,
   "referenceProbability": 77,
   "marketOnly": false,
   "archived": true,

@@ -220,6 +220,14 @@ function checkPublishedHtml(dir, ctx, errors) {
     try { const p = JSON.parse(read(rel)); picks.set(p.id, p); } catch { /* already reported */ }
   }
   current.forEach((p) => picks.set(p.id, p));
+  // The AI's % and "edge" are never public, not even in JSON that people don't see (2026-11-07).
+  const feedPicks = [feed.picks, feed.sportsPicks].flatMap((p) => Array.isArray(p) ? p : []);
+  for (const p of [...picks.values(), ...feedPicks]) {
+    const hidden = 'aiChance' in p || 'edge' in p
+      || (p.reasoning || []).some((line) => /^Our AI's estimate:|the edge below uses/.test(line))
+      || (p.stats || []).some(([label]) => ['Our AI\'s estimate', 'Edge after Kalshi fee'].includes(label));
+    if (hidden) errors.push(`${p.id || p.pickId}: public JSON still has the AI estimate or edge`);
+  }
   const safeId = (id) => typeof id === 'string' && id !== '.' && id !== '..' && /^[A-Za-z0-9._-]+$/.test(id);
   const expectedCurrent = current.map((p) => p.id).sort();
   const actualCurrent = [...body('index.html').matchAll(/data-pick-id="([^"]+)"/g)].map((m) => m[1]).sort();

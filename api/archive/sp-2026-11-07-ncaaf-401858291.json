@@ -18,8 +18,6 @@
   "odds": "+225",
   "lockedOdds": 225,
   "confidence": 30,
-  "aiChance": 38,
-  "edge": 6.5,
   "risk": "Risky",
   "expertId": "ai-desk",
   "why": "Miami is 8-0 and undefeated, yet the market has them as a heavy underdog at Notre Dame. The Hurricanes' perfect record looks underrated against a 7-1 home team.",
@@ -33,8 +31,7 @@
     "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records, and the National Weather Service forecast for the stadium.",
     "Miami Hurricanes: 8-0; Notre Dame Fighting Irish: 7-1.",
     "Removing the bookmaker's cut, the 4-book consensus puts Miami Hurricanes's chance near 30%. That is the market's price.",
-    "On Kalshi, Miami Hurricanes's contract cost 30¢ at the lock; the edge below uses that price.",
-    "Our AI's estimate: 38%. Price: 30¢ plus about 1.5¢ Kalshi fee. Edge: +6.5 points. Each $1 contract costs about 31.5¢ and pays 68.5¢ profit if right. The estimate is our AI's, not a proven chance."
+    "On Kalshi, Miami Hurricanes's contract cost 30¢ at the lock."
   ],
   "stats": [
     [
@@ -48,14 +45,6 @@
     [
       "Kalshi price at lock",
       "30¢"
-    ],
-    [
-      "Our AI's estimate",
-      "38%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+6.5 pts"
     ],
     [
       "Books compared",

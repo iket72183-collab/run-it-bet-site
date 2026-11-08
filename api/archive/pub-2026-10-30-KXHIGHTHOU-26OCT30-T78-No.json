@@ -26,7 +26,6 @@
     "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
     "NWS point forecast near Houston Hobby: high 80°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast.",
     "A Kalshi contract pays $1 if right. We recorded a 74¢ entry quote at publication, a market-implied reference of about 74%. That is the market's price.",
-    "Our AI's estimate: 84%. Price: 74¢ plus about 1.4¢ Kalshi fee. Edge: +8.7 points. Each $1 contract costs about 75.4¢ and pays 24.7¢ profit if right. The estimate is our AI's, not a proven chance.",
     "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
   ],
   "stats": [
@@ -39,14 +38,6 @@
       "74%"
     ],
     [
-      "Our AI's estimate",
-      "84%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+8.7 pts"
-    ],
-    [
       "24h volume",
       "2,624"
     ],
@@ -55,7 +46,6 @@
       "2"
     ]
   ],
-  "aiChance": 84,
   "judge": {
     "grounded": 0.79
   },
@@ -64,7 +54,6 @@
   "publishedAt": 1793365496758,
   "lockedPrice": 74,
   "priceBasis": "ask",
-  "edge": 8.7,
   "referenceProbability": 74,
   "marketOnly": false,
   "archived": true,

@@ -1,0 +1,1 @@
+import{f as e,m as t}from"./jsx-runtime-1zwDZu3H.js";var n=t(e(),1);function r(e=!0){(0,n.useEffect)(()=>{let t=document.querySelector(`meta[name="robots"]`);if(!e||!t)return;let n=t.getAttribute(`content`);return t.setAttribute(`content`,`noindex, follow`),()=>t.setAttribute(`content`,n)},[e])}export{r as t};

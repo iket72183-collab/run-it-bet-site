@@ -18,8 +18,6 @@
   "odds": "-110",
   "lockedOdds": -110,
   "confidence": 50,
-  "aiChance": 63,
-  "edge": 9.3,
   "risk": "Value",
   "expertId": "ai-desk",
   "why": "The Bulls are at home and only missing Claxton, while the Wizards are without Vukcevic, Watkins, and Dybantsa on the second night of a back-to-back.",
@@ -33,8 +31,7 @@
     "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
     "Chicago Bulls: 1-1; Washington Wizards: 1-1.",
     "Removing the bookmaker's cut, the consensus puts Chicago Bulls's chance near 50%. That is the market's price.",
-    "On Kalshi, Chicago Bulls's contract cost 52¢ at the lock; the edge below uses that price.",
-    "Our AI's estimate: 63%. Price: 52¢ plus about 1.8¢ Kalshi fee. Edge: +9.3 points. Each $1 contract costs about 53.8¢ and pays 46.3¢ profit if right. The estimate is our AI's, not a proven chance."
+    "On Kalshi, Chicago Bulls's contract cost 52¢ at the lock."
   ],
   "stats": [
     [
@@ -48,14 +45,6 @@
     [
       "Kalshi price at lock",
       "52¢"
-    ],
-    [
-      "Our AI's estimate",
-      "63%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+9.3 pts"
     ],
     [
       "Books compared",

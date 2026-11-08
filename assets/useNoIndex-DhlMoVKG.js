@@ -1,1 +1,0 @@
-import{h as e,p as t}from"./jsx-runtime-DqMmbbOK.js";var n=e(t(),1);function r(e=!0){(0,n.useEffect)(()=>{let t=document.querySelector(`meta[name="robots"]`);if(!e||!t)return;let n=t.getAttribute(`content`);return t.setAttribute(`content`,`noindex, follow`),()=>t.setAttribute(`content`,n)},[e])}export{r as t};

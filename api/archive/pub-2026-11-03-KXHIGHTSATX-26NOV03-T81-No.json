@@ -26,7 +26,6 @@
     "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
     "NWS point forecast near San Antonio International: high 78°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast.",
     "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
-    "Our AI's estimate: 95%. Price: 80¢ plus about 1.1¢ Kalshi fee. Edge: +13.9 points. Each $1 contract costs about 81.1¢ and pays 18.9¢ profit if right. The estimate is our AI's, not a proven chance.",
     "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
   ],
   "stats": [
@@ -39,14 +38,6 @@
       "80%"
     ],
     [
-      "Our AI's estimate",
-      "95%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+13.9 pts"
-    ],
-    [
       "24h volume",
       "2,775"
     ],
@@ -55,7 +46,6 @@
       "2"
     ]
   ],
-  "aiChance": 95,
   "judge": {
     "grounded": 0.54
   },
@@ -64,7 +54,6 @@
   "publishedAt": 1793714584888,
   "lockedPrice": 80,
   "priceBasis": "ask",
-  "edge": 13.9,
   "referenceProbability": 80,
   "marketOnly": false,
   "archived": true,
@@ -74,5 +63,6 @@
     "lockedAt": "2026-11-03T14:03:04.888Z",
     "quoteAsOf": "2026-11-03T14:03:04.885Z",
     "sitePublishedAt": "2026-11-03T14:30:07.036Z"
-  }
+  },
+  "bold": true
 }

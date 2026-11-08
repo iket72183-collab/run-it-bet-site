@@ -18,8 +18,6 @@
   "odds": "-162",
   "lockedOdds": -162,
   "confidence": 59,
-  "aiChance": 70,
-  "edge": 7.3,
   "risk": "Value",
   "expertId": "ai-desk",
   "why": "The Nets are 1-6 overall and 0-3 at home, making them one of the league's weakest teams, while the Hornets are clearly the better side despite playing on the road. Brooklyn's home struggles are a real factor the price underweights.",
@@ -33,8 +31,7 @@
     "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report and team records.",
     "Charlotte Hornets: 3-5; Brooklyn Nets: 1-6.",
     "Removing the bookmaker's cut, the consensus puts Charlotte Hornets's chance near 59%. That is the market's price.",
-    "On Kalshi, Charlotte Hornets's contract cost 61¢ at the lock; the edge below uses that price.",
-    "Our AI's estimate: 70%. Price: 61¢ plus about 1.7¢ Kalshi fee. Edge: +7.3 points. Each $1 contract costs about 62.7¢ and pays 37.3¢ profit if right. The estimate is our AI's, not a proven chance."
+    "On Kalshi, Charlotte Hornets's contract cost 61¢ at the lock."
   ],
   "stats": [
     [
@@ -48,14 +45,6 @@
     [
       "Kalshi price at lock",
       "61¢"
-    ],
-    [
-      "Our AI's estimate",
-      "70%"
-    ],
-    [
-      "Edge after Kalshi fee",
-      "+7.3 pts"
     ],
     [
       "Books compared",
