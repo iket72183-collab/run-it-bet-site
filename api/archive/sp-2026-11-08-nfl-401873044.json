@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-08-nfl-401873044",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NFL",
+  "gameId": "401873044",
+  "event": "New York Giants @ Philadelphia Eagles",
+  "home": "Philadelphia Eagles",
+  "away": "New York Giants",
+  "homeAbbr": "PHI",
+  "awayAbbr": "NYG",
+  "commence": "2026-11-08T18:00Z",
+  "market": "Moneyline",
+  "team": "New York Giants",
+  "pick": "New York Giants ML",
+  "odds": "-160",
+  "lockedOdds": -160,
+  "confidence": 60,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Philadelphia has lost five straight and is starting Joe Milton with Jalen Hurts on injured reserve, while DeVonta Smith and multiple other receivers are ruled out. The Eagles are 2-6 and have dropped games to losing teams like Carolina and Jacksonville during this slide.",
+  "caution": "The Giants haven't played a winning team yet this season, so their 4-2-1 record is unproven against quality opponents, and they're thin at running back with Tyrone Tracy Jr. on IR and Cam Skattebo doubtful.",
+  "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNFLGAME-26NOV08NYGPHI-NYG",
+  "kalshiEventTicker": "KXNFLGAME-26NOV08NYGPHI",
+  "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov08nygphi",
+  "kalshiAsk": 61,
+  "reasoning": [
+    "Our AI models' reason: Philadelphia has lost five straight and is starting Joe Milton with Jalen Hurts on injured reserve, while DeVonta Smith and multiple other receivers are ruled out. The Eagles are 2-6 and have dropped games to losing teams like Carolina and Jacksonville during this slide.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+    "New York Giants: 4-2-1; Philadelphia Eagles: 2-6.",
+    "New York Giants, last 5: W 27-21 at Houston Texans (2-5 at the time); L 27-34 vs New Orleans Saints (2-4 at the time); T 27-27 at Washington Commanders (1-3-1 at the time); W 36-24 vs Arizona Cardinals (1-3 at the time); W 12-7 vs Tennessee Titans (0-3 at the time).",
+    "Philadelphia Eagles, last 5: L 10-27 at Washington Commanders (2-4-1 at the time); L 21-38 vs Dallas Cowboys (3-4 at the time); L 14-25 vs Carolina Panthers (3-2 at the time); L 17-19 vs Jacksonville Jaguars (4-1 at the time); L 20-24 vs Los Angeles Rams (2-2 at the time). Against teams with winning records this season: 0-3.",
+    "What could go wrong: The Giants haven't played a winning team yet this season, so their 4-2-1 record is unproven against quality opponents, and they're thin at running back with Tyrone Tracy Jr. on IR and Cam Skattebo doubtful.",
+    "Removing the bookmaker's cut, the 4-book consensus puts New York Giants's chance near 60%. That is the market's price.",
+    "On Kalshi, New York Giants's contract cost 61¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-160 · BetMGM"
+    ],
+    [
+      "Market-implied at lock",
+      "60%"
+    ],
+    [
+      "Kalshi price at lock",
+      "61¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1794146538130,
+  "quoteAsOf": 1794146539259,
+  "publishedAt": 1794146539265,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-08T14:02:18.130Z",
+    "lockedAt": "2026-11-08T14:02:19.265Z",
+    "quoteAsOf": "2026-11-08T14:02:19.259Z",
+    "sitePublishedAt": "2026-11-08T14:30:06.149Z"
+  }
+}

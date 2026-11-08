@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-08-nfl-401873041",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NFL",
+  "gameId": "401873041",
+  "event": "Denver Broncos @ Carolina Panthers",
+  "home": "Carolina Panthers",
+  "away": "Denver Broncos",
+  "homeAbbr": "CAR",
+  "awayAbbr": "DEN",
+  "commence": "2026-11-08T18:00Z",
+  "market": "Moneyline",
+  "team": "Denver Broncos",
+  "pick": "Denver Broncos ML",
+  "odds": "-142",
+  "lockedOdds": -142,
+  "confidence": 57,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Bo Nix is active and just threw for 222 yards and two touchdowns in a 28-24 win over Kansas City. Carolina is 0-3 against winning teams and will be without linebackers Jaelan Phillips and Bobby Okereke plus cornerback Will Lee III, weakening a defense that already gave up 27 to Green Bay last week.",
+  "caution": "Denver is on the road and missing cornerback Kris Abrams-Draine and safety Brandon Jones, with safety Talanoa Hufanga also questionable.",
+  "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNFLGAME-26NOV08DENCAR-DEN",
+  "kalshiEventTicker": "KXNFLGAME-26NOV08DENCAR",
+  "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov08dencar",
+  "kalshiAsk": 58,
+  "reasoning": [
+    "Our AI models' reason: Bo Nix is active and just threw for 222 yards and two touchdowns in a 28-24 win over Kansas City. Carolina is 0-3 against winning teams and will be without linebackers Jaelan Phillips and Bobby Okereke plus cornerback Will Lee III, weakening a defense that already gave up 27 to Green Bay last week.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+    "Denver Broncos: 6-2; Carolina Panthers: 3-4.",
+    "Denver Broncos, last 5: W 28-24 vs Kansas City Chiefs (5-2 at the time); W 30-16 at Arizona Cardinals (2-5 at the time); W 17-14 vs Seattle Seahawks (3-3 at the time); W 23-17 at Los Angeles Chargers (0-5 at the time); L 14-24 at San Francisco 49ers (4-0 at the time). Against teams with winning records this season: 1-2.",
+    "Carolina Panthers, last 5: L 19-27 at Green Bay Packers (5-3 at the time); L 13-43 vs Tampa Bay Buccaneers (2-5 at the time); W 25-14 at Philadelphia Eagles (2-4 at the time); W 32-26 vs Detroit Lions (2-2 at the time); L 18-21 at Cleveland Browns (2-1 at the time). Against teams with winning records this season: 0-3.",
+    "What could go wrong: Denver is on the road and missing cornerback Kris Abrams-Draine and safety Brandon Jones, with safety Talanoa Hufanga also questionable.",
+    "Removing the bookmaker's cut, the 4-book consensus puts Denver Broncos's chance near 57%. That is the market's price.",
+    "On Kalshi, Denver Broncos's contract cost 58¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-142 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "57%"
+    ],
+    [
+      "Kalshi price at lock",
+      "58¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1794146538130,
+  "quoteAsOf": 1794146539259,
+  "publishedAt": 1794146539265,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-08T14:02:18.130Z",
+    "lockedAt": "2026-11-08T14:02:19.265Z",
+    "quoteAsOf": "2026-11-08T14:02:19.259Z",
+    "sitePublishedAt": "2026-11-08T14:30:06.149Z"
+  }
+}
