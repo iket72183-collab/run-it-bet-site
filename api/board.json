@@ -1,263 +1,31 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-08",
-    "lockedAt": 1794146539265,
+    "day": "2026-11-09",
+    "lockedAt": 1794232914867,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": null,
-    "picks": [
-      {
-        "id": "sp-2026-11-08-nfl-401873041",
-        "kind": "sports",
-        "source": "sportsbook",
-        "live": true,
-        "method": "ai",
-        "sport": "NFL",
-        "gameId": "401873041",
-        "event": "Denver Broncos @ Carolina Panthers",
-        "home": "Carolina Panthers",
-        "away": "Denver Broncos",
-        "homeAbbr": "CAR",
-        "awayAbbr": "DEN",
-        "commence": "2026-11-08T18:00Z",
-        "market": "Moneyline",
-        "team": "Denver Broncos",
-        "pick": "Denver Broncos ML",
-        "odds": "-142",
-        "lockedOdds": -142,
-        "confidence": 57,
-        "risk": "Value",
-        "expertId": "ai-desk",
-        "why": "Bo Nix is active and just threw for 222 yards and two touchdowns in a 28-24 win over Kansas City. Carolina is 0-3 against winning teams and will be without linebackers Jaelan Phillips and Bobby Okereke plus cornerback Will Lee III, weakening a defense that already gave up 27 to Green Bay last week.",
-        "caution": "Denver is on the road and missing cornerback Kris Abrams-Draine and safety Brandon Jones, with safety Talanoa Hufanga also questionable.",
-        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
-        "kalshiTicker": "KXNFLGAME-26NOV08DENCAR-DEN",
-        "kalshiEventTicker": "KXNFLGAME-26NOV08DENCAR",
-        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov08dencar",
-        "kalshiAsk": 58,
-        "reasoning": [
-          "Our AI models' reason: Bo Nix is active and just threw for 222 yards and two touchdowns in a 28-24 win over Kansas City. Carolina is 0-3 against winning teams and will be without linebackers Jaelan Phillips and Bobby Okereke plus cornerback Will Lee III, weakening a defense that already gave up 27 to Green Bay last week.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
-          "Denver Broncos: 6-2; Carolina Panthers: 3-4.",
-          "Denver Broncos, last 5: W 28-24 vs Kansas City Chiefs (5-2 at the time); W 30-16 at Arizona Cardinals (2-5 at the time); W 17-14 vs Seattle Seahawks (3-3 at the time); W 23-17 at Los Angeles Chargers (0-5 at the time); L 14-24 at San Francisco 49ers (4-0 at the time). Against teams with winning records this season: 1-2.",
-          "Carolina Panthers, last 5: L 19-27 at Green Bay Packers (5-3 at the time); L 13-43 vs Tampa Bay Buccaneers (2-5 at the time); W 25-14 at Philadelphia Eagles (2-4 at the time); W 32-26 vs Detroit Lions (2-2 at the time); L 18-21 at Cleveland Browns (2-1 at the time). Against teams with winning records this season: 0-3.",
-          "What could go wrong: Denver is on the road and missing cornerback Kris Abrams-Draine and safety Brandon Jones, with safety Talanoa Hufanga also questionable.",
-          "Removing the bookmaker's cut, the 4-book consensus puts Denver Broncos's chance near 57%. That is the market's price.",
-          "On Kalshi, Denver Broncos's contract cost 58¢ at the lock."
-        ],
-        "stats": [
-          [
-            "Odds at lock",
-            "-142 · DraftKings"
-          ],
-          [
-            "Market-implied at lock",
-            "57%"
-          ],
-          [
-            "Kalshi price at lock",
-            "58¢"
-          ],
-          [
-            "Books compared",
-            "4"
-          ]
-        ],
-        "generatedAt": 1794146538130,
-        "quoteAsOf": 1794146539259,
-        "publishedAt": 1794146539265,
-        "started": false,
-        "outcome": null,
-        "marketStatus": "pending",
-        "settlementCents": null,
-        "rulesUrl": null,
-        "settlementNote": null,
-        "units": 0,
-        "pending": false,
-        "times": {
-          "generatedAt": "2026-11-08T14:02:18.130Z",
-          "lockedAt": "2026-11-08T14:02:19.265Z",
-          "quoteAsOf": "2026-11-08T14:02:19.259Z",
-          "sitePublishedAt": "2026-11-08T14:30:06.149Z"
-        },
-        "corrections": [
-          {
-            "at": "2026-11-08T15:28:00.000Z",
-            "text": "The \"record against winning teams\" numbers counted each opponent by its record after that game was played. By opponents' current records, Carolina is 1-3 against winning teams (not 0-3) and Denver is 2-2 (not 1-2). The pick and price are unchanged."
-          }
-        ]
-      },
-      {
-        "id": "sp-2026-11-08-nfl-401873044",
-        "kind": "sports",
-        "source": "sportsbook",
-        "live": true,
-        "method": "ai",
-        "sport": "NFL",
-        "gameId": "401873044",
-        "event": "New York Giants @ Philadelphia Eagles",
-        "home": "Philadelphia Eagles",
-        "away": "New York Giants",
-        "homeAbbr": "PHI",
-        "awayAbbr": "NYG",
-        "commence": "2026-11-08T18:00Z",
-        "market": "Moneyline",
-        "team": "New York Giants",
-        "pick": "New York Giants ML",
-        "odds": "-160",
-        "lockedOdds": -160,
-        "confidence": 60,
-        "risk": "Value",
-        "expertId": "ai-desk",
-        "why": "Philadelphia has lost five straight and is starting Joe Milton with Jalen Hurts on injured reserve, while DeVonta Smith and multiple other receivers are ruled out. The Eagles are 2-6 and have dropped games to losing teams like Carolina and Jacksonville during this slide.",
-        "caution": "The Giants haven't played a winning team yet this season, so their 4-2-1 record is unproven against quality opponents, and they're thin at running back with Tyrone Tracy Jr. on IR and Cam Skattebo doubtful.",
-        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
-        "kalshiTicker": "KXNFLGAME-26NOV08NYGPHI-NYG",
-        "kalshiEventTicker": "KXNFLGAME-26NOV08NYGPHI",
-        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov08nygphi",
-        "kalshiAsk": 61,
-        "reasoning": [
-          "Our AI models' reason: Philadelphia has lost five straight and is starting Joe Milton with Jalen Hurts on injured reserve, while DeVonta Smith and multiple other receivers are ruled out. The Eagles are 2-6 and have dropped games to losing teams like Carolina and Jacksonville during this slide.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
-          "New York Giants: 4-2-1; Philadelphia Eagles: 2-6.",
-          "New York Giants, last 5: W 27-21 at Houston Texans (2-5 at the time); L 27-34 vs New Orleans Saints (2-4 at the time); T 27-27 at Washington Commanders (1-3-1 at the time); W 36-24 vs Arizona Cardinals (1-3 at the time); W 12-7 vs Tennessee Titans (0-3 at the time).",
-          "Philadelphia Eagles, last 5: L 10-27 at Washington Commanders (2-4-1 at the time); L 21-38 vs Dallas Cowboys (3-4 at the time); L 14-25 vs Carolina Panthers (3-2 at the time); L 17-19 vs Jacksonville Jaguars (4-1 at the time); L 20-24 vs Los Angeles Rams (2-2 at the time). Against teams with winning records this season: 0-3.",
-          "What could go wrong: The Giants haven't played a winning team yet this season, so their 4-2-1 record is unproven against quality opponents, and they're thin at running back with Tyrone Tracy Jr. on IR and Cam Skattebo doubtful.",
-          "Removing the bookmaker's cut, the 4-book consensus puts New York Giants's chance near 60%. That is the market's price.",
-          "On Kalshi, New York Giants's contract cost 61¢ at the lock."
-        ],
-        "stats": [
-          [
-            "Odds at lock",
-            "-160 · BetMGM"
-          ],
-          [
-            "Market-implied at lock",
-            "60%"
-          ],
-          [
-            "Kalshi price at lock",
-            "61¢"
-          ],
-          [
-            "Books compared",
-            "4"
-          ]
-        ],
-        "generatedAt": 1794146538130,
-        "quoteAsOf": 1794146539259,
-        "publishedAt": 1794146539265,
-        "started": false,
-        "outcome": null,
-        "marketStatus": "pending",
-        "settlementCents": null,
-        "rulesUrl": null,
-        "settlementNote": null,
-        "units": 0,
-        "pending": false,
-        "times": {
-          "generatedAt": "2026-11-08T14:02:18.130Z",
-          "lockedAt": "2026-11-08T14:02:19.265Z",
-          "quoteAsOf": "2026-11-08T14:02:19.259Z",
-          "sitePublishedAt": "2026-11-08T14:30:06.149Z"
-        },
-        "corrections": [
-          {
-            "at": "2026-11-08T15:28:00.000Z",
-            "text": "Philadelphia has lost six straight, not five. Jacksonville is 6-2, a winning team, not a losing one (Carolina is 3-4 now but was 3-2 when it beat Philadelphia). By opponents' current records, Philadelphia is 0-2 against winning teams (not 0-3). The pick and price are unchanged."
-          }
-        ]
-      }
-    ]
+    "reason": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
+    "picks": []
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-08",
-    "lockedAt": 1794146487583,
+    "day": "2026-11-09",
+    "lockedAt": 1794232944453,
     "publicationState": "published",
-    "reason": null,
-    "picks": [
-      {
-        "id": "pub-2026-11-08-KXLOWTDAL-26NOV09-T54-No",
-        "ticker": "KXLOWTDAL-26NOV09-T54",
-        "side": "No",
-        "region": "TX",
-        "kind": "kalshi",
-        "source": "kalshi",
-        "live": true,
-        "method": "ai",
-        "research": "National Weather Service forecast",
-        "dataSource": "kalshi",
-        "category": "WEATHER",
-        "title": "Lowest temperature in Dallas on Nov 9, 2026?",
-        "closesAt": "2026-11-10T07:00:00Z",
-        "closes": "2026-11-10T07:00:00.000Z",
-        "pick": "No: 55° or above",
-        "confidence": 71,
-        "risk": "Safe",
-        "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxlowtdal/market/kxlowtdal-26nov09",
-        "why": "The National Weather Service forecasts a low around 54°F in Dallas for tonight, which is below the 55° threshold.",
-        "researchSources": [
-          "NWS point forecast near Dallas/Fort Worth: overnight low 54°F. Source: https://api.weather.gov/gridpoints/FWD/80,109/forecast."
-        ],
-        "reasoning": [
-          "Chosen by our AI models at the 9:30 AM Texas lows check, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near Dallas/Fort Worth: overnight low 54°F. Source: https://api.weather.gov/gridpoints/FWD/80,109/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 71¢ entry quote at publication, a market-implied reference of about 71%. That is the market's price.",
-          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily low can miss a two-degree bucket by a single degree."
-        ],
-        "stats": [
-          [
-            "Entry quote at lock",
-            "No 71¢"
-          ],
-          [
-            "Market-implied at lock",
-            "71%"
-          ],
-          [
-            "24h volume",
-            "0"
-          ],
-          [
-            "Outcomes",
-            "2"
-          ]
-        ],
-        "judge": {
-          "grounded": 0.72
-        },
-        "entryQuoteFetchedAt": 1794151878344,
-        "generatedAt": 1794151878159,
-        "publishedAt": 1794151878345,
-        "lockedPrice": 71,
-        "priceBasis": "ask",
-        "referenceProbability": 71,
-        "marketOnly": false,
-        "marketStatus": "active",
-        "outcome": null,
-        "times": {
-          "generatedAt": "2026-11-08T15:31:18.159Z",
-          "lockedAt": "2026-11-08T15:31:18.345Z",
-          "quoteAsOf": "2026-11-08T15:31:18.344Z",
-          "sitePublishedAt": "2026-11-08T15:31:27.585Z"
-        },
-        "bold": true
-      }
-    ],
+    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t. Texas low temperatures get their own check at 9:30 AM.",
+    "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1794151878345,
-      "picks": 1,
+      "state": "pending",
+      "lockedAt": null,
+      "picks": 0,
       "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-08-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-08T15:31:27.585Z"
+    "id": "snapshot-2026-11-09-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-09T14:30:06.103Z"
   }
 }
