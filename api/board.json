@@ -13,19 +13,88 @@
     "day": "2026-11-09",
     "lockedAt": 1794232944453,
     "publicationState": "published",
-    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t. Texas low temperatures get their own check at 9:30 AM.",
-    "picks": [],
+    "reason": null,
+    "picks": [
+      {
+        "id": "pub-2026-11-09-KXLOWTSATX-26NOV10-T59-No",
+        "ticker": "KXLOWTSATX-26NOV10-T59",
+        "side": "No",
+        "region": "TX",
+        "kind": "kalshi",
+        "source": "kalshi",
+        "live": true,
+        "method": "ai",
+        "research": "National Weather Service forecast",
+        "dataSource": "kalshi",
+        "category": "WEATHER",
+        "title": "Lowest temperature in San Antonio on Nov 10, 2026?",
+        "closesAt": "2026-11-11T07:00:00Z",
+        "closes": "2026-11-11T07:00:00.000Z",
+        "pick": "No: 60° or above",
+        "confidence": 79,
+        "risk": "Safe",
+        "expertId": "ai-desk",
+        "url": "https://kalshi.com/markets/kxlowtsatx/market/kxlowtsatx-26nov10",
+        "why": "The National Weather Service forecasts a low around 57°F in San Antonio, comfortably below the 60° threshold, so the warmer outcome is unlikely.",
+        "researchSources": [
+          "NWS point forecast near San Antonio International: overnight low 57°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast."
+        ],
+        "reasoning": [
+          "Chosen by our AI models at the 9:30 AM Texas lows check, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near San Antonio International: overnight low 57°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 79¢ entry quote at publication, a market-implied reference of about 79%. That is the market's price.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily low can miss a two-degree bucket by a single degree."
+        ],
+        "stats": [
+          [
+            "Entry quote at lock",
+            "No 79¢"
+          ],
+          [
+            "Market-implied at lock",
+            "79%"
+          ],
+          [
+            "24h volume",
+            "30"
+          ],
+          [
+            "Outcomes",
+            "2"
+          ]
+        ],
+        "judge": {
+          "grounded": 0.87
+        },
+        "entryQuoteFetchedAt": 1794238330621,
+        "generatedAt": 1794238330438,
+        "publishedAt": 1794238330622,
+        "lockedPrice": 79,
+        "priceBasis": "ask",
+        "referenceProbability": 79,
+        "marketOnly": false,
+        "marketStatus": "active",
+        "outcome": null,
+        "times": {
+          "generatedAt": "2026-11-09T15:32:10.438Z",
+          "lockedAt": "2026-11-09T15:32:10.622Z",
+          "quoteAsOf": "2026-11-09T15:32:10.621Z",
+          "sitePublishedAt": "2026-11-09T15:32:17.452Z"
+        },
+        "bold": true
+      }
+    ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
-      "picks": 0,
+      "state": "published",
+      "lockedAt": 1794238330622,
+      "picks": 1,
       "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-09-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-09T14:30:06.103Z"
+    "id": "snapshot-2026-11-09-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-09T15:32:17.452Z"
   }
 }
