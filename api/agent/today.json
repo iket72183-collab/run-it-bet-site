@@ -3,21 +3,21 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), shared for fun. It is still gambling.",
-  "day": "2026-11-09",
+  "day": "2026-11-10",
   "status": "locked",
-  "lockedAt": "2026-11-09T14:02:24.453Z",
-  "nextLockAt": "2026-11-10T14:00:00.000Z",
+  "lockedAt": "2026-11-10T14:01:57.867Z",
+  "nextLockAt": "2026-11-11T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
   "hasPicks": true,
-  "briefing": "Run It Bet picks for Monday, Nov 9, locked 8:02 AM Central. Kalshi picks (1):\n1) Lowest temperature in San Antonio on Nov 10, 2026: No: 60° or above (Bold call, 79¢)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/",
+  "briefing": "Run It Bet picks for Tuesday, Nov 10, locked 8:01 AM Central. Kalshi picks (1):\n1) Highest temperature in Houston on Nov 10, 2026: No: 72° or below (Market favorite, 80¢)\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/\n\nAI sports picks (1):\n1) NHL: Nashville Predators to win, Nashville Predators @ Los Angeles Kings at 9:00 PM Central (Close call, +120)\nOur AI’s research, shared for fun. Use caution: do your own research or just enjoy the games. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-11-09T15:32:10.622Z",
-    "hasPicks": true,
-    "briefing": "Run It Bet Texas lows picks (tomorrow's low temperature) for Monday, Nov 9, locked 9:32 AM Central. Kalshi picks (1):\n1) Lowest temperature in San Antonio on Nov 10, 2026: No: 60° or above (Bold call, 79¢)\nBold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/"
+    "status": "pending",
+    "lockedAt": null,
+    "hasPicks": false,
+    "briefing": null
   },
   "disclaimer": "Run It Bet is informational and for entertainment only. It is our AI's research, shared for fun: a filter for Kalshi and Polymarket markets, not an investment strategy or a way to make money. Use caution and do your own research. It is still gambling. It is not a sportsbook, exchange, broker, or financial adviser, and nothing here is financial, investment, or betting advice. Every pick can lose, even market favorites. Prices are market-implied references, not the true chance of winning. Past results do not predict future results. You make every decision and place every trade yourself. 18+ only; follow the laws where you live. Only use money you can afford to lose. Gambling problem? Call or text 1-800-MY-RESET.",
   "rulesForAgents": [
@@ -38,33 +38,59 @@
   ],
   "picks": [
     {
-      "pickId": "pub-2026-11-09-KXLOWTSATX-26NOV10-T59-No",
-      "ticker": "KXLOWTSATX-26NOV10-T59",
-      "question": "Lowest temperature in San Antonio on Nov 10, 2026?",
-      "pick": "No: 60° or above",
+      "pickId": "pub-2026-11-10-KXHIGHTHOU-26NOV10-T73-No",
+      "ticker": "KXHIGHTHOU-26NOV10-T73",
+      "question": "Highest temperature in Houston on Nov 10, 2026?",
+      "pick": "No: 72° or below",
       "side": "No",
       "category": "WEATHER",
       "region": "TX",
-      "check": "lows",
-      "risk": "Bold call",
-      "riskNote": "Bold call: our AI rates this pick more than 10 points higher than the market price. When the two disagree that much, the market is often right, so this pick carries extra risk. Run It Bet is entertainment; only use money you can afford to lose.",
+      "check": "morning",
+      "risk": "Market favorite",
+      "riskNote": null,
       "madeBy": "our AI models",
-      "generatedAt": "2026-11-09T15:32:10.438Z",
-      "lockedAt": "2026-11-09T15:32:10.622Z",
-      "quoteAsOf": "2026-11-09T15:32:10.621Z",
-      "priceAtLockCents": 79,
+      "generatedAt": "2026-11-10T14:01:57.601Z",
+      "lockedAt": "2026-11-10T14:01:57.867Z",
+      "quoteAsOf": "2026-11-10T14:01:57.866Z",
+      "priceAtLockCents": 80,
       "marketStatus": "active",
       "result": null,
       "closesAt": "2026-11-11T07:00:00Z",
-      "why": "The National Weather Service forecasts a low around 57°F in San Antonio, comfortably below the 60° threshold, so the warmer outcome is unlikely.",
-      "kalshiUrl": "https://kalshi.com/markets/kxlowtsatx/market/kxlowtsatx-26nov10",
-      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-11-09-KXLOWTSATX-26NOV10-T59-No/",
-      "sitePublishedAt": "2026-11-09T15:32:17.452Z"
+      "why": "The National Weather Service expects a high near 76°F, so Houston is more likely to stay above 72°F than reach 72°F or below.",
+      "kalshiUrl": "https://kalshi.com/markets/kxhighthou/market/kxhighthou-26nov10",
+      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-11-10-KXHIGHTHOU-26NOV10-T73-No/",
+      "sitePublishedAt": "2026-11-10T14:30:06.773Z"
     }
   ],
   "sportsStatus": "locked",
-  "sportsNote": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
-  "sportsPicks": [],
+  "sportsNote": null,
+  "sportsPicks": [
+    {
+      "pickId": "sp-2026-11-10-nhl-401892689",
+      "ticker": "KXNHLGAME-26NOV10NSHLA-NSH",
+      "side": "Yes",
+      "sport": "NHL",
+      "game": "Nashville Predators @ Los Angeles Kings",
+      "startsAt": "2026-11-11T03:00Z",
+      "pick": "Nashville Predators to win",
+      "risk": "Close call",
+      "riskNote": null,
+      "madeBy": "our AI models",
+      "generatedAt": "2026-11-10T14:01:10.631Z",
+      "lockedAt": "2026-11-10T14:01:12.796Z",
+      "quoteAsOf": "2026-11-10T14:01:12.791Z",
+      "oddsAtLock": "+120",
+      "marketChanceAtLockPercent": 44,
+      "why": "Nashville has won four straight, beating St. Louis 3-1 and Colorado on the road 3-2. Los Angeles is 2-5 at home and lost its last game 5-2 to Pittsburgh.",
+      "caution": "Nashville is only 6-6 against winning teams, so its recent run does not guarantee a win in Los Angeles.",
+      "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov10nshla",
+      "result": null,
+      "settlementNote": null,
+      "rulesUrl": null,
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-11-10-nhl-401892689/",
+      "sitePublishedAt": "2026-11-10T14:30:06.773Z"
+    }
+  ],
   "links": {
     "board": "https://www.runitbet.com/",
     "sportsPicks": "https://www.runitbet.com/?tab=sports",
@@ -73,8 +99,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-09-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-09T15:32:17.452Z"
+    "id": "snapshot-2026-11-10-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-10T14:30:06.773Z"
   }
 }

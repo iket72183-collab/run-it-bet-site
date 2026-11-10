@@ -1,23 +1,99 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-09",
-    "lockedAt": 1794232914867,
+    "day": "2026-11-10",
+    "lockedAt": 1794319272796,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
-    "picks": []
+    "reason": null,
+    "picks": [
+      {
+        "id": "sp-2026-11-10-nhl-401892689",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NHL",
+        "gameId": "401892689",
+        "event": "Nashville Predators @ Los Angeles Kings",
+        "home": "Los Angeles Kings",
+        "away": "Nashville Predators",
+        "homeAbbr": "LA",
+        "awayAbbr": "NSH",
+        "commence": "2026-11-11T03:00Z",
+        "market": "Moneyline",
+        "team": "Nashville Predators",
+        "pick": "Nashville Predators ML",
+        "odds": "+120",
+        "lockedOdds": 120,
+        "confidence": 44,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "Nashville has won four straight, beating St. Louis 3-1 and Colorado on the road 3-2. Los Angeles is 2-5 at home and lost its last game 5-2 to Pittsburgh.",
+        "caution": "Nashville is only 6-6 against winning teams, so its recent run does not guarantee a win in Los Angeles.",
+        "research": "ESPN injury report, team records, recent results and schedule",
+        "kalshiTicker": "KXNHLGAME-26NOV10NSHLA-NSH",
+        "kalshiEventTicker": "KXNHLGAME-26NOV10NSHLA",
+        "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov10nshla",
+        "kalshiAsk": 46,
+        "reasoning": [
+          "Our AI models' reason: Nashville has won four straight, beating St. Louis 3-1 and Colorado on the road 3-2. Los Angeles is 2-5 at home and lost its last game 5-2 to Pittsburgh.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+          "Nashville Predators: 8-4-5; Los Angeles Kings: 5-8-2.",
+          "Nashville Predators, last 5: W 3-1 vs St. Louis Blues (now 7-8-2); W 3-2 at Colorado Avalanche (now 10-6-2); W 4-1 vs Carolina Hurricanes (now 14-3-2); W 5-4 vs Tampa Bay Lightning (now 11-4-2); L 3-4 vs Washington Capitals (now 9-6-0). Streak: won 4 in a row. Against teams with winning records this season (by their current records): 6-6.",
+          "Los Angeles Kings, last 5: L 2-5 vs Pittsburgh Penguins (now 6-10-2); W 7-2 vs San Jose Sharks (now 8-11-1); L 2-3 vs Buffalo Sabres (now 8-6-3); W 6-5 vs Ottawa Senators (now 11-6-1); L 1-2 at Chicago Blackhawks (now 4-13-1). Against teams with winning records this season (by their current records): 4-7.",
+          "What could go wrong: Nashville is only 6-6 against winning teams, so its recent run does not guarantee a win in Los Angeles.",
+          "Removing the bookmaker's cut, the 4-book consensus puts Nashville Predators's chance near 44%. That is the market's price.",
+          "On Kalshi, Nashville Predators's contract cost 46¢ at the lock."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "+120 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "44%"
+          ],
+          [
+            "Kalshi price at lock",
+            "46¢"
+          ],
+          [
+            "Books compared",
+            "4"
+          ]
+        ],
+        "generatedAt": 1794319270631,
+        "quoteAsOf": 1794319272791,
+        "publishedAt": 1794319272796,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-11-10T14:01:10.631Z",
+          "lockedAt": "2026-11-10T14:01:12.796Z",
+          "quoteAsOf": "2026-11-10T14:01:12.791Z",
+          "sitePublishedAt": "2026-11-10T14:30:06.773Z"
+        }
+      }
+    ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-09",
-    "lockedAt": 1794232944453,
+    "day": "2026-11-10",
+    "lockedAt": 1794319317867,
     "publicationState": "published",
     "reason": null,
     "picks": [
       {
-        "id": "pub-2026-11-09-KXLOWTSATX-26NOV10-T59-No",
-        "ticker": "KXLOWTSATX-26NOV10-T59",
+        "id": "pub-2026-11-10-KXHIGHTHOU-26NOV10-T73-No",
+        "ticker": "KXHIGHTHOU-26NOV10-T73",
         "side": "No",
         "region": "TX",
         "kind": "kalshi",
@@ -27,36 +103,36 @@
         "research": "National Weather Service forecast",
         "dataSource": "kalshi",
         "category": "WEATHER",
-        "title": "Lowest temperature in San Antonio on Nov 10, 2026?",
+        "title": "Highest temperature in Houston on Nov 10, 2026?",
         "closesAt": "2026-11-11T07:00:00Z",
         "closes": "2026-11-11T07:00:00.000Z",
-        "pick": "No: 60° or above",
-        "confidence": 79,
+        "pick": "No: 72° or below",
+        "confidence": 80,
         "risk": "Safe",
         "expertId": "ai-desk",
-        "url": "https://kalshi.com/markets/kxlowtsatx/market/kxlowtsatx-26nov10",
-        "why": "The National Weather Service forecasts a low around 57°F in San Antonio, comfortably below the 60° threshold, so the warmer outcome is unlikely.",
+        "url": "https://kalshi.com/markets/kxhighthou/market/kxhighthou-26nov10",
+        "why": "The National Weather Service expects a high near 76°F, so Houston is more likely to stay above 72°F than reach 72°F or below.",
         "researchSources": [
-          "NWS point forecast near San Antonio International: overnight low 57°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast."
+          "NWS point forecast near Houston Hobby: high 76°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast."
         ],
         "reasoning": [
-          "Chosen by our AI models at the 9:30 AM Texas lows check, from Kalshi's live prices and the National Weather Service forecast.",
-          "NWS point forecast near San Antonio International: overnight low 57°F. Source: https://api.weather.gov/gridpoints/EWX/127,59/forecast.",
-          "A Kalshi contract pays $1 if right. We recorded a 79¢ entry quote at publication, a market-implied reference of about 79%. That is the market's price.",
-          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily low can miss a two-degree bucket by a single degree."
+          "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+          "NWS point forecast near Houston Hobby: high 76°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast.",
+          "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
+          "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
         ],
         "stats": [
           [
             "Entry quote at lock",
-            "No 79¢"
+            "No 80¢"
           ],
           [
             "Market-implied at lock",
-            "79%"
+            "80%"
           ],
           [
             "24h volume",
-            "30"
+            "1,898"
           ],
           [
             "Outcomes",
@@ -64,37 +140,36 @@
           ]
         ],
         "judge": {
-          "grounded": 0.87
+          "grounded": 0.8
         },
-        "entryQuoteFetchedAt": 1794238330621,
-        "generatedAt": 1794238330438,
-        "publishedAt": 1794238330622,
-        "lockedPrice": 79,
+        "entryQuoteFetchedAt": 1794319317866,
+        "generatedAt": 1794319317601,
+        "publishedAt": 1794319317867,
+        "lockedPrice": 80,
         "priceBasis": "ask",
-        "referenceProbability": 79,
+        "referenceProbability": 80,
         "marketOnly": false,
         "marketStatus": "active",
         "outcome": null,
         "times": {
-          "generatedAt": "2026-11-09T15:32:10.438Z",
-          "lockedAt": "2026-11-09T15:32:10.622Z",
-          "quoteAsOf": "2026-11-09T15:32:10.621Z",
-          "sitePublishedAt": "2026-11-09T15:32:17.452Z"
-        },
-        "bold": true
+          "generatedAt": "2026-11-10T14:01:57.601Z",
+          "lockedAt": "2026-11-10T14:01:57.867Z",
+          "quoteAsOf": "2026-11-10T14:01:57.866Z",
+          "sitePublishedAt": "2026-11-10T14:30:06.773Z"
+        }
       }
     ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1794238330622,
-      "picks": 1,
+      "state": "pending",
+      "lockedAt": null,
+      "picks": 0,
       "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-09-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-09T15:32:17.452Z"
+    "id": "snapshot-2026-11-10-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-10T14:30:06.773Z"
   }
 }

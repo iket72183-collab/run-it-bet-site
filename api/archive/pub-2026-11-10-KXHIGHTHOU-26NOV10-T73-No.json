@@ -1,0 +1,67 @@
+{
+  "id": "pub-2026-11-10-KXHIGHTHOU-26NOV10-T73-No",
+  "ticker": "KXHIGHTHOU-26NOV10-T73",
+  "side": "No",
+  "region": "TX",
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Highest temperature in Houston on Nov 10, 2026?",
+  "closesAt": "2026-11-11T07:00:00Z",
+  "closes": "2026-11-11T07:00:00.000Z",
+  "pick": "No: 72° or below",
+  "confidence": 80,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxhighthou/market/kxhighthou-26nov10",
+  "why": "The National Weather Service expects a high near 76°F, so Houston is more likely to stay above 72°F than reach 72°F or below.",
+  "researchSources": [
+    "NWS point forecast near Houston Hobby: high 76°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Houston Hobby: high 76°F. Source: https://api.weather.gov/gridpoints/HGX/66,89/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 80¢"
+    ],
+    [
+      "Market-implied at lock",
+      "80%"
+    ],
+    [
+      "24h volume",
+      "1,898"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "judge": {
+    "grounded": 0.8
+  },
+  "entryQuoteFetchedAt": 1794319317866,
+  "generatedAt": 1794319317601,
+  "publishedAt": 1794319317867,
+  "lockedPrice": 80,
+  "priceBasis": "ask",
+  "referenceProbability": 80,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-11-10T14:01:57.601Z",
+    "lockedAt": "2026-11-10T14:01:57.867Z",
+    "quoteAsOf": "2026-11-10T14:01:57.866Z",
+    "sitePublishedAt": "2026-11-10T14:30:06.773Z"
+  }
+}
