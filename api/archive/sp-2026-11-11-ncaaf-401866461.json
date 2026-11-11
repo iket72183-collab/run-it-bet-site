@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-11-ncaaf-401866461",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NCAAF",
+  "gameId": "401866461",
+  "event": "Buffalo Bulls @ Ball State Cardinals",
+  "home": "Ball State Cardinals",
+  "away": "Buffalo Bulls",
+  "homeAbbr": "BALL",
+  "awayAbbr": "BUFF",
+  "commence": "2026-11-12T00:30Z",
+  "market": "Moneyline",
+  "team": "Buffalo Bulls",
+  "pick": "Buffalo Bulls ML",
+  "odds": "-120",
+  "lockedOdds": -120,
+  "confidence": 52,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Buffalo has won four straight, including road victories at Toledo (4-2) and Miami OH (5-4), and is 3-2 against winning opponents. Ball State is 0-5 against winning teams and was blown out 14-45 by Northwestern, showing they struggle badly against quality competition.",
+  "caution": "Buffalo is playing on the road, and the forecast calls for an 84% rain chance with 14 mph winds, which can compress scoring and level the playing field for the home underdog.",
+  "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNCAAFGAME-26NOV11BUFFBALL-BUFF",
+  "kalshiEventTicker": "KXNCAAFGAME-26NOV11BUFFBALL",
+  "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov11buffball",
+  "kalshiAsk": 52,
+  "reasoning": [
+    "Our AI models' reason: Buffalo has won four straight, including road victories at Toledo (4-2) and Miami OH (5-4), and is 3-2 against winning opponents. Ball State is 0-5 against winning teams and was blown out 14-45 by Northwestern, showing they struggle badly against quality competition.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+    "Buffalo Bulls: 6-3; Ball State Cardinals: 3-6.",
+    "Buffalo Bulls, last 5: W 34-31 at Miami (OH) RedHawks (5-4 after that game); W 31-24 vs Bowling Green Falcons (2-6 after that game); W 25-18 vs Massachusetts Minutemen (4-3 after that game); W 23-8 at Toledo Rockets (4-2 after that game); L 17-20 vs Western Michigan Broncos (3-2 after that game). Streak: won 4 in a row. Against teams with winning records this season (by their records after each game): 3-2.",
+    "Ball State Cardinals, last 5: L 30-31 at Massachusetts Minutemen (5-4 after that game); W 34-17 vs Sacramento State Hornets (1-7 after that game); W 32-31 at Bowling Green Falcons (2-5 after that game); L 14-45 at Northwestern Wildcats (4-1 after that game); L 24-39 vs Toledo Rockets (4-1 after that game). Against teams with winning records this season (by their records after each game): 0-5.",
+    "What could go wrong: Buffalo is playing on the road, and the forecast calls for an 84% rain chance with 14 mph winds, which can compress scoring and level the playing field for the home underdog.",
+    "Removing the bookmaker's cut, the 4-book consensus puts Buffalo Bulls's chance near 52%. That is the market's price.",
+    "On Kalshi, Buffalo Bulls's contract cost 52¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-120 · FanDuel"
+    ],
+    [
+      "Market-implied at lock",
+      "52%"
+    ],
+    [
+      "Kalshi price at lock",
+      "52¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1794405783214,
+  "quoteAsOf": 1794405784602,
+  "publishedAt": 1794405784607,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-11T14:03:03.214Z",
+    "lockedAt": "2026-11-11T14:03:04.607Z",
+    "quoteAsOf": "2026-11-11T14:03:04.602Z",
+    "sitePublishedAt": "2026-11-11T14:30:06.902Z"
+  }
+}
