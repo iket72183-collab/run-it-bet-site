@@ -57,7 +57,7 @@
   "referenceProbability": 75,
   "marketOnly": false,
   "archived": true,
-  "outcome": null,
+  "outcome": "won",
   "times": {
     "generatedAt": "2026-10-25T13:04:56.937Z",
     "lockedAt": "2026-10-25T13:04:57.103Z",
