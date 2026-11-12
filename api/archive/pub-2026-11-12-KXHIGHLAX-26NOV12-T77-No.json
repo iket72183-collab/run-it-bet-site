@@ -1,0 +1,67 @@
+{
+  "id": "pub-2026-11-12-KXHIGHLAX-26NOV12-T77-No",
+  "ticker": "KXHIGHLAX-26NOV12-T77",
+  "side": "No",
+  "region": null,
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Highest temperature in Los Angeles on Nov 12, 2026?",
+  "closesAt": "2026-11-13T09:00:00Z",
+  "closes": "2026-11-13T09:00:00.000Z",
+  "pick": "No: 76° or below",
+  "confidence": 80,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxhighlax/market/kxhighlax-26nov12",
+  "why": "The National Weather Service forecast calls for a high near 80° in Los Angeles today. For the temperature to land at 76° or below, it would need to come in about 4° cooler than forecast, which is unlikely.",
+  "researchSources": [
+    "NWS point forecast near Los Angeles International: high 80°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Los Angeles International: high 80°F. Source: https://api.weather.gov/gridpoints/LOX/149,41/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 80¢ entry quote at publication, a market-implied reference of about 80%. That is the market's price.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 80¢"
+    ],
+    [
+      "Market-implied at lock",
+      "80%"
+    ],
+    [
+      "24h volume",
+      "7,846"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "judge": {
+    "grounded": 0.84
+  },
+  "entryQuoteFetchedAt": 1794492087871,
+  "generatedAt": 1794492087693,
+  "publishedAt": 1794492087871,
+  "lockedPrice": 80,
+  "priceBasis": "ask",
+  "referenceProbability": 80,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-11-12T14:01:27.693Z",
+    "lockedAt": "2026-11-12T14:01:27.871Z",
+    "quoteAsOf": "2026-11-12T14:01:27.871Z",
+    "sitePublishedAt": "2026-11-12T14:30:06.868Z"
+  }
+}
