@@ -89,19 +89,19 @@
     "day": "2026-11-13",
     "lockedAt": 1794578731978,
     "publicationState": "published",
-    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t. Texas low temperatures get their own check at 9:30 AM.",
+    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
+      "state": "published",
+      "lockedAt": 1794584016366,
       "picks": 0,
-      "reason": null
+      "reason": "Our AI models found no researched pick worth making today."
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-13-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-13T14:30:06.349Z"
+    "id": "snapshot-2026-11-13-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-13T15:33:37.197Z"
   }
 }
