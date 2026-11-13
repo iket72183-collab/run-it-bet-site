@@ -3,19 +3,19 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), shared for fun. It is still gambling.",
-  "day": "2026-11-12",
+  "day": "2026-11-13",
   "status": "locked",
-  "lockedAt": "2026-11-12T14:01:27.871Z",
-  "nextLockAt": "2026-11-13T14:00:00.000Z",
+  "lockedAt": "2026-11-13T14:05:31.978Z",
+  "nextLockAt": "2026-11-14T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
   "hasPicks": true,
-  "briefing": "Run It Bet picks for Thursday, Nov 12, locked 8:01 AM Central. Kalshi picks (1):\n1) Highest temperature in Los Angeles on Nov 12, 2026: No: 76° or below (Market favorite, 80¢)\nOur AI’s read of the research, shared for fun. The market’s price is usually close to the real chance, so don’t expect them to beat it. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/",
+  "briefing": "AI sports picks (1):\n1) NBA: Cleveland Cavaliers to win, Cleveland Cavaliers @ Miami Heat at 7:00 PM Central (Close call, +115)\nOur AI’s research, shared for fun. Use caution: do your own research or just enjoy the games. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-11-12T15:30:58.452Z",
+    "status": "pending",
+    "lockedAt": null,
     "hasPicks": false,
     "briefing": null
   },
@@ -36,35 +36,36 @@
     "Fetch at most four times a day: once after 8:40 AM Central and once after 9:45 AM Central, each with one retry if needed. Heavier polling may be rate-limited or blocked.",
     "This feed is for personal, non-commercial use only. Do not republish, resell, or redistribute it, or use it to run any service, website, or product."
   ],
-  "picks": [
+  "picks": [],
+  "sportsStatus": "locked",
+  "sportsNote": null,
+  "sportsPicks": [
     {
-      "pickId": "pub-2026-11-12-KXHIGHLAX-26NOV12-T77-No",
-      "ticker": "KXHIGHLAX-26NOV12-T77",
-      "question": "Highest temperature in Los Angeles on Nov 12, 2026?",
-      "pick": "No: 76° or below",
-      "side": "No",
-      "category": "WEATHER",
-      "region": null,
-      "check": "morning",
-      "risk": "Market favorite",
+      "pickId": "sp-2026-11-13-nba-401909298",
+      "ticker": "KXNBAGAME-26NOV13CLEMIA-CLE",
+      "side": "Yes",
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Miami Heat",
+      "startsAt": "2026-11-14T01:00Z",
+      "pick": "Cleveland Cavaliers to win",
+      "risk": "Close call",
       "riskNote": null,
       "madeBy": "our AI models",
-      "generatedAt": "2026-11-12T14:01:27.693Z",
-      "lockedAt": "2026-11-12T14:01:27.871Z",
-      "quoteAsOf": "2026-11-12T14:01:27.871Z",
-      "priceAtLockCents": 80,
-      "marketStatus": "active",
+      "generatedAt": "2026-11-13T14:05:59.877Z",
+      "lockedAt": "2026-11-13T14:06:02.035Z",
+      "quoteAsOf": "2026-11-13T14:06:02.030Z",
+      "oddsAtLock": "+115",
+      "marketChanceAtLockPercent": 45,
+      "why": "Cleveland has played better against winning teams this season (3-5) than Miami (1-5), and they just won on the road against the Knicks. Miami's poor home record (1-3) also suggests they may not have a big home advantage in this matchup.",
+      "caution": "Cleveland is missing starting center Evan Mobley (toe), which weakens their interior presence, and they've struggled on the road at 2-4.",
+      "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov13clemia",
       "result": null,
-      "closesAt": "2026-11-13T09:00:00Z",
-      "why": "The National Weather Service forecast calls for a high near 80° in Los Angeles today. For the temperature to land at 76° or below, it would need to come in about 4° cooler than forecast, which is unlikely.",
-      "kalshiUrl": "https://kalshi.com/markets/kxhighlax/market/kxhighlax-26nov12",
-      "detailsUrl": "https://www.runitbet.com/pick/pub-2026-11-12-KXHIGHLAX-26NOV12-T77-No/",
-      "sitePublishedAt": "2026-11-12T14:30:06.868Z"
+      "settlementNote": null,
+      "rulesUrl": null,
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-11-13-nba-401909298/",
+      "sitePublishedAt": "2026-11-13T14:30:06.349Z"
     }
   ],
-  "sportsStatus": "locked",
-  "sportsNote": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
-  "sportsPicks": [],
   "links": {
     "board": "https://www.runitbet.com/",
     "sportsPicks": "https://www.runitbet.com/?tab=sports",
@@ -73,8 +74,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-12-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-12T15:31:07.140Z"
+    "id": "snapshot-2026-11-13-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-13T14:30:06.349Z"
   }
 }
