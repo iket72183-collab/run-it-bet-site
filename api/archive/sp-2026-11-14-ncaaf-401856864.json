@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-14-ncaaf-401856864",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NCAAF",
+  "gameId": "401856864",
+  "event": "Utah Utes @ Arizona Wildcats",
+  "home": "Arizona Wildcats",
+  "away": "Utah Utes",
+  "homeAbbr": "ARIZ",
+  "awayAbbr": "UTAH",
+  "commence": "2026-11-15T03:30Z",
+  "market": "Moneyline",
+  "team": "Utah Utes",
+  "pick": "Utah Utes ML",
+  "odds": "-118",
+  "lockedOdds": -118,
+  "confidence": 52,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Utah is 9-0 and 3-0 against winning teams, including a 28-20 win over BYU, while Arizona is 1-2 against winning teams and lost 26-34 at Texas Tech. The Utes have won every game this season and have passed every test put in front of them.",
+  "caution": "Arizona is 7-2 and just beat TCU 29-28 in a one-score game, showing they can hang with anyone at home.",
+  "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNCAAFGAME-26NOV14UTAHARIZ-UTAH",
+  "kalshiEventTicker": "KXNCAAFGAME-26NOV14UTAHARIZ",
+  "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov14utahariz",
+  "kalshiAsk": 52,
+  "reasoning": [
+    "Our AI models' reason: Utah is 9-0 and 3-0 against winning teams, including a 28-20 win over BYU, while Arizona is 1-2 against winning teams and lost 26-34 at Texas Tech. The Utes have won every game this season and have passed every test put in front of them.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+    "Utah Utes: 9-0; Arizona Wildcats: 7-2.",
+    "Utah Utes, last 5: W 28-20 vs BYU Cougars (7-2 after that game); W 49-25 at Cincinnati Bearcats (5-3 after that game); W 21-13 vs Houston Cougars (6-2 after that game); W 27-24 at Colorado Buffaloes (2-4 after that game); W 41-24 vs Kansas Jayhawks (2-3 after that game). Streak: won 9 in a row. Against teams with winning records this season (by their records after each game): 3-0.",
+    "Arizona Wildcats, last 5: W 29-28 vs TCU Horned Frogs (4-5 after that game); L 26-34 at Texas Tech Red Raiders (7-1 after that game); W 39-3 vs Iowa State Cyclones (3-4 after that game); W 52-31 at West Virginia Mountaineers (3-3 after that game); W 34-7 vs Cincinnati Bearcats (4-1 after that game). Against teams with winning records this season (by their records after each game): 1-2.",
+    "What could go wrong: Arizona is 7-2 and just beat TCU 29-28 in a one-score game, showing they can hang with anyone at home.",
+    "Removing the bookmaker's cut, the consensus puts Utah Utes's chance near 52%. That is the market's price.",
+    "On Kalshi, Utah Utes's contract cost 52¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-118 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "52%"
+    ],
+    [
+      "Kalshi price at lock",
+      "52¢"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1794664973418,
+  "quoteAsOf": 1794664975350,
+  "publishedAt": 1794664975369,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-14T14:02:53.418Z",
+    "lockedAt": "2026-11-14T14:02:55.369Z",
+    "quoteAsOf": "2026-11-14T14:02:55.350Z",
+    "sitePublishedAt": "2026-11-14T14:30:05.871Z"
+  }
+}

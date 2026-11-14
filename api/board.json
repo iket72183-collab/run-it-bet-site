@@ -1,55 +1,55 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-13",
-    "lockedAt": 1794578762035,
+    "day": "2026-11-14",
+    "lockedAt": 1794664975369,
     "publicationState": "published",
     "aiDesk": true,
     "reason": null,
     "picks": [
       {
-        "id": "sp-2026-11-13-nba-401909298",
+        "id": "sp-2026-11-14-ncaaf-401862829",
         "kind": "sports",
         "source": "sportsbook",
         "live": true,
         "method": "ai",
-        "sport": "NBA",
-        "gameId": "401909298",
-        "event": "Cleveland Cavaliers @ Miami Heat",
-        "home": "Miami Heat",
-        "away": "Cleveland Cavaliers",
-        "homeAbbr": "MIA",
-        "awayAbbr": "CLE",
-        "commence": "2026-11-14T01:00Z",
+        "sport": "NCAAF",
+        "gameId": "401862829",
+        "event": "UAB Blazers @ Temple Owls",
+        "home": "Temple Owls",
+        "away": "UAB Blazers",
+        "homeAbbr": "TEM",
+        "awayAbbr": "UAB",
+        "commence": "2026-11-14T18:00Z",
         "market": "Moneyline",
-        "team": "Cleveland Cavaliers",
-        "pick": "Cleveland Cavaliers ML",
-        "odds": "+115",
-        "lockedOdds": 115,
+        "team": "UAB Blazers",
+        "pick": "UAB Blazers ML",
+        "odds": "+114",
+        "lockedOdds": 114,
         "confidence": 45,
         "risk": "Value",
         "expertId": "ai-desk",
-        "why": "Cleveland has played better against winning teams this season (3-5) than Miami (1-5), and they just won on the road against the Knicks. Miami's poor home record (1-3) also suggests they may not have a big home advantage in this matchup.",
-        "caution": "Cleveland is missing starting center Evan Mobley (toe), which weakens their interior presence, and they've struggled on the road at 2-4.",
-        "research": "ESPN injury report, team records, recent results and schedule",
-        "kalshiTicker": "KXNBAGAME-26NOV13CLEMIA-CLE",
-        "kalshiEventTicker": "KXNBAGAME-26NOV13CLEMIA",
-        "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov13clemia",
-        "kalshiAsk": 45,
+        "why": "UAB is 5-4 and just beat Charlotte 23-12, while Temple has lost four straight and sits at 2-7 overall. The Owls' only win against a team with a winning record was a narrow 17-13 at South Florida, and they've been outscored in four straight losses.",
+        "caution": "Temple is at home at Lincoln Financial Field and UAB is 0-4 against winning teams this season.",
+        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+        "kalshiTicker": "KXNCAAFGAME-26NOV14UABTEM-UAB",
+        "kalshiEventTicker": "KXNCAAFGAME-26NOV14UABTEM",
+        "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov14uabtem",
+        "kalshiAsk": 46,
         "reasoning": [
-          "Our AI models' reason: Cleveland has played better against winning teams this season (3-5) than Miami (1-5), and they just won on the road against the Knicks. Miami's poor home record (1-3) also suggests they may not have a big home advantage in this matchup.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
-          "Cleveland Cavaliers: 6-6; Miami Heat: 5-6.",
-          "Cleveland Cavaliers, last 5: W 115-107 at New York Knicks (now 6-5); L 112-124 at Charlotte Hornets (now 4-8); L 97-109 vs New York Knicks (now 6-5); W 119-95 vs Philadelphia 76ers (now 10-3); L 116-124 at Oklahoma City Thunder (now 8-4). Against teams with winning records this season (by their current records): 3-5.",
-          "Miami Heat, last 5: W 115-109 at Utah Jazz (now 1-11); W 114-108 at Sacramento Kings (now 1-10); L 100-120 at Golden State Warriors (now 8-4); W 117-116 at LA Clippers (now 2-8); L 117-138 at Los Angeles Lakers (now 11-2). Streak: won 2 in a row. Against teams with winning records this season (by their current records): 1-5.",
-          "What could go wrong: Cleveland is missing starting center Evan Mobley (toe), which weakens their interior presence, and they've struggled on the road at 2-4.",
-          "Removing the bookmaker's cut, the 4-book consensus puts Cleveland Cavaliers's chance near 45%. That is the market's price.",
-          "On Kalshi, Cleveland Cavaliers's contract cost 45¢ at the lock."
+          "Our AI models' reason: UAB is 5-4 and just beat Charlotte 23-12, while Temple has lost four straight and sits at 2-7 overall. The Owls' only win against a team with a winning record was a narrow 17-13 at South Florida, and they've been outscored in four straight losses.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+          "UAB Blazers: 5-4; Temple Owls: 2-7.",
+          "UAB Blazers, last 5: W 23-12 vs Charlotte 49ers (1-8 after that game); L 10-30 at South Florida Bulls (6-2 after that game); W 30-17 vs East Carolina Pirates (3-3 after that game); L 13-38 at Memphis Tigers (5-1 after that game); W 33-14 vs Samford Bulldogs (1-4 after that game). Against teams with winning records this season (by their records after each game): 0-4.",
+          "Temple Owls, last 5: L 35-42 at Navy Midshipmen (3-6 after that game); L 9-17 at East Carolina Pirates (4-4 after that game); L 31-38 vs Charlotte 49ers (1-6 after that game); L 20-34 vs UConn Huskies (3-3 after that game); W 17-13 at South Florida Bulls (4-1 after that game). Streak: lost 4 in a row. Against teams with winning records this season (by their records after each game): 1-3.",
+          "What could go wrong: Temple is at home at Lincoln Financial Field and UAB is 0-4 against winning teams this season.",
+          "Removing the bookmaker's cut, the consensus puts UAB Blazers's chance near 45%. That is the market's price.",
+          "On Kalshi, UAB Blazers's contract cost 46¢ at the lock."
         ],
         "stats": [
           [
             "Odds at lock",
-            "+115 · BetMGM"
+            "+114 · DraftKings"
           ],
           [
             "Market-implied at lock",
@@ -57,16 +57,16 @@
           ],
           [
             "Kalshi price at lock",
-            "45¢"
+            "46¢"
           ],
           [
             "Books compared",
-            "4"
+            "1"
           ]
         ],
-        "generatedAt": 1794578759877,
-        "quoteAsOf": 1794578762030,
-        "publishedAt": 1794578762035,
+        "generatedAt": 1794664973418,
+        "quoteAsOf": 1794664975350,
+        "publishedAt": 1794664975369,
         "started": false,
         "outcome": null,
         "marketStatus": "pending",
@@ -76,32 +76,107 @@
         "units": 0,
         "pending": false,
         "times": {
-          "generatedAt": "2026-11-13T14:05:59.877Z",
-          "lockedAt": "2026-11-13T14:06:02.035Z",
-          "quoteAsOf": "2026-11-13T14:06:02.030Z",
-          "sitePublishedAt": "2026-11-13T14:30:06.349Z"
+          "generatedAt": "2026-11-14T14:02:53.418Z",
+          "lockedAt": "2026-11-14T14:02:55.369Z",
+          "quoteAsOf": "2026-11-14T14:02:55.350Z",
+          "sitePublishedAt": "2026-11-14T14:30:05.871Z"
+        }
+      },
+      {
+        "id": "sp-2026-11-14-ncaaf-401856864",
+        "kind": "sports",
+        "source": "sportsbook",
+        "live": true,
+        "method": "ai",
+        "sport": "NCAAF",
+        "gameId": "401856864",
+        "event": "Utah Utes @ Arizona Wildcats",
+        "home": "Arizona Wildcats",
+        "away": "Utah Utes",
+        "homeAbbr": "ARIZ",
+        "awayAbbr": "UTAH",
+        "commence": "2026-11-15T03:30Z",
+        "market": "Moneyline",
+        "team": "Utah Utes",
+        "pick": "Utah Utes ML",
+        "odds": "-118",
+        "lockedOdds": -118,
+        "confidence": 52,
+        "risk": "Value",
+        "expertId": "ai-desk",
+        "why": "Utah is 9-0 and 3-0 against winning teams, including a 28-20 win over BYU, while Arizona is 1-2 against winning teams and lost 26-34 at Texas Tech. The Utes have won every game this season and have passed every test put in front of them.",
+        "caution": "Arizona is 7-2 and just beat TCU 29-28 in a one-score game, showing they can hang with anyone at home.",
+        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+        "kalshiTicker": "KXNCAAFGAME-26NOV14UTAHARIZ-UTAH",
+        "kalshiEventTicker": "KXNCAAFGAME-26NOV14UTAHARIZ",
+        "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov14utahariz",
+        "kalshiAsk": 52,
+        "reasoning": [
+          "Our AI models' reason: Utah is 9-0 and 3-0 against winning teams, including a 28-20 win over BYU, while Arizona is 1-2 against winning teams and lost 26-34 at Texas Tech. The Utes have won every game this season and have passed every test put in front of them.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+          "Utah Utes: 9-0; Arizona Wildcats: 7-2.",
+          "Utah Utes, last 5: W 28-20 vs BYU Cougars (7-2 after that game); W 49-25 at Cincinnati Bearcats (5-3 after that game); W 21-13 vs Houston Cougars (6-2 after that game); W 27-24 at Colorado Buffaloes (2-4 after that game); W 41-24 vs Kansas Jayhawks (2-3 after that game). Streak: won 9 in a row. Against teams with winning records this season (by their records after each game): 3-0.",
+          "Arizona Wildcats, last 5: W 29-28 vs TCU Horned Frogs (4-5 after that game); L 26-34 at Texas Tech Red Raiders (7-1 after that game); W 39-3 vs Iowa State Cyclones (3-4 after that game); W 52-31 at West Virginia Mountaineers (3-3 after that game); W 34-7 vs Cincinnati Bearcats (4-1 after that game). Against teams with winning records this season (by their records after each game): 1-2.",
+          "What could go wrong: Arizona is 7-2 and just beat TCU 29-28 in a one-score game, showing they can hang with anyone at home.",
+          "Removing the bookmaker's cut, the consensus puts Utah Utes's chance near 52%. That is the market's price.",
+          "On Kalshi, Utah Utes's contract cost 52¢ at the lock."
+        ],
+        "stats": [
+          [
+            "Odds at lock",
+            "-118 · DraftKings"
+          ],
+          [
+            "Market-implied at lock",
+            "52%"
+          ],
+          [
+            "Kalshi price at lock",
+            "52¢"
+          ],
+          [
+            "Books compared",
+            "1"
+          ]
+        ],
+        "generatedAt": 1794664973418,
+        "quoteAsOf": 1794664975350,
+        "publishedAt": 1794664975369,
+        "started": false,
+        "outcome": null,
+        "marketStatus": "pending",
+        "settlementCents": null,
+        "rulesUrl": null,
+        "settlementNote": null,
+        "units": 0,
+        "pending": false,
+        "times": {
+          "generatedAt": "2026-11-14T14:02:53.418Z",
+          "lockedAt": "2026-11-14T14:02:55.369Z",
+          "quoteAsOf": "2026-11-14T14:02:55.350Z",
+          "sitePublishedAt": "2026-11-14T14:30:05.871Z"
         }
       }
     ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-13",
-    "lockedAt": 1794578731978,
+    "day": "2026-11-14",
+    "lockedAt": 1794664819155,
     "publicationState": "published",
-    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t.",
+    "reason": "Our screen found no researched question with a clear call today. Texas low temperatures get their own check at 9:30 AM.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1794584016366,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our AI models found no researched pick worth making today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-13-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-13T15:33:37.197Z"
+    "id": "snapshot-2026-11-14-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-14T14:30:05.871Z"
   }
 }

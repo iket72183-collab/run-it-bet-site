@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-14-ncaaf-401862829",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NCAAF",
+  "gameId": "401862829",
+  "event": "UAB Blazers @ Temple Owls",
+  "home": "Temple Owls",
+  "away": "UAB Blazers",
+  "homeAbbr": "TEM",
+  "awayAbbr": "UAB",
+  "commence": "2026-11-14T18:00Z",
+  "market": "Moneyline",
+  "team": "UAB Blazers",
+  "pick": "UAB Blazers ML",
+  "odds": "+114",
+  "lockedOdds": 114,
+  "confidence": 45,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "UAB is 5-4 and just beat Charlotte 23-12, while Temple has lost four straight and sits at 2-7 overall. The Owls' only win against a team with a winning record was a narrow 17-13 at South Florida, and they've been outscored in four straight losses.",
+  "caution": "Temple is at home at Lincoln Financial Field and UAB is 0-4 against winning teams this season.",
+  "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+  "kalshiTicker": "KXNCAAFGAME-26NOV14UABTEM-UAB",
+  "kalshiEventTicker": "KXNCAAFGAME-26NOV14UABTEM",
+  "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov14uabtem",
+  "kalshiAsk": 46,
+  "reasoning": [
+    "Our AI models' reason: UAB is 5-4 and just beat Charlotte 23-12, while Temple has lost four straight and sits at 2-7 overall. The Owls' only win against a team with a winning record was a narrow 17-13 at South Florida, and they've been outscored in four straight losses.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+    "UAB Blazers: 5-4; Temple Owls: 2-7.",
+    "UAB Blazers, last 5: W 23-12 vs Charlotte 49ers (1-8 after that game); L 10-30 at South Florida Bulls (6-2 after that game); W 30-17 vs East Carolina Pirates (3-3 after that game); L 13-38 at Memphis Tigers (5-1 after that game); W 33-14 vs Samford Bulldogs (1-4 after that game). Against teams with winning records this season (by their records after each game): 0-4.",
+    "Temple Owls, last 5: L 35-42 at Navy Midshipmen (3-6 after that game); L 9-17 at East Carolina Pirates (4-4 after that game); L 31-38 vs Charlotte 49ers (1-6 after that game); L 20-34 vs UConn Huskies (3-3 after that game); W 17-13 at South Florida Bulls (4-1 after that game). Streak: lost 4 in a row. Against teams with winning records this season (by their records after each game): 1-3.",
+    "What could go wrong: Temple is at home at Lincoln Financial Field and UAB is 0-4 against winning teams this season.",
+    "Removing the bookmaker's cut, the consensus puts UAB Blazers's chance near 45%. That is the market's price.",
+    "On Kalshi, UAB Blazers's contract cost 46¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+114 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "45%"
+    ],
+    [
+      "Kalshi price at lock",
+      "46¢"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1794664973418,
+  "quoteAsOf": 1794664975350,
+  "publishedAt": 1794664975369,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-14T14:02:53.418Z",
+    "lockedAt": "2026-11-14T14:02:55.369Z",
+    "quoteAsOf": "2026-11-14T14:02:55.350Z",
+    "sitePublishedAt": "2026-11-14T14:30:05.871Z"
+  }
+}
