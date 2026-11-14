@@ -164,19 +164,19 @@
     "day": "2026-11-14",
     "lockedAt": 1794664819155,
     "publicationState": "published",
-    "reason": "Our screen found no researched question with a clear call today. Texas low temperatures get their own check at 9:30 AM.",
+    "reason": "Our screen found no researched question with a clear call today.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
+      "state": "published",
+      "lockedAt": 1794670204813,
       "picks": 0,
-      "reason": null
+      "reason": "Our screen found no researched question with a clear call today."
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-14-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-14T14:30:05.871Z"
+    "id": "snapshot-2026-11-14-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-14T15:30:06.919Z"
   }
 }
