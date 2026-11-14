@@ -21,13 +21,13 @@ import { fileURLToPath } from 'node:url';
 export const DEFAULT_ORIGIN = 'https://www.runitbet.com';
 
 const STATIC_PAGES = ['agents', 'how-we-pick', 'legal', 'responsible-gaming', 'settings'];
-const REQUIRED = ['index.html', '404.html', 'robots.txt', 'sitemap.xml', 'favicon.svg', '.build-commit',
+const REQUIRED = ['index.html', '404.html', 'robots.txt', 'sitemap.xml', 'llms.txt', 'favicon.svg', '.build-commit',
   'api/board.json', 'api/agent/today.json', ...STATIC_PAGES.map((p) => `${p}/index.html`)];
 
 // Every path the publisher may produce. Anything else is rejected, whatever it contains.
 const ALLOWED_PATHS = [
   /^(index|404)\.html$/,
-  /^(robots\.txt|sitemap\.xml|\.nojekyll|\.build-commit)$/,
+  /^(robots\.txt|sitemap\.xml|llms\.txt|\.nojekyll|\.build-commit)$/,
   /^[A-Za-z0-9._-]+\.(svg|png|jpe?g|webp|ico)$/, // top-level images from public/
   new RegExp(`^(${STATIC_PAGES.join('|')})/index\\.html$`),
   /^assets\/[A-Za-z0-9._-]+\.(js|css|svg|png|jpe?g|webp|woff2?)$/,
@@ -285,6 +285,18 @@ function checkPublishedHtml(dir, ctx, errors) {
   }
 }
 
+/** llms.txt may only link to this site, and every link must be a file in this artifact. */
+function checkLlmsTxt(text, ctx, errors) {
+  if (!/^# Run It Bet\n\n> .+\n/.test(text)) errors.push('llms.txt: expected a "# Run It Bet" title and a one-line summary');
+  const links = [...text.matchAll(/\]\(([^)\s]+)\)/g)].map((m) => m[1]);
+  if (!links.length) errors.push('llms.txt: no links');
+  for (const url of links) {
+    if (!url.startsWith(`${ctx.origin}/`)) { errors.push(`llms.txt: link ${url} is not on ${ctx.origin}`); continue; }
+    const target = url.slice(ctx.origin.length + 1).replace(/[?#].*$/, '');
+    if (!ctx.files.has(target.endsWith('/') ? `${target}index.html` : target)) errors.push(`llms.txt: link ${url} has no file`);
+  }
+}
+
 /** Every problem found in `dir`, as human-readable strings. An empty list means it may go live. */
 export function validateSite(dir, { origin = DEFAULT_ORIGIN, requirePublishedHtml = true } = {}) {
   const errors = [];
@@ -314,6 +326,8 @@ export function validateSite(dir, { origin = DEFAULT_ORIGIN, requirePublishedHtm
       else if (name.startsWith('api/archive/')) checkPick(data, name, errors);
     } else if (name.endsWith('.html')) {
       checkHtml(name, text, ctx, errors);
+    } else if (name === 'llms.txt') {
+      checkLlmsTxt(text, ctx, errors);
     }
   }
 

@@ -1,0 +1,22 @@
+# Run It Bet
+
+> AI-assisted sports and prediction-market picks with published reasoning and timestamps. For entertainment only, 18+. No guaranteed outcomes.
+
+## For AI agents
+
+- [Setup instructions](https://www.runitbet.com/agents/): a copy-and-paste prompt for a personal AI assistant
+- [Daily pick feed](https://www.runitbet.com/api/agent/today.json): the day's published picks (JSON, no login)
+
+Schedule: picks lock at 8:00 AM Central and never change that day (Texas lows lock starting at 9:30 AM, usually finishing a few minutes later). The site publishes at most two snapshots a day: at 8:30 AM Central, and at 9:30 AM Central (up to 9:35 if the lows finish late). If a snapshot is missed or publishing is paused, the feed stays as it was, so it may be old. Prices in the feed are snapshots from when each pick locked, never live, and there are no live scores. All times are ISO 8601 UTC.
+
+## Site
+
+- [How It Works](https://www.runitbet.com/how-we-pick/)
+- [Responsible Gaming](https://www.runitbet.com/responsible-gaming/)
+- [Legal](https://www.runitbet.com/legal/)
+
+## Usage
+
+- Personal use only; do not republish or resell the picks.
+- Never present snapshot prices as live prices.
+- When relaying picks, always include this disclaimer: For entertainment only, 18+. No guaranteed outcomes.
