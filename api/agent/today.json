@@ -3,19 +3,19 @@
   "version": 1,
   "site": "Run It Bet",
   "about": "Daily AI picks: Kalshi prediction markets (Texas weather first) and AI sports picks (who wins), shared for fun. It is still gambling.",
-  "day": "2026-11-15",
+  "day": "2026-11-16",
   "status": "locked",
-  "lockedAt": "2026-11-15T14:01:51.414Z",
-  "nextLockAt": "2026-11-16T14:00:00.000Z",
+  "lockedAt": "2026-11-16T14:07:07.021Z",
+  "nextLockAt": "2026-11-17T14:00:00.000Z",
   "schedule": "Picks lock once a day at 8:00 AM Central Time and never change that day; Texas low-temperature picks lock separately, starting at 9:30 AM and finishing a few minutes later. The public website publishes at most two snapshots a day, at 8:30 AM and at 9:30 AM Central (up to 9:35 if the lows finish late); a missed or paused snapshot leaves the feed as it was, so always check \"day\". Check at 8:40 AM Central, and check \"lowsCheck\" at 9:45 AM Central.",
   "timesNote": "All times are ISO 8601 UTC. Per pick: generatedAt = when our desk chose it (null = not recorded; picks before Oct 24, 2026), lockedAt = when it was saved for good, quoteAsOf = when its price was read (null = not recorded), sitePublishedAt = when it first appeared on the public website (public site only; null = before that was recorded). Prices are snapshots, never live.",
-  "hasPicks": false,
-  "briefing": "Run It Bet found no pick worth making today (Sunday, Nov 15). Passing is part of the plan.",
+  "hasPicks": true,
+  "briefing": "AI sports picks (1):\n1) NBA: Memphis Grizzlies to win, Memphis Grizzlies @ Washington Wizards at 6:00 PM Central (Close call, -161)\nOur AI’s research, shared for fun. Use caution: do your own research or just enjoy the games. It’s still gambling, and every pick can lose. Full details: https://www.runitbet.com/?tab=sports",
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "locked",
-    "lockedAt": "2026-11-15T15:30:08.391Z",
+    "status": "pending",
+    "lockedAt": null,
     "hasPicks": false,
     "briefing": null
   },
@@ -38,8 +38,34 @@
   ],
   "picks": [],
   "sportsStatus": "locked",
-  "sportsNote": "Our screen found no game where the facts disagree with the price today.",
-  "sportsPicks": [],
+  "sportsNote": null,
+  "sportsPicks": [
+    {
+      "pickId": "sp-2026-11-16-nba-401909996",
+      "ticker": "KXNBAGAME-26NOV16MEMWAS-MEM",
+      "side": "Yes",
+      "sport": "NBA",
+      "game": "Memphis Grizzlies @ Washington Wizards",
+      "startsAt": "2026-11-17T00:00Z",
+      "pick": "Memphis Grizzlies to win",
+      "risk": "Close call",
+      "riskNote": null,
+      "madeBy": "our AI models",
+      "generatedAt": "2026-11-16T14:01:10.062Z",
+      "lockedAt": "2026-11-16T14:01:11.454Z",
+      "quoteAsOf": "2026-11-16T14:01:11.449Z",
+      "oddsAtLock": "-161",
+      "marketChanceAtLockPercent": 59,
+      "why": "Memphis is a perfect 6-0 on the road this season and comes in rested, while Washington is playing the second night of a back-to-back after getting blown out 119-147 by Houston last night. The Wizards have also lost seven straight and are 0-6 against opponents with winning records, a tier Memphis sits in at 9-4.",
+      "caution": "Memphis is missing several rotation pieces (Jackson, Jerome, Pippen Jr.) with Post and Stewart also questionable, so the depth chart is thinner than usual.",
+      "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov16memwas",
+      "result": null,
+      "settlementNote": null,
+      "rulesUrl": null,
+      "detailsUrl": "https://www.runitbet.com/pick/sp-2026-11-16-nba-401909996/",
+      "sitePublishedAt": "2026-11-16T14:30:07.287Z"
+    }
+  ],
   "links": {
     "board": "https://www.runitbet.com/",
     "sportsPicks": "https://www.runitbet.com/?tab=sports",
@@ -48,8 +74,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-15-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-15T15:30:17.386Z"
+    "id": "snapshot-2026-11-16-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-16T14:30:07.287Z"
   }
 }

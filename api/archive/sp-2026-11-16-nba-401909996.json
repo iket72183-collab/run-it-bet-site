@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-16-nba-401909996",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401909996",
+  "event": "Memphis Grizzlies @ Washington Wizards",
+  "home": "Washington Wizards",
+  "away": "Memphis Grizzlies",
+  "homeAbbr": "WSH",
+  "awayAbbr": "MEM",
+  "commence": "2026-11-17T00:00Z",
+  "market": "Moneyline",
+  "team": "Memphis Grizzlies",
+  "pick": "Memphis Grizzlies ML",
+  "odds": "-161",
+  "lockedOdds": -161,
+  "confidence": 59,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Memphis is a perfect 6-0 on the road this season and comes in rested, while Washington is playing the second night of a back-to-back after getting blown out 119-147 by Houston last night. The Wizards have also lost seven straight and are 0-6 against opponents with winning records, a tier Memphis sits in at 9-4.",
+  "caution": "Memphis is missing several rotation pieces (Jackson, Jerome, Pippen Jr.) with Post and Stewart also questionable, so the depth chart is thinner than usual.",
+  "research": "ESPN injury report, team records, recent results and schedule",
+  "kalshiTicker": "KXNBAGAME-26NOV16MEMWAS-MEM",
+  "kalshiEventTicker": "KXNBAGAME-26NOV16MEMWAS",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov16memwas",
+  "kalshiAsk": 60,
+  "reasoning": [
+    "Our AI models' reason: Memphis is a perfect 6-0 on the road this season and comes in rested, while Washington is playing the second night of a back-to-back after getting blown out 119-147 by Houston last night. The Wizards have also lost seven straight and are 0-6 against opponents with winning records, a tier Memphis sits in at 9-4.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+    "Memphis Grizzlies: 9-4; Washington Wizards: 4-10.",
+    "Memphis Grizzlies, last 5: W 129-110 vs Brooklyn Nets (now 3-9); W 142-111 at New Orleans Pelicans (now 4-10); L 118-123 vs Denver Nuggets (now 7-4); W 118-102 at Toronto Raptors (now 5-8); L 97-128 vs Oklahoma City Thunder (now 9-5). Streak: won 2 in a row. Against teams with winning records this season (by their current records): 2-2.",
+    "Washington Wizards, last 5: L 119-147 vs Houston Rockets (now 11-3); L 140-144 vs Detroit Pistons (now 8-4); L 101-114 at Indiana Pacers (now 5-9); L 111-122 at Detroit Pistons (now 8-4); L 75-114 at Oklahoma City Thunder (now 9-5). Streak: lost 7 in a row. Against teams with winning records this season (by their current records): 0-6.",
+    "What could go wrong: Memphis is missing several rotation pieces (Jackson, Jerome, Pippen Jr.) with Post and Stewart also questionable, so the depth chart is thinner than usual.",
+    "Removing the bookmaker's cut, the consensus puts Memphis Grizzlies's chance near 59%. That is the market's price.",
+    "On Kalshi, Memphis Grizzlies's contract cost 60¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-161 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "59%"
+    ],
+    [
+      "Kalshi price at lock",
+      "60¢"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1794837670062,
+  "quoteAsOf": 1794837671449,
+  "publishedAt": 1794837671454,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-16T14:01:10.062Z",
+    "lockedAt": "2026-11-16T14:01:11.454Z",
+    "quoteAsOf": "2026-11-16T14:01:11.449Z",
+    "sitePublishedAt": "2026-11-16T14:30:07.287Z"
+  }
+}
