@@ -14,8 +14,8 @@
   "lowsCheck": {
     "time": "9:30 AM",
     "checkAt": "9:45 AM Central",
-    "status": "pending",
-    "lockedAt": null,
+    "status": "locked",
+    "lockedAt": "2026-11-16T15:30:09.521Z",
     "hasPicks": false,
     "briefing": null
   },
@@ -74,8 +74,8 @@
     "terms": "https://www.runitbet.com/legal/#terms"
   },
   "snapshot": {
-    "id": "snapshot-2026-11-16-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-16T14:30:07.287Z"
+    "id": "snapshot-2026-11-16-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-16T15:30:17.558Z"
   }
 }
