@@ -197,6 +197,22 @@ function checkHtml(rel, html, ctx, errors) {
 // Kept self-contained so exactly the same validator can run in the public artifact repository.
 function checkPublishedHtml(dir, ctx, errors) {
   const read = (rel) => ctx.files.has(rel) ? fs.readFileSync(path.join(dir, rel), 'utf8') : '';
+  for (const rel of ['404.html', 'settings/index.html']) {
+    if (!read(rel).includes('<meta name="robots" content="noindex, follow"')) errors.push(`${rel}: expected noindex, follow`);
+  }
+  const notFound = read('404.html');
+  if (/<link\b[^>]*\brel="canonical"/.test(notFound)) errors.push('404.html: must not have a canonical');
+  for (const tag of ['<title>Page not found — Run It Bet</title>', '<meta property="og:title" content="Page not found — Run It Bet"', '<meta name="twitter:title" content="Page not found — Run It Bet"']) {
+    if (!notFound.includes(tag)) errors.push('404.html: expected page-not-found title');
+  }
+  for (const [, url] of read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    if (!url.startsWith(`${ctx.origin}/`)) { errors.push(`sitemap.xml: unexpected origin ${url}`); continue; }
+    const route = url.slice(ctx.origin.length);
+    if (/^\/(settings|404(?:\.html)?)(?:\/|$)/.test(route)) errors.push(`sitemap.xml: noindex URL ${url}`);
+    const page = read(`${route.slice(1)}index.html`);
+    if (!page.includes('<meta name="robots" content="index, follow"')) errors.push(`${url}: sitemap page must be index, follow`);
+    if (!page.includes(`<link rel="canonical" href="${url}"`)) errors.push(`${url}: sitemap page must have a self-canonical`);
+  }
   const escape = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   let board, feed;
   try { board = JSON.parse(read('api/board.json')); feed = JSON.parse(read('api/agent/today.json')); }
