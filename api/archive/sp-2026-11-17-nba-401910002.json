@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-17-nba-401910002",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401910002",
+  "event": "New York Knicks @ Toronto Raptors",
+  "home": "Toronto Raptors",
+  "away": "New York Knicks",
+  "homeAbbr": "TOR",
+  "awayAbbr": "NY",
+  "commence": "2026-11-18T00:30Z",
+  "market": "Moneyline",
+  "team": "New York Knicks",
+  "pick": "New York Knicks ML",
+  "odds": "-148",
+  "lockedOdds": -148,
+  "confidence": 57,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Knicks just beat the Raptors 112-108 in Toronto, and Toronto is missing Kawhi Leonard and Nate Bittle while riding a 4-game losing streak and going 0-7 against winning teams this season.",
+  "caution": "The Knicks are only 7-6 themselves and just 2-4 against winning teams, so this is far from a dominant favorite.",
+  "research": "ESPN injury report, team records, recent results and schedule",
+  "kalshiTicker": "KXNBAGAME-26NOV17NYKTOR-NYK",
+  "kalshiEventTicker": "KXNBAGAME-26NOV17NYKTOR",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov17nyktor",
+  "kalshiAsk": 58,
+  "reasoning": [
+    "Our AI models' reason: The Knicks just beat the Raptors 112-108 in Toronto, and Toronto is missing Kawhi Leonard and Nate Bittle while riding a 4-game losing streak and going 0-7 against winning teams this season.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+    "New York Knicks: 7-6; Toronto Raptors: 5-8.",
+    "New York Knicks, last 5: W 112-108 at Toronto Raptors (now 5-8); L 104-106 at Indiana Pacers (now 5-9); L 107-115 vs Cleveland Cavaliers (now 8-7); W 117-85 vs Milwaukee Bucks (now 1-13); W 109-97 at Cleveland Cavaliers (now 8-7). Against teams with winning records this season (by their current records): 2-4.",
+    "Toronto Raptors, last 5: L 108-112 vs New York Knicks (now 7-6); L 112-123 at Philadelphia 76ers (now 12-3); L 93-98 vs Boston Celtics (now 11-3); L 102-118 vs Memphis Grizzlies (now 10-4); W 121-107 at Milwaukee Bucks (now 1-13). Streak: lost 4 in a row. Against teams with winning records this season (by their current records): 0-7.",
+    "What could go wrong: The Knicks are only 7-6 themselves and just 2-4 against winning teams, so this is far from a dominant favorite.",
+    "Removing the bookmaker's cut, the consensus puts New York Knicks's chance near 57%. That is the market's price.",
+    "On Kalshi, New York Knicks's contract cost 58¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-148 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "57%"
+    ],
+    [
+      "Kalshi price at lock",
+      "58¢"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1794924084107,
+  "quoteAsOf": 1794924085465,
+  "publishedAt": 1794924085469,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-17T14:01:24.107Z",
+    "lockedAt": "2026-11-17T14:01:25.469Z",
+    "quoteAsOf": "2026-11-17T14:01:25.465Z",
+    "sitePublishedAt": "2026-11-17T14:30:07.278Z"
+  }
+}
