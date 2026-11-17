@@ -180,8 +180,10 @@ function checkHtml(rel, html, ctx, errors) {
     if (href.startsWith('/assets/') && !ctx.files.has(href.slice(1).split(/[?#]/)[0])) errors.push(`${rel}: stylesheet ${href} is missing`);
   }
   if (/\son[a-z]+\s*=/i.test(html.replace(/<script\b[\s\S]*?<\/script>/gi, ''))) errors.push(`${rel}: inline event handler attribute`);
-  for (const m of html.matchAll(/\b(?:href|src)="([a-z][a-z0-9+.-]*:[^"]*)"/gi)) {
-    const link = m[1].replace(/&amp;/g, '&');
+  for (const m of html.matchAll(/\b(href|src)="([a-z][a-z0-9+.-]*:[^"]*)"/gi)) {
+    const link = m[2].replace(/&amp;/g, '&');
+    // These are the 96px decorative images produced by teamLogoUrl.
+    if (m[1] === 'src' && /^https:\/\/a\.espncdn\.com\/combiner\/i\?img=\/i\/teamlogos\/(?:nba|nfl|nhl|mlb)\/500-dark\/[a-z0-9]{2,5}\.png&w=96&h=96$/.test(link)) continue;
     if (/^(mailto|tel):/i.test(link)) continue;
     if (!safeLink(link, new Set([...HTML_LINK_HOSTS, ...DATA_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${rel}: unsafe link ${JSON.stringify(link.slice(0, 120))}`);
   }
