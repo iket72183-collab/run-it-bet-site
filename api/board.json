@@ -1,8 +1,8 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-18",
-    "lockedAt": 1795010538262,
+    "day": "2026-11-19",
+    "lockedAt": 1795097000661,
     "publicationState": "published",
     "aiDesk": true,
     "reason": "Our AI models liked a team or two today, but not by enough over the market’s price to be worth it after fees.",
@@ -10,22 +10,22 @@
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-18",
-    "lockedAt": 1795010599191,
+    "day": "2026-11-19",
+    "lockedAt": 1795096850406,
     "publicationState": "published",
-    "reason": "Our AI models had a lean or two today, but none passed our price checks: too little edge after fees, or a gap from the market so large the market likely knows something our research doesn’t.",
+    "reason": "Our screen found no researched question with a clear call today. Texas low temperatures get their own check at 9:30 AM.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1795015839611,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-18-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-18T15:30:46.815Z"
+    "id": "snapshot-2026-11-19-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-19T14:30:06.006Z"
   }
 }
