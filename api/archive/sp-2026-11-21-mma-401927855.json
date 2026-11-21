@@ -1,0 +1,73 @@
+{
+  "id": "sp-2026-11-21-mma-401927855",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "MMA",
+  "gameId": "401927855",
+  "event": "Asu Almabayev @ Kyoji Horiguchi",
+  "home": "Kyoji Horiguchi",
+  "away": "Asu Almabayev",
+  "homeAbbr": null,
+  "awayAbbr": null,
+  "commence": "2026-11-21T18:00Z",
+  "market": "Moneyline",
+  "team": "Asu Almabayev",
+  "pick": "Asu Almabayev ML",
+  "odds": "+154",
+  "lockedOdds": 154,
+  "confidence": 38,
+  "risk": "Risky",
+  "expertId": "ai-desk",
+  "why": "Almabayev averages 4.74 takedowns per 15 minutes and has won his last three fights, all by submission. Horiguchi is 36 years old and was knocked out in his last fight in June, raising questions about his durability against an elite grappler.",
+  "caution": "Horiguchi has far more experience (36-6 vs 24-3) and lands significantly more strikes per minute (3.64 vs 2.28).",
+  "research": "ESPN fighter stats, records and recent fights; past-week MMA news headlines",
+  "kalshiTicker": "KXUFCFIGHT-26NOV21HORALM-ALM",
+  "kalshiEventTicker": "KXUFCFIGHT-26NOV21HORALM",
+  "kalshiUrl": "https://kalshi.com/markets/kxufcfight/market/kxufcfight-26nov21horalm",
+  "kalshiAsk": 38,
+  "reasoning": [
+    "Our AI models' reason: Almabayev averages 4.74 takedowns per 15 minutes and has won his last three fights, all by submission. Horiguchi is 36 years old and was knocked out in his last fight in June, raising questions about his durability against an elite grappler.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's fighter stats and recent fights, and the past week's MMA news.",
+    "Asu Almabayev: 24-3-0; Kyoji Horiguchi: 36-6-0.",
+    "What could go wrong: Horiguchi has far more experience (36-6 vs 24-3) and lands significantly more strikes per minute (3.64 vs 2.28).",
+    "Removing the bookmaker's cut, the consensus puts Asu Almabayev's chance near 38%. That is the market's price.",
+    "On Kalshi, Asu Almabayev's contract cost 38¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+154 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "38%"
+    ],
+    [
+      "Kalshi price at lock",
+      "38¢"
+    ],
+    [
+      "Books compared",
+      "1"
+    ]
+  ],
+  "generatedAt": 1795269824337,
+  "quoteAsOf": 1795269825851,
+  "publishedAt": 1795269825852,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-21T14:03:44.337Z",
+    "lockedAt": "2026-11-21T14:03:45.852Z",
+    "quoteAsOf": "2026-11-21T14:03:45.851Z",
+    "sitePublishedAt": "2026-11-21T14:30:06.115Z"
+  }
+}

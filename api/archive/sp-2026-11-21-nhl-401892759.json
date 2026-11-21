@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-21-nhl-401892759",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NHL",
+  "gameId": "401892759",
+  "event": "Columbus Blue Jackets @ Toronto Maple Leafs",
+  "home": "Toronto Maple Leafs",
+  "away": "Columbus Blue Jackets",
+  "homeAbbr": "TOR",
+  "awayAbbr": "CBJ",
+  "commence": "2026-11-22T00:00Z",
+  "market": "Moneyline",
+  "team": "Columbus Blue Jackets",
+  "pick": "Columbus Blue Jackets ML",
+  "odds": "+102",
+  "lockedOdds": 102,
+  "confidence": 48,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "Toronto has lost eight games in a row and is just 4-9-2 at home this season. Columbus just won 4-2 at Chicago and has Jet Greaves going against a Toronto team that has been free-falling for weeks.",
+  "caution": "Columbus is only 2-6 on the road this season, and Sean Monahan is out with Mathieu Olivier day-to-day.",
+  "research": "ESPN injury report, team records, recent results and schedule",
+  "kalshiTicker": "KXNHLGAME-26NOV21CBJTOR-CBJ",
+  "kalshiEventTicker": "KXNHLGAME-26NOV21CBJTOR",
+  "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov21cbjtor",
+  "kalshiAsk": 50,
+  "reasoning": [
+    "Our AI models' reason: Toronto has lost eight games in a row and is just 4-9-2 at home this season. Columbus just won 4-2 at Chicago and has Jet Greaves going against a Toronto team that has been free-falling for weeks.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+    "Columbus Blue Jackets: 8-12-0; Toronto Maple Leafs: 8-13-3.",
+    "Columbus Blue Jackets, last 5: W 4-2 at Chicago Blackhawks (now 6-14-2); L 1-5 at New York Islanders (now 10-6-5); L 3-4 vs Philadelphia Flyers (now 8-11-6); L 1-3 vs Tampa Bay Lightning (now 15-5-2); L 1-4 vs Florida Panthers (now 12-8-3). Against teams with winning records this season (by their current records): 4-9.",
+    "Toronto Maple Leafs, last 5: L 3-4 vs Los Angeles Kings (now 7-11-2); L 3-6 at Chicago Blackhawks (now 6-14-2); L 0-1 vs Edmonton Oilers (now 17-4-3); L 2-5 vs Minnesota Wild (now 17-3-4); L 3-6 vs Colorado Avalanche (now 13-7-3). Streak: lost 8 in a row. Against teams with winning records this season (by their current records): 5-12.",
+    "What could go wrong: Columbus is only 2-6 on the road this season, and Sean Monahan is out with Mathieu Olivier day-to-day.",
+    "Removing the bookmaker's cut, the 4-book consensus puts Columbus Blue Jackets's chance near 48%. That is the market's price.",
+    "On Kalshi, Columbus Blue Jackets's contract cost 50¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+102 · BetRivers"
+    ],
+    [
+      "Market-implied at lock",
+      "48%"
+    ],
+    [
+      "Kalshi price at lock",
+      "50¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1795269824337,
+  "quoteAsOf": 1795269825851,
+  "publishedAt": 1795269825852,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-21T14:03:44.337Z",
+    "lockedAt": "2026-11-21T14:03:45.852Z",
+    "quoteAsOf": "2026-11-21T14:03:45.851Z",
+    "sitePublishedAt": "2026-11-21T14:30:06.115Z"
+  }
+}
