@@ -1,72 +1,72 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-21",
-    "lockedAt": 1795269825852,
+    "day": "2026-11-22",
+    "lockedAt": 1795356304363,
     "publicationState": "published",
     "aiDesk": true,
     "reason": null,
     "picks": [
       {
-        "id": "sp-2026-11-21-nhl-401892759",
+        "id": "sp-2026-11-22-nfl-401873076",
         "kind": "sports",
         "source": "sportsbook",
         "live": true,
         "method": "ai",
-        "sport": "NHL",
-        "gameId": "401892759",
-        "event": "Columbus Blue Jackets @ Toronto Maple Leafs",
-        "home": "Toronto Maple Leafs",
-        "away": "Columbus Blue Jackets",
-        "homeAbbr": "TOR",
-        "awayAbbr": "CBJ",
-        "commence": "2026-11-22T00:00Z",
+        "sport": "NFL",
+        "gameId": "401873076",
+        "event": "Pittsburgh Steelers @ Philadelphia Eagles",
+        "home": "Philadelphia Eagles",
+        "away": "Pittsburgh Steelers",
+        "homeAbbr": "PHI",
+        "awayAbbr": "PIT",
+        "commence": "2026-11-22T18:00Z",
         "market": "Moneyline",
-        "team": "Columbus Blue Jackets",
-        "pick": "Columbus Blue Jackets ML",
-        "odds": "+102",
-        "lockedOdds": 102,
-        "confidence": 48,
+        "team": "Pittsburgh Steelers",
+        "pick": "Pittsburgh Steelers ML",
+        "odds": "-189",
+        "lockedOdds": -189,
+        "confidence": 64,
         "risk": "Value",
         "expertId": "ai-desk",
-        "why": "Toronto has lost eight games in a row and is just 4-9-2 at home this season. Columbus just won 4-2 at Chicago and has Jet Greaves going against a Toronto team that has been free-falling for weeks.",
-        "caution": "Columbus is only 2-6 on the road this season, and Sean Monahan is out with Mathieu Olivier day-to-day.",
-        "research": "ESPN injury report, team records, recent results and schedule",
-        "kalshiTicker": "KXNHLGAME-26NOV21CBJTOR-CBJ",
-        "kalshiEventTicker": "KXNHLGAME-26NOV21CBJTOR",
-        "kalshiUrl": "https://kalshi.com/markets/kxnhlgame/market/kxnhlgame-26nov21cbjtor",
-        "kalshiAsk": 50,
+        "why": "Pittsburgh starts Aaron Rodgers and sits at 6-3, while Philadelphia has dropped seven straight and starts backup Joe Milton with Jalen Hurts on injured reserve. Philadelphia is 2-7 overall and 0-4 against winning teams this season.",
+        "caution": "Pittsburgh just lost 38-18 at Cincinnati and has linebacker Nick Herbig out plus Patrick Queen and DeShon Elliott both questionable on defense.",
+        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
+        "kalshiTicker": "KXNFLGAME-26NOV22PITPHI-PIT",
+        "kalshiEventTicker": "KXNFLGAME-26NOV22PITPHI",
+        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov22pitphi",
+        "kalshiAsk": 65,
         "reasoning": [
-          "Our AI models' reason: Toronto has lost eight games in a row and is just 4-9-2 at home this season. Columbus just won 4-2 at Chicago and has Jet Greaves going against a Toronto team that has been free-falling for weeks.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
-          "Columbus Blue Jackets: 8-12-0; Toronto Maple Leafs: 8-13-3.",
-          "Columbus Blue Jackets, last 5: W 4-2 at Chicago Blackhawks (now 6-14-2); L 1-5 at New York Islanders (now 10-6-5); L 3-4 vs Philadelphia Flyers (now 8-11-6); L 1-3 vs Tampa Bay Lightning (now 15-5-2); L 1-4 vs Florida Panthers (now 12-8-3). Against teams with winning records this season (by their current records): 4-9.",
-          "Toronto Maple Leafs, last 5: L 3-4 vs Los Angeles Kings (now 7-11-2); L 3-6 at Chicago Blackhawks (now 6-14-2); L 0-1 vs Edmonton Oilers (now 17-4-3); L 2-5 vs Minnesota Wild (now 17-3-4); L 3-6 vs Colorado Avalanche (now 13-7-3). Streak: lost 8 in a row. Against teams with winning records this season (by their current records): 5-12.",
-          "What could go wrong: Columbus is only 2-6 on the road this season, and Sean Monahan is out with Mathieu Olivier day-to-day.",
-          "Removing the bookmaker's cut, the 4-book consensus puts Columbus Blue Jackets's chance near 48%. That is the market's price.",
-          "On Kalshi, Columbus Blue Jackets's contract cost 50¢ at the lock."
+          "Our AI models' reason: Pittsburgh starts Aaron Rodgers and sits at 6-3, while Philadelphia has dropped seven straight and starts backup Joe Milton with Jalen Hurts on injured reserve. Philadelphia is 2-7 overall and 0-4 against winning teams this season.",
+          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
+          "Pittsburgh Steelers: 6-3; Philadelphia Eagles: 2-7.",
+          "Pittsburgh Steelers, last 5: L 18-38 at Cincinnati Bengals (now 7-2); W 27-6 vs Cleveland Browns (now 6-4); W 16-10 vs New Orleans Saints (now 3-6); W 26-19 at Tampa Bay Buccaneers (now 3-6); W 34-22 vs Indianapolis Colts (now 3-8). Against teams with winning records this season (by their current records): 2-2.",
+          "Philadelphia Eagles, last 5: L 11-19 vs New York Giants (now 5-3-1); L 10-27 at Washington Commanders (now 3-5-1); L 21-38 vs Dallas Cowboys (now 4-6); L 14-25 vs Carolina Panthers (now 4-5); L 17-19 vs Jacksonville Jaguars (now 7-2). Streak: lost 7 in a row. Against teams with winning records this season (by their current records): 0-4.",
+          "What could go wrong: Pittsburgh just lost 38-18 at Cincinnati and has linebacker Nick Herbig out plus Patrick Queen and DeShon Elliott both questionable on defense.",
+          "Removing the bookmaker's cut, the 4-book consensus puts Pittsburgh Steelers's chance near 64%. That is the market's price.",
+          "On Kalshi, Pittsburgh Steelers's contract cost 65¢ at the lock."
         ],
         "stats": [
           [
             "Odds at lock",
-            "+102 · BetRivers"
+            "-189 · DraftKings"
           ],
           [
             "Market-implied at lock",
-            "48%"
+            "64%"
           ],
           [
             "Kalshi price at lock",
-            "50¢"
+            "65¢"
           ],
           [
             "Books compared",
             "4"
           ]
         ],
-        "generatedAt": 1795269824337,
-        "quoteAsOf": 1795269825851,
-        "publishedAt": 1795269825852,
+        "generatedAt": 1795356302803,
+        "quoteAsOf": 1795356304355,
+        "publishedAt": 1795356304363,
         "started": false,
         "outcome": null,
         "marketStatus": "pending",
@@ -76,105 +76,32 @@
         "units": 0,
         "pending": false,
         "times": {
-          "generatedAt": "2026-11-21T14:03:44.337Z",
-          "lockedAt": "2026-11-21T14:03:45.852Z",
-          "quoteAsOf": "2026-11-21T14:03:45.851Z",
-          "sitePublishedAt": "2026-11-21T14:30:06.115Z"
-        }
-      },
-      {
-        "id": "sp-2026-11-21-mma-401927855",
-        "kind": "sports",
-        "source": "sportsbook",
-        "live": true,
-        "method": "ai",
-        "sport": "MMA",
-        "gameId": "401927855",
-        "event": "Asu Almabayev @ Kyoji Horiguchi",
-        "home": "Kyoji Horiguchi",
-        "away": "Asu Almabayev",
-        "homeAbbr": null,
-        "awayAbbr": null,
-        "commence": "2026-11-21T18:00Z",
-        "market": "Moneyline",
-        "team": "Asu Almabayev",
-        "pick": "Asu Almabayev ML",
-        "odds": "+154",
-        "lockedOdds": 154,
-        "confidence": 38,
-        "risk": "Risky",
-        "expertId": "ai-desk",
-        "why": "Almabayev averages 4.74 takedowns per 15 minutes and has won his last three fights, all by submission. Horiguchi is 36 years old and was knocked out in his last fight in June, raising questions about his durability against an elite grappler.",
-        "caution": "Horiguchi has far more experience (36-6 vs 24-3) and lands significantly more strikes per minute (3.64 vs 2.28).",
-        "research": "ESPN fighter stats, records and recent fights; past-week MMA news headlines",
-        "kalshiTicker": "KXUFCFIGHT-26NOV21HORALM-ALM",
-        "kalshiEventTicker": "KXUFCFIGHT-26NOV21HORALM",
-        "kalshiUrl": "https://kalshi.com/markets/kxufcfight/market/kxufcfight-26nov21horalm",
-        "kalshiAsk": 38,
-        "reasoning": [
-          "Our AI models' reason: Almabayev averages 4.74 takedowns per 15 minutes and has won his last three fights, all by submission. Horiguchi is 36 years old and was knocked out in his last fight in June, raising questions about his durability against an elite grappler.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's fighter stats and recent fights, and the past week's MMA news.",
-          "Asu Almabayev: 24-3-0; Kyoji Horiguchi: 36-6-0.",
-          "What could go wrong: Horiguchi has far more experience (36-6 vs 24-3) and lands significantly more strikes per minute (3.64 vs 2.28).",
-          "Removing the bookmaker's cut, the consensus puts Asu Almabayev's chance near 38%. That is the market's price.",
-          "On Kalshi, Asu Almabayev's contract cost 38¢ at the lock."
-        ],
-        "stats": [
-          [
-            "Odds at lock",
-            "+154 · DraftKings"
-          ],
-          [
-            "Market-implied at lock",
-            "38%"
-          ],
-          [
-            "Kalshi price at lock",
-            "38¢"
-          ],
-          [
-            "Books compared",
-            "1"
-          ]
-        ],
-        "generatedAt": 1795269824337,
-        "quoteAsOf": 1795269825851,
-        "publishedAt": 1795269825852,
-        "started": false,
-        "outcome": null,
-        "marketStatus": "pending",
-        "settlementCents": null,
-        "rulesUrl": null,
-        "settlementNote": null,
-        "units": 0,
-        "pending": false,
-        "times": {
-          "generatedAt": "2026-11-21T14:03:44.337Z",
-          "lockedAt": "2026-11-21T14:03:45.852Z",
-          "quoteAsOf": "2026-11-21T14:03:45.851Z",
-          "sitePublishedAt": "2026-11-21T14:30:06.115Z"
+          "generatedAt": "2026-11-22T14:05:02.803Z",
+          "lockedAt": "2026-11-22T14:05:04.363Z",
+          "quoteAsOf": "2026-11-22T14:05:04.355Z",
+          "sitePublishedAt": "2026-11-22T14:30:07.875Z"
         }
       }
     ]
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-21",
-    "lockedAt": 1795269647433,
+    "day": "2026-11-22",
+    "lockedAt": 1795356362669,
     "publicationState": "published",
-    "reason": "Our AI models found no researched pick worth making today.",
+    "reason": "Our AI models found no researched pick worth making today. Texas low temperatures get their own check at 9:30 AM.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "published",
-      "lockedAt": 1795275011509,
+      "state": "pending",
+      "lockedAt": null,
       "picks": 0,
-      "reason": "Our screen found no researched question with a clear call today."
+      "reason": null
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-21-0930",
-    "slot": "09:30",
-    "sitePublishedAt": "2026-11-21T15:30:17.131Z"
+    "id": "snapshot-2026-11-22-0830",
+    "slot": "08:30",
+    "sitePublishedAt": "2026-11-22T14:30:07.875Z"
   }
 }
