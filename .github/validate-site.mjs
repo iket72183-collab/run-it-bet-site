@@ -111,8 +111,8 @@ function checkJsonValue(value, where, ctx, errors, key = null) {
     return;
   }
   if (typeof value !== 'string') return;
-  if (/minimax/i.test(value)) errors.push(`${where}: names the internal model`);
-  if (key === 'method' && value !== 'ai' && /m\d|gpt|claude|llama|qwen/i.test(value)) errors.push(`${where}: internal method name "${value}"`);
+  if (/minimax|\bglm-?\d/i.test(value)) errors.push(`${where}: names the internal model`);
+  if (key === 'method' && value !== 'ai' && /m\d|gpt|claude|llama|qwen|glm/i.test(value)) errors.push(`${where}: internal method name "${value}"`);
   if (key === 'rulesUrl') { if (!safeLink(value, RULES_HOSTS)) errors.push(`${where}: unsafe rules link ${JSON.stringify(value.slice(0, 120))}`); return; }
   if (key === 'kalshiUrl' || key === 'url') { if (!safeLink(value, MARKET_HOSTS) && !safeLink(value, ctx.selfHosts)) errors.push(`${where}: unsafe market link ${JSON.stringify(value.slice(0, 120))}`); return; }
   // Other fields may contain prose. Only a value that actually looks like a URI is a link.

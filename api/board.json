@@ -1,107 +1,31 @@
 {
   "sports": {
     "source": "espn",
-    "day": "2026-11-22",
-    "lockedAt": 1795356304363,
+    "day": "2026-11-23",
+    "lockedAt": 1795442419040,
     "publicationState": "published",
     "aiDesk": true,
-    "reason": null,
-    "picks": [
-      {
-        "id": "sp-2026-11-22-nfl-401873076",
-        "kind": "sports",
-        "source": "sportsbook",
-        "live": true,
-        "method": "ai",
-        "sport": "NFL",
-        "gameId": "401873076",
-        "event": "Pittsburgh Steelers @ Philadelphia Eagles",
-        "home": "Philadelphia Eagles",
-        "away": "Pittsburgh Steelers",
-        "homeAbbr": "PHI",
-        "awayAbbr": "PIT",
-        "commence": "2026-11-22T18:00Z",
-        "market": "Moneyline",
-        "team": "Pittsburgh Steelers",
-        "pick": "Pittsburgh Steelers ML",
-        "odds": "-189",
-        "lockedOdds": -189,
-        "confidence": 64,
-        "risk": "Value",
-        "expertId": "ai-desk",
-        "why": "Pittsburgh starts Aaron Rodgers and sits at 6-3, while Philadelphia has dropped seven straight and starts backup Joe Milton with Jalen Hurts on injured reserve. Philadelphia is 2-7 overall and 0-4 against winning teams this season.",
-        "caution": "Pittsburgh just lost 38-18 at Cincinnati and has linebacker Nick Herbig out plus Patrick Queen and DeShon Elliott both questionable on defense.",
-        "research": "ESPN injury report, team records, recent results and schedule; National Weather Service game-time forecast",
-        "kalshiTicker": "KXNFLGAME-26NOV22PITPHI-PIT",
-        "kalshiEventTicker": "KXNFLGAME-26NOV22PITPHI",
-        "kalshiUrl": "https://kalshi.com/markets/kxnflgame/market/kxnflgame-26nov22pitphi",
-        "kalshiAsk": 65,
-        "reasoning": [
-          "Our AI models' reason: Pittsburgh starts Aaron Rodgers and sits at 6-3, while Philadelphia has dropped seven straight and starts backup Joe Milton with Jalen Hurts on injured reserve. Philadelphia is 2-7 overall and 0-4 against winning teams this season.",
-          "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results, and the National Weather Service forecast for the stadium.",
-          "Pittsburgh Steelers: 6-3; Philadelphia Eagles: 2-7.",
-          "Pittsburgh Steelers, last 5: L 18-38 at Cincinnati Bengals (now 7-2); W 27-6 vs Cleveland Browns (now 6-4); W 16-10 vs New Orleans Saints (now 3-6); W 26-19 at Tampa Bay Buccaneers (now 3-6); W 34-22 vs Indianapolis Colts (now 3-8). Against teams with winning records this season (by their current records): 2-2.",
-          "Philadelphia Eagles, last 5: L 11-19 vs New York Giants (now 5-3-1); L 10-27 at Washington Commanders (now 3-5-1); L 21-38 vs Dallas Cowboys (now 4-6); L 14-25 vs Carolina Panthers (now 4-5); L 17-19 vs Jacksonville Jaguars (now 7-2). Streak: lost 7 in a row. Against teams with winning records this season (by their current records): 0-4.",
-          "What could go wrong: Pittsburgh just lost 38-18 at Cincinnati and has linebacker Nick Herbig out plus Patrick Queen and DeShon Elliott both questionable on defense.",
-          "Removing the bookmaker's cut, the 4-book consensus puts Pittsburgh Steelers's chance near 64%. That is the market's price.",
-          "On Kalshi, Pittsburgh Steelers's contract cost 65¢ at the lock."
-        ],
-        "stats": [
-          [
-            "Odds at lock",
-            "-189 · DraftKings"
-          ],
-          [
-            "Market-implied at lock",
-            "64%"
-          ],
-          [
-            "Kalshi price at lock",
-            "65¢"
-          ],
-          [
-            "Books compared",
-            "4"
-          ]
-        ],
-        "generatedAt": 1795356302803,
-        "quoteAsOf": 1795356304355,
-        "publishedAt": 1795356304363,
-        "started": false,
-        "outcome": null,
-        "marketStatus": "pending",
-        "settlementCents": null,
-        "rulesUrl": null,
-        "settlementNote": null,
-        "units": 0,
-        "pending": false,
-        "times": {
-          "generatedAt": "2026-11-22T14:05:02.803Z",
-          "lockedAt": "2026-11-22T14:05:04.363Z",
-          "quoteAsOf": "2026-11-22T14:05:04.355Z",
-          "sitePublishedAt": "2026-11-22T14:30:07.875Z"
-        }
-      }
-    ]
+    "reason": "Our screen found no game where the facts disagree with the price today.",
+    "picks": []
   },
   "kalshi": {
     "source": "kalshi",
-    "day": "2026-11-22",
-    "lockedAt": 1795356362669,
+    "day": "2026-11-23",
+    "lockedAt": 1795444870535,
     "publicationState": "published",
     "reason": "Our AI models found no researched pick worth making today.",
     "picks": [],
     "lowsCheck": {
       "time": "9:30 AM",
       "state": "published",
-      "lockedAt": 1795361413478,
+      "lockedAt": 1795447818083,
       "picks": 0,
       "reason": "Our screen found no researched question with a clear call today."
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-22-0930",
+    "id": "snapshot-2026-11-23-0930",
     "slot": "09:30",
-    "sitePublishedAt": "2026-11-22T15:30:16.927Z"
+    "sitePublishedAt": "2026-11-23T15:30:28.037Z"
   }
 }
