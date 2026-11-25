@@ -1,0 +1,67 @@
+{
+  "id": "pub-2026-11-25-KXHIGHDEN-26NOV25-T49-No",
+  "ticker": "KXHIGHDEN-26NOV25-T49",
+  "side": "No",
+  "region": null,
+  "kind": "kalshi",
+  "source": "kalshi",
+  "live": true,
+  "method": "ai",
+  "research": "National Weather Service forecast",
+  "dataSource": "kalshi",
+  "category": "WEATHER",
+  "title": "Highest temperature in Denver on Nov 25, 2026?",
+  "closesAt": "2026-11-26T08:00:00Z",
+  "closes": "2026-11-26T08:00:00.000Z",
+  "pick": "No: 48° or below",
+  "confidence": 75,
+  "risk": "Safe",
+  "expertId": "ai-desk",
+  "url": "https://kalshi.com/markets/kxhighden/market/kxhighden-26nov25",
+  "why": "The National Weather Service forecasts a high near 51°F in Denver today, which is well above the 48° cutoff for this outcome.",
+  "researchSources": [
+    "NWS point forecast near Denver International: high 51°F. Source: https://api.weather.gov/gridpoints/BOU/75,66/forecast."
+  ],
+  "reasoning": [
+    "Chosen by our AI models at the 8 AM lock, from Kalshi's live prices and the National Weather Service forecast.",
+    "NWS point forecast near Denver International: high 51°F. Source: https://api.weather.gov/gridpoints/BOU/75,66/forecast.",
+    "A Kalshi contract pays $1 if right. We recorded a 75¢ entry quote at publication, a market-implied reference of about 75%. That is the market's price.",
+    "Forecast-aligned: this agrees with the National Weather Service point forecast. Kalshi traders see the same forecast, so this is not a separately measured edge, and a daily high can miss a two-degree bucket by a single degree."
+  ],
+  "stats": [
+    [
+      "Entry quote at lock",
+      "No 75¢"
+    ],
+    [
+      "Market-implied at lock",
+      "75%"
+    ],
+    [
+      "24h volume",
+      "2,899"
+    ],
+    [
+      "Outcomes",
+      "2"
+    ]
+  ],
+  "judge": {
+    "grounded": 0.81
+  },
+  "entryQuoteFetchedAt": 1795615299903,
+  "generatedAt": 1795615299725,
+  "publishedAt": 1795615299904,
+  "lockedPrice": 75,
+  "priceBasis": "ask",
+  "referenceProbability": 75,
+  "marketOnly": false,
+  "archived": true,
+  "outcome": null,
+  "times": {
+    "generatedAt": "2026-11-25T14:01:39.725Z",
+    "lockedAt": "2026-11-25T14:01:39.904Z",
+    "quoteAsOf": "2026-11-25T14:01:39.903Z",
+    "sitePublishedAt": "2026-11-25T14:30:07.032Z"
+  }
+}
