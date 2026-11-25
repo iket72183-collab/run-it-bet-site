@@ -85,15 +85,15 @@
     ],
     "lowsCheck": {
       "time": "9:30 AM",
-      "state": "pending",
-      "lockedAt": null,
+      "state": "published",
+      "lockedAt": 1795620643781,
       "picks": 0,
-      "reason": null
+      "reason": "Our screen found no researched question with a clear call today."
     }
   },
   "snapshot": {
-    "id": "snapshot-2026-11-25-0830",
-    "slot": "08:30",
-    "sitePublishedAt": "2026-11-25T14:30:07.032Z"
+    "id": "snapshot-2026-11-25-0930",
+    "slot": "09:30",
+    "sitePublishedAt": "2026-11-25T15:30:47.152Z"
   }
 }
