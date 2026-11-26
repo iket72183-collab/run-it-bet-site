@@ -33,7 +33,7 @@ const ALLOWED_PATHS = [
   /^assets\/[A-Za-z0-9._-]+\.(js|css|svg|png|jpe?g|webp|woff2?)$/,
   /^share\/[A-Za-z0-9._-]+\.(png|jpe?g|webp)$/,
   /^pick\/[A-Za-z0-9._-]+\/index\.html$/,
-  /^api\/(board|snapshots)\.json$/,
+  /^api\/(board|snapshots|live)\.json$/,
   /^api\/agent\/today\.json$/,
   /^api\/archive\/[A-Za-z0-9._-]+\.json$/,
   /^\.github\/(validate-site\.mjs|dependabot\.yml|workflows\/[A-Za-z0-9._-]+\.ya?ml)$/,
@@ -151,6 +151,23 @@ function checkFeed(feed, ctx, errors) {
   else for (const [k, v] of Object.entries(feed.links)) if (!safeLink(v, ctx.selfHosts)) errors.push(`${f}.links.${k}: must point at ${ctx.origin}`);
   for (const p of [...(feed.picks || []), ...(feed.sportsPicks || [])]) {
     if (p?.detailsUrl != null && !safeLink(p.detailsUrl, ctx.selfHosts)) errors.push(`${f}: detailsUrl must point at ${ctx.origin}`);
+  }
+}
+
+// api/live.json: the intraday market check (scripts/market-check.mjs). Decided or settled picks only.
+function checkLive(live, errors) {
+  const f = 'api/live.json';
+  if (!isObject(live) || !DAY.test(String(live.day)) || Number.isNaN(Date.parse(live.checkedAt)) || !isObject(live.picks)) return errors.push(`${f}: expected { day, checkedAt, picks }`);
+  for (const [id, p] of Object.entries(live.picks)) {
+    const where = `${f}.picks.${id}`;
+    if (!isObject(p)) { errors.push(`${where}: not an object`); continue; }
+    if (!/^[A-Z0-9][A-Z0-9._-]{2,80}$/.test(String(p.ticker))) errors.push(`${where}.ticker: not a Kalshi ticker`);
+    if (p.side !== 'Yes' && p.side !== 'No') errors.push(`${where}.side: must be Yes or No`);
+    if (!Number.isInteger(p.cents) || p.cents < 0 || p.cents > 100) errors.push(`${where}.cents: must be 0-100`);
+    if (!['winning', 'losing', null].includes(p.decided)) errors.push(`${where}.decided: must be winning, losing or null`);
+    if (typeof p.settled !== 'boolean') errors.push(`${where}.settled: must be true or false`);
+    const extra = Object.keys(p).filter((k) => !['ticker', 'side', 'cents', 'decided', 'settled'].includes(k));
+    if (extra.length) errors.push(`${where}: unexpected ${extra.join(', ')}`);
   }
 }
 
@@ -341,6 +358,7 @@ export function validateSite(dir, { origin = DEFAULT_ORIGIN, requirePublishedHtm
       if (name === 'api/board.json') checkBoard(data, errors);
       else if (name === 'api/agent/today.json') checkFeed(data, ctx, errors);
       else if (name === 'api/snapshots.json') checkSnapshots(data, errors);
+      else if (name === 'api/live.json') checkLive(data, errors);
       else if (name.startsWith('api/archive/')) checkPick(data, name, errors);
     } else if (name.endsWith('.html')) {
       checkHtml(name, text, ctx, errors);
