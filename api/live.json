@@ -1,13 +1,13 @@
 {
   "day": "2026-11-25",
-  "checkedAt": "2026-11-26T12:41:34.279Z",
+  "checkedAt": "2026-11-26T14:01:39.581Z",
   "picks": {
     "pub-2026-11-25-KXHIGHDEN-26NOV25-T49-No": {
       "ticker": "KXHIGHDEN-26NOV25-T49",
       "side": "No",
-      "cents": 1,
+      "cents": 0,
       "decided": "losing",
-      "settled": false
+      "settled": true
     }
   }
 }
