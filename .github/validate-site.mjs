@@ -34,7 +34,7 @@ const ALLOWED_PATHS = [
   /^share\/[A-Za-z0-9._-]+\.(png|jpe?g|webp)$/,
   /^pick\/[A-Za-z0-9._-]+\/index\.html$/,
   /^api\/(board|snapshots|live|audio)\.json$/,
-  /^audio\/[A-Za-z0-9._-]+\.m4a$/, // "Listen" recordings (scripts/publish-audio.mjs)
+  /^audio\/[A-Za-z0-9._-]+\.mp3$/, // "Listen" recordings (scripts/publish-audio.mjs)
   /^api\/agent\/today\.json$/,
   /^api\/archive\/[A-Za-z0-9._-]+\.json$/,
   /^\.github\/(validate-site\.mjs|dependabot\.yml|workflows\/[A-Za-z0-9._-]+\.ya?ml)$/,
@@ -130,7 +130,7 @@ function checkAudio(manifest, dir, ctx, errors) {
     const where = `${f}.files.${id}`;
     if (!/^[A-Za-z0-9._-]{1,200}$/.test(id)) { errors.push(`${where}: unsafe pick id`); continue; }
     if (!isObject(entry)) { errors.push(`${where}: not an object`); continue; }
-    const rel = `audio/${id}.m4a`;
+    const rel = `audio/${id}.mp3`;
     if (entry.src !== `/${rel}`) errors.push(`${where}.src: must be /${rel}`);
     else if (!ctx.files.has(rel)) errors.push(`${where}.src: ${rel} is missing`);
     else if (fs.statSync(path.join(dir, rel)).size > MAX_AUDIO_BYTES) errors.push(`${rel}: larger than 2 MB`);
