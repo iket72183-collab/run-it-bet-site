@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-27-ncaaf-401862840",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NCAAF",
+  "gameId": "401862840",
+  "event": "Tulsa Golden Hurricane @ UTSA Roadrunners",
+  "home": "UTSA Roadrunners",
+  "away": "Tulsa Golden Hurricane",
+  "homeAbbr": "UTSA",
+  "awayAbbr": "TLSA",
+  "commence": "2026-11-27T17:00Z",
+  "market": "Moneyline",
+  "team": "UTSA Roadrunners",
+  "pick": "UTSA Roadrunners ML",
+  "odds": "+102",
+  "lockedOdds": 102,
+  "confidence": 49,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "UTSA is 9-2 at home in the Alamodome against a 7-4 Tulsa team whose wins have come mostly against sub-.500 opponents (Charlotte 1-10, Rice 1-6, Tulane 4-5). UTSA's 3-2 mark against winning teams, including wins over North Texas (7-3) and UAB (6-5), is far stronger than Tulsa's 1-2 in the same category.",
+  "caution": "Tulsa comes in on a three-game win streak and hung 60 points on Tulane, so their offense is capable of keeping things close.",
+  "research": "ESPN injury report, team records, recent results and schedule",
+  "kalshiTicker": "KXNCAAFGAME-26NOV27TLSAUTSA-UTSA",
+  "kalshiEventTicker": "KXNCAAFGAME-26NOV27TLSAUTSA",
+  "kalshiUrl": "https://kalshi.com/markets/kxncaafgame/market/kxncaafgame-26nov27tlsautsa",
+  "kalshiAsk": 49,
+  "reasoning": [
+    "Our AI models' reason: UTSA is 9-2 at home in the Alamodome against a 7-4 Tulsa team whose wins have come mostly against sub-.500 opponents (Charlotte 1-10, Rice 1-6, Tulane 4-5). UTSA's 3-2 mark against winning teams, including wins over North Texas (7-3) and UAB (6-5), is far stronger than Tulsa's 1-2 in the same category.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+    "UTSA Roadrunners: 9-2; Tulsa Golden Hurricane: 7-4.",
+    "UTSA Roadrunners, last 5: W 19-17 at UAB Blazers (6-5 after that game); W 35-16 vs North Texas Mean Green (7-3 after that game); L 29-60 at Florida Atlantic Owls (6-3 after that game); W 42-19 at Tulane Green Wave (3-4 after that game); W 38-34 vs Navy Midshipmen (2-4 after that game). Streak: won 2 in a row. Against teams with winning records this season (by their records after each game): 3-2.",
+    "Tulsa Golden Hurricane, last 5: W 42-14 vs Charlotte 49ers (1-10 after that game); W 38-21 vs Florida Atlantic Owls (6-4 after that game); W 60-10 at Tulane Green Wave (4-5 after that game); L 35-38 vs Army Black Knights (5-2 after that game); W 38-17 at Rice Owls (1-6 after that game). Streak: won 3 in a row. Against teams with winning records this season (by their records after each game): 1-2.",
+    "What could go wrong: Tulsa comes in on a three-game win streak and hung 60 points on Tulane, so their offense is capable of keeping things close.",
+    "Removing the bookmaker's cut, the 4-book consensus puts UTSA Roadrunners's chance near 49%. That is the market's price.",
+    "On Kalshi, UTSA Roadrunners's contract cost 49¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "+102 · DraftKings"
+    ],
+    [
+      "Market-implied at lock",
+      "49%"
+    ],
+    [
+      "Kalshi price at lock",
+      "49¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1795788139114,
+  "quoteAsOf": 1795788140741,
+  "publishedAt": 1795788140754,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-27T14:02:19.114Z",
+    "lockedAt": "2026-11-27T14:02:20.754Z",
+    "quoteAsOf": "2026-11-27T14:02:20.741Z",
+    "sitePublishedAt": "2026-11-27T14:30:06.144Z"
+  }
+}

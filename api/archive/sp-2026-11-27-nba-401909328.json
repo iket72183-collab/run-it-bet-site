@@ -1,0 +1,75 @@
+{
+  "id": "sp-2026-11-27-nba-401909328",
+  "kind": "sports",
+  "source": "sportsbook",
+  "live": true,
+  "method": "ai",
+  "sport": "NBA",
+  "gameId": "401909328",
+  "event": "Philadelphia 76ers @ Indiana Pacers",
+  "home": "Indiana Pacers",
+  "away": "Philadelphia 76ers",
+  "homeAbbr": "IND",
+  "awayAbbr": "PHI",
+  "commence": "2026-11-28T00:30Z",
+  "market": "Moneyline",
+  "team": "Philadelphia 76ers",
+  "pick": "Philadelphia 76ers ML",
+  "odds": "-159",
+  "lockedOdds": -159,
+  "confidence": 60,
+  "risk": "Value",
+  "expertId": "ai-desk",
+  "why": "The Pacers are without their starting point guard Tyrese Haliburton and guard Ben Sheppard (out for months), with three more players day-to-day, while the 76ers sit at 15-4 and 7-1 on the road. Indiana's 3-9 record against winning teams shows they have struggled against quality opponents all season.",
+  "caution": "Philadelphia has Jaylen Brown out and Joel Embiid questionable with an illness, so their own absences could narrow the gap if Embiid sits.",
+  "research": "ESPN injury report, team records, recent results and schedule",
+  "kalshiTicker": "KXNBAGAME-26NOV27PHIIND-PHI",
+  "kalshiEventTicker": "KXNBAGAME-26NOV27PHIIND",
+  "kalshiUrl": "https://kalshi.com/markets/kxnbagame/market/kxnbagame-26nov27phiind",
+  "kalshiAsk": 61,
+  "reasoning": [
+    "Our AI models' reason: The Pacers are without their starting point guard Tyrese Haliburton and guard Ben Sheppard (out for months), with three more players day-to-day, while the 76ers sit at 15-4 and 7-1 on the road. Indiana's 3-9 record against winning teams shows they have struggled against quality opponents all season.",
+    "Chosen by our AI models at the 8 AM lock, from the sportsbook odds, ESPN's injury report, team records and recent results.",
+    "Philadelphia 76ers: 15-4; Indiana Pacers: 6-12.",
+    "Philadelphia 76ers, last 5: W 111-104 vs Miami Heat (now 10-7); L 111-128 vs Portland Trail Blazers (now 12-6); W 132-129 vs Milwaukee Bucks (now 2-17); W 121-116 at Orlando Magic (now 7-10); W 135-123 at Brooklyn Nets (now 4-13). Against teams with winning records this season (by their current records): 4-3.",
+    "Indiana Pacers, last 5: W 125-120 vs Oklahoma City Thunder (now 10-9); L 106-113 at New York Knicks (now 12-6); L 119-128 at Cleveland Cavaliers (now 9-10); L 104-119 vs Houston Rockets (now 14-5); L 124-131 at Philadelphia 76ers (now 15-4). Against teams with winning records this season (by their current records): 3-9.",
+    "What could go wrong: Philadelphia has Jaylen Brown out and Joel Embiid questionable with an illness, so their own absences could narrow the gap if Embiid sits.",
+    "Removing the bookmaker's cut, the 4-book consensus puts Philadelphia 76ers's chance near 60%. That is the market's price.",
+    "On Kalshi, Philadelphia 76ers's contract cost 61¢ at the lock."
+  ],
+  "stats": [
+    [
+      "Odds at lock",
+      "-159 · BetRivers"
+    ],
+    [
+      "Market-implied at lock",
+      "60%"
+    ],
+    [
+      "Kalshi price at lock",
+      "61¢"
+    ],
+    [
+      "Books compared",
+      "4"
+    ]
+  ],
+  "generatedAt": 1795788139114,
+  "quoteAsOf": 1795788140741,
+  "publishedAt": 1795788140754,
+  "archived": true,
+  "outcome": null,
+  "marketStatus": "pending",
+  "settlementCents": null,
+  "rulesUrl": null,
+  "settlementNote": null,
+  "units": 0,
+  "pending": false,
+  "times": {
+    "generatedAt": "2026-11-27T14:02:19.114Z",
+    "lockedAt": "2026-11-27T14:02:20.754Z",
+    "quoteAsOf": "2026-11-27T14:02:20.741Z",
+    "sitePublishedAt": "2026-11-27T14:30:06.144Z"
+  }
+}
