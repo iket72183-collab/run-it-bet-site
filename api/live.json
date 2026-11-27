@@ -1,13 +1,13 @@
 {
-  "day": "2026-11-25",
-  "checkedAt": "2026-11-26T14:01:39.581Z",
+  "day": "2026-11-27",
+  "checkedAt": "2026-11-27T19:42:43.298Z",
   "picks": {
-    "pub-2026-11-25-KXHIGHDEN-26NOV25-T49-No": {
-      "ticker": "KXHIGHDEN-26NOV25-T49",
-      "side": "No",
-      "cents": 0,
-      "decided": "losing",
-      "settled": true
+    "sp-2026-11-27-ncaaf-401862840": {
+      "ticker": "KXNCAAFGAME-26NOV27TLSAUTSA-UTSA",
+      "side": "Yes",
+      "cents": 97,
+      "decided": "winning",
+      "settled": false
     }
   }
 }
