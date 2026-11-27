@@ -33,7 +33,8 @@ const ALLOWED_PATHS = [
   /^assets\/[A-Za-z0-9._-]+\.(js|css|svg|png|jpe?g|webp|woff2?)$/,
   /^share\/[A-Za-z0-9._-]+\.(png|jpe?g|webp)$/,
   /^pick\/[A-Za-z0-9._-]+\/index\.html$/,
-  /^api\/(board|snapshots|live)\.json$/,
+  /^api\/(board|snapshots|live|audio)\.json$/,
+  /^audio\/[A-Za-z0-9._-]+\.m4a$/, // "Listen" recordings (scripts/publish-audio.mjs)
   /^api\/agent\/today\.json$/,
   /^api\/archive\/[A-Za-z0-9._-]+\.json$/,
   /^\.github\/(validate-site\.mjs|dependabot\.yml|workflows\/[A-Za-z0-9._-]+\.ya?ml)$/,
@@ -118,6 +119,25 @@ function checkJsonValue(value, where, ctx, errors, key = null) {
   // Other fields may contain prose. Only a value that actually looks like a URI is a link.
   if (!looksLikeLink(value)) return;
   if (!safeLink(value, new Set([...DATA_LINK_HOSTS, ...ctx.selfHosts]))) errors.push(`${where}: unsafe link ${JSON.stringify(value.slice(0, 120))}`);
+}
+
+// api/audio.json: the "Listen" recordings (scripts/publish-audio.mjs). Each entry names its own small file.
+const MAX_AUDIO_BYTES = 2 * 1024 * 1024;
+function checkAudio(manifest, dir, ctx, errors) {
+  const f = 'api/audio.json';
+  if (!isObject(manifest) || Number.isNaN(Date.parse(manifest.updatedAt)) || !isObject(manifest.files)) return errors.push(`${f}: expected { updatedAt, files }`);
+  for (const [id, entry] of Object.entries(manifest.files)) {
+    const where = `${f}.files.${id}`;
+    if (!/^[A-Za-z0-9._-]{1,200}$/.test(id)) { errors.push(`${where}: unsafe pick id`); continue; }
+    if (!isObject(entry)) { errors.push(`${where}: not an object`); continue; }
+    const rel = `audio/${id}.m4a`;
+    if (entry.src !== `/${rel}`) errors.push(`${where}.src: must be /${rel}`);
+    else if (!ctx.files.has(rel)) errors.push(`${where}.src: ${rel} is missing`);
+    else if (fs.statSync(path.join(dir, rel)).size > MAX_AUDIO_BYTES) errors.push(`${rel}: larger than 2 MB`);
+    if (!Number.isInteger(entry.seconds) || entry.seconds < 1 || entry.seconds > 300) errors.push(`${where}.seconds: must be 1-300`);
+    const extra = Object.keys(entry).filter((k) => !['src', 'seconds'].includes(k));
+    if (extra.length) errors.push(`${where}: unexpected ${extra.join(', ')}`);
+  }
 }
 
 function checkPick(p, where, errors) {
@@ -359,6 +379,7 @@ export function validateSite(dir, { origin = DEFAULT_ORIGIN, requirePublishedHtm
       else if (name === 'api/agent/today.json') checkFeed(data, ctx, errors);
       else if (name === 'api/snapshots.json') checkSnapshots(data, errors);
       else if (name === 'api/live.json') checkLive(data, errors);
+      else if (name === 'api/audio.json') checkAudio(data, dir, ctx, errors);
       else if (name.startsWith('api/archive/')) checkPick(data, name, errors);
     } else if (name.endsWith('.html')) {
       checkHtml(name, text, ctx, errors);
