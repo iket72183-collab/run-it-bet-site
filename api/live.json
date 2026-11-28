@@ -1,6 +1,6 @@
 {
   "day": "2026-11-27",
-  "checkedAt": "2026-11-28T00:43:04.709Z",
+  "checkedAt": "2026-11-28T02:23:11.555Z",
   "picks": {
     "sp-2026-11-27-ncaaf-401862840": {
       "ticker": "KXNCAAFGAME-26NOV27TLSAUTSA-UTSA",
@@ -8,6 +8,13 @@
       "cents": 100,
       "decided": "winning",
       "settled": true
+    },
+    "sp-2026-11-27-nba-401909328": {
+      "ticker": "KXNBAGAME-26NOV27PHIIND-PHI",
+      "side": "Yes",
+      "cents": 99,
+      "decided": "winning",
+      "settled": false
     }
   }
 }
